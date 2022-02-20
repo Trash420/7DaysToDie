@@ -1,0 +1,18 @@
+<configs>
+
+	<!-- New meat mod -->
+	<set xpath="/entity_classes/entity_class[@name='animalBoar']/drop[@name='foodRawMeat']/@name">foodRawPigMeat_TRW</set>
+	<set xpath="/entity_classes/entity_class[@name='animalChicken']/drop[@name='foodRawMeat']/@name">foodRawChickenMeat_TRW</set>
+	<set xpath="/entity_classes/entity_class[@name='animalRabbit']/drop[@name='foodRawMeat']/@name">foodRawRabbitMeat_TRW</set>
+	<set xpath="/entity_classes/entity_class[@name='animalBear']/drop[@name='foodRawMeat']/@name">foodRawBearMeat_TRW</set>
+	<set xpath="/entity_classes/entity_class[@name='animalWolf']/drop[@name='foodRawMeat']/@name">foodRawWolfMeat_TRW</set>
+	<set xpath="/entity_classes/entity_class[@name='animalDireWolf']/drop[@name='foodRawMeat']/@name">foodRawWolfMeat_TRW</set>
+	<set xpath="/entity_classes/entity_class[@name='animalDoe']/drop[@name='foodRawMeat']/@name">foodRawVenisonMeat_TRW</set>
+	<set xpath="/entity_classes/entity_class[@name='animalStag']/drop[@name='foodRawMeat']/@name">foodRawVenisonMeat_TRW</set>
+	<set xpath="/entity_classes/entity_class[@name='animalBossGrace']/drop[@name='foodRawMeat']/@name">foodRawPigMeat_TRW</set>
+	<set xpath="/entity_classes/entity_class[@name='animalSnake']/drop[@name='foodRawMeat']/@name">foodRawSnakeMeat_TRW</set>
+	<set xpath="/entity_classes/entity_class[@name='animalCoyote']/drop[@name='foodRawMeat']/@name">foodRawCoyoteMeat_TRW</set>
+	<set xpath="/entity_classes/entity_class[@name='animalMountainLion']/drop[@name='foodRawMeat']/@name">foodRawMountainLionMeat_TRW</set>
+
+	
+</configs>

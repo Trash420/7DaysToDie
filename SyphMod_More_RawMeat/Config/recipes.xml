@@ -1,0 +1,58 @@
+<configs>
+
+	<!-- Modified Recipes -->
+	<!--<remove xpath="/recipes/recipe[@name='foodBaconAndEggs']" />-->
+	
+	
+	<append xpath="/recipes">
+		
+		<!-- Vanilla Tweaks food mod -->
+		<!--<recipe name="foodBaconAndEggs" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+			<ingredient name="foodRawPigMeat_TRW" count="3"/>
+			<ingredient name="foodEgg" count="2"/>
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" level="4,5" operation="base_add" value="-1" tags="foodRawPigMeat_TRW"/>
+			</effect_group>
+		</recipe>-->
+
+		<recipe name="foodRawMeat" count="1" >
+			<ingredient name="foodRawBearMeat_TRW" count="1"/>
+		</recipe>
+		
+		<recipe name="foodRawMeat" count="1" >
+			<ingredient name="foodRawPigMeat_TRW" count="1"/>
+		</recipe>
+		
+		<recipe name="foodRawMeat" count="1" >
+			<ingredient name="foodRawChickenMeat_TRW" count="1"/>
+		</recipe>
+		
+		<recipe name="foodRawMeat" count="1" >
+			<ingredient name="foodRawRabbitMeat_TRW" count="1"/>
+		</recipe>
+		
+		<recipe name="foodRawMeat" count="1" >
+			<ingredient name="foodRawVenisonMeat_TRW" count="1"/>
+		</recipe>
+		
+		<recipe name="foodRawMeat" count="1" >
+			<ingredient name="foodRawSnakeMeat_TRW" count="1"/>
+		</recipe>
+		
+		<recipe name="foodRawMeat" count="1" >
+			<ingredient name="foodRawWolfMeat_TRW" count="1"/>
+		</recipe>
+		
+		<recipe name="foodRawMeat" count="1" >
+			<ingredient name="foodRawCoyoteMeat_TRW" count="1"/>
+		</recipe>
+		
+		<recipe name="foodRawMeat" count="1" >
+			<ingredient name="foodRawMountainLionMeat_TRW" count="1"/>
+		</recipe>
+
+		
+	</append>
+	
+	
+</configs>

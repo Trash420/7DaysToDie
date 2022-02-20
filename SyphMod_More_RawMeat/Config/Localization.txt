@@ -1,0 +1,14 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
+
+foodRawMeat,items,Food,,,Piece of Raw Meat,Morceau de Viande crue,,,
+foodRawMeatCustomDesc,items,Food,,,"Meat can be eaten raw but is better charred, grilled, boiled or made into stews at a campfire. Can attract zombies if carried.","La viande peut etre mangee crue, mais elle est meilleure brulee, grillee, bouillie ou transformee en ragoût sur un feu de camp. Susceptible d'attirer des zombies si vous la portez.","Wildbret kann roh gegessen werden. Am Lagerfeuer verkohlt, gegrillt, gekocht oder im Eintopf ist es allerdings besser. Wer damit durch die Gegend reist, könnte Zombies anziehen.",,"La carne se puede comer cruda, pero es mejor que este chamuscada, hecha a la parrilla, hervida o en estofado en una fogata. Puede atraer zombis si la llevas encima."foodRawVenisonMeat,items,Food,,,Raw Venison Meat,,,,Viande crue de cerf,,,,,,,,,,,
+foodRawBearMeat_TRW,items,Food,,,Raw Bear Meat,,,,Viande crue d'ours,,,,,,,,,,,
+foodRawRabbitMeat_TRW,items,Food,,,Raw Rabbit Meat,,,,Viande crue de lapin,,,,,,,,,,,
+foodRawPigMeat_TRW,items,Food,,,Raw Pig Meat,,,,Viande crue de porc,,,,,,,,,,,
+foodRawChickenMeat_TRW,items,Food,,,Raw Chicken Meat,,,,Viande crue de poulet,,,,,,,,,,,
+foodRawSnakeMeat_TRW,items,Food,,,Raw Snake Meat,,,,Viande crue de serpent,,,,,,,,,,,
+foodRawWolfMeat_TRW,items,Food,,,Raw Wolf Meat,,,,Viande crue de loup,,,,,,,,,,,
+foodRawCoyoteMeat_TRW,items,Food,,,Raw Coyote Meat,,,,Viande crue de coyote,,,,,,,,,,,
+foodRawVenisonMeat_TRW,items,Food,,,Raw Venison Meat,,,,Viande crue de gibier,,,,,,,,,,,
+foodRawMountainLionMeat_TRW,items,Food,,,Raw Mountain Lion Meat,,,,Viande crue de puma,,,,,,,,,,,
+foodRawMeatGroupDesc,items,Food,,,Fresh raw meat. Needs to be cut into pieces of meat for culinary preparation,,,,Viande crue fraiche. A besoin d'etre couper en piece de viande pour la preparation culinaire,,,,,,,,,,,
