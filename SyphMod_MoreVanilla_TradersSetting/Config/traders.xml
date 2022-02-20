@@ -1,0 +1,50 @@
+<configs>
+
+	<!-- Trader Joel (Trader Joel settings) -->
+	<setattribute xpath="/traders/trader_info[@id='1']" name="reset_interval">3</setattribute> <!-- (Product update in game daysy) 3 --> 
+	<setattribute xpath="/traders/trader_info[@id='1']" name="full_reset">true</setattribute> <!-- (full reset) true -->
+	<setattribute xpath="/traders/trader_info[@id='1']" name="min_inventory">30</setattribute> <!-- (Minimum number of items) 30 -->
+	<setattribute xpath="/traders/trader_info[@id='1']" name="max_inventory">70</setattribute> <!-- (Maximum number of items) 70 -->
+	<setattribute xpath="/traders/trader_info[@id='1']" name="min_items_swapped">20</setattribute> <!-- (Min items swapped) 20 -->
+	<setattribute xpath="/traders/trader_info[@id='1']" name="max_items_swapped">20</setattribute> <!-- (Max items swapped) 20 -->
+	<setattribute xpath="/traders/trader_info[@id='1']" name="open_time">0:00</setattribute> <!-- (Trader opening time) 6:05 -->
+	<setattribute xpath="/traders/trader_info[@id='1']" name="close_time">0:00</setattribute> <!-- (Trader closing time) 21:50 -->
+	<!-- Trader Rekt (Trader Rekt settings) -->
+	<setattribute xpath="/traders/trader_info[@id='8']" name="reset_interval">3</setattribute>
+	<setattribute xpath="/traders/trader_info[@id='8']" name="full_reset">true</setattribute>
+	<setattribute xpath="/traders/trader_info[@id='8']" name="min_inventory">30</setattribute>
+	<setattribute xpath="/traders/trader_info[@id='8']" name="max_inventory">70</setattribute> 
+	<setattribute xpath="/traders/trader_info[@id='8']" name="min_items_swapped">20</setattribute> 
+	<setattribute xpath="/traders/trader_info[@id='8']" name="max_items_swapped">20</setattribute> 
+	<setattribute xpath="/traders/trader_info[@id='8']" name="open_time">0:00</setattribute>
+	<setattribute xpath="/traders/trader_info[@id='8']" name="close_time">0:00</setattribute> 
+	<!-- Trader Hugh (Trader Hugh settings) -->
+	<setattribute xpath="/traders/trader_info[@id='7']" name="reset_interval">3</setattribute>
+	<setattribute xpath="/traders/trader_info[@id='7']" name="full_reset">true</setattribute>
+	<setattribute xpath="/traders/trader_info[@id='7']" name="min_inventory">30</setattribute> 
+	<setattribute xpath="/traders/trader_info[@id='7']" name="max_inventory">70</setattribute> 
+	<setattribute xpath="/traders/trader_info[@id='7']" name="min_items_swapped">20</setattribute>
+	<setattribute xpath="/traders/trader_info[@id='7']" name="max_items_swapped">20</setattribute> 
+	<setattribute xpath="/traders/trader_info[@id='7']" name="open_time">0:00</setattribute>
+	<setattribute xpath="/traders/trader_info[@id='7']" name="close_time">0:00</setattribute> 
+	<!-- Trader Jen (Trader Jen settings) -->
+	<setattribute xpath="/traders/trader_info[@id='2']" name="reset_interval">3</setattribute> 
+	<setattribute xpath="/traders/trader_info[@id='2']" name="full_reset">true</setattribute> 
+	<setattribute xpath="/traders/trader_info[@id='2']" name="min_inventory">30</setattribute> 
+	<setattribute xpath="/traders/trader_info[@id='2']" name="max_inventory">70</setattribute> 
+	<setattribute xpath="/traders/trader_info[@id='2']" name="min_items_swapped">20</setattribute> 
+	<setattribute xpath="/traders/trader_info[@id='2']" name="max_items_swapped">20</setattribute> 
+	<setattribute xpath="/traders/trader_info[@id='2']" name="open_time">0:00</setattribute> 
+	<setattribute xpath="/traders/trader_info[@id='2']" name="close_time">0:00</setattribute> 
+	<!-- Trader Bob (Trader Bob settings) -->
+	<setattribute xpath="/traders/trader_info[@id='6']" name="reset_interval">3</setattribute>
+	<setattribute xpath="/traders/trader_info[@id='6']" name="full_reset">true</setattribute> 
+	<setattribute xpath="/traders/trader_info[@id='6']" name="min_inventory">30</setattribute> 
+	<setattribute xpath="/traders/trader_info[@id='6']" name="max_inventory">70</setattribute> 
+	<setattribute xpath="/traders/trader_info[@id='6']" name="min_items_swapped">20</setattribute> 
+	<setattribute xpath="/traders/trader_info[@id='6']" name="max_items_swapped">20</setattribute> 
+	<setattribute xpath="/traders/trader_info[@id='6']" name="open_time">0:00</setattribute> 
+	<setattribute xpath="/traders/trader_info[@id='6']" name="close_time">0:00</setattribute> 
+
+</configs>
+
