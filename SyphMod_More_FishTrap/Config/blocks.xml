@@ -1,0 +1,101 @@
+<configs>
+	
+	<append xpath="/blocks/block[@name='terrDirt']">
+		<drop tag="salvageHarvest" prob="0.25" count="1" name="resourceWorms_TRW" event="Destroy"/><!-- 0.25 -->
+	</append>
+	
+	<append xpath="/blocks/block[@name='terrForestGround']">
+		<drop tag="salvageHarvest" prob="0.35" count="1" name="resourceWorms_TRW" event="Destroy"/><!-- 0.35 -->
+	</append>
+	
+	<append xpath="/blocks/block[@name='terrBurntForestGround']">
+		<drop tag="salvageHarvest" prob="0.2" count="1" name="resourceWorms_TRW" event="Destroy"/><!-- 0.20 -->
+	</append>
+
+	
+	<append xpath="/blocks">
+	
+		<block name="fishTrapRegen_TRW">
+			<property name="CustomIcon" value="fishTrapBroken" />
+			<property name="StabilitySupport" value="false"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Material" value="Mair"/>
+			<property name="Shape" value="Invisible"/>
+			<property name="Texture" value="250"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="Class" value="UpgradeRated" />
+			<property name="UpgradeRated.ToBlock" value="fishTrapBroken_TRW" />
+			<property name="UpgradeRated.Rate" value="60" /> <!-- 60 -->
+			<property name="DescriptionKey" value="fishTrapDesc"/>
+		</block>
+		
+		<block name="fishTrapBroken_TRW">
+			<property name="Extends" value="woodMaster"/>
+			<property name="CustomIcon" value="fishTrapBroken" />
+			<property name="StabilitySupport" value="false"/>
+			<property name="DisplayInfo" value="Name"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Shape" value="New"/>
+			<property name="Path" value="solid"/>
+			<property name="Model" value="siding_burnt02"/>
+			<property name="Texture" value="544"/>
+			<property name="ImposterExchange" value="imposterBlock" param1="86"/>
+			<property name="Collide" value="movement,melee,rocket"/> <!-- -rocket -->
+			<property name="DisplayInfo" value="Name"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="fishTrapProcessing_TRW"/>
+				<property name="Item" value="resourceFishingKit_TRW"/>
+				<property name="ItemCount" value="1"/>
+				<property name="UpgradeHitCount" value="1"/>
+			</property>
+			<drop event="Destroy" count="0"/>
+			<property name="DowngradeBlock" value="fishTrapRegen_TRW"/>
+			<property name="DescriptionKey" value="fishTrapBrokenDesc"/>
+			<property name="FilterTags" value="fconstruction,fdestruction"/>
+		</block>
+
+		<block name="fishTrapProcessing_TRW">
+			<property name="CustomIcon" value="fishTrapBroken" />
+			<property name="StabilitySupport" value="false"/>
+			<property name="DisplayInfo" value="Name"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Material" value="MclothStable" />
+			<!--<property name="Model" value="billboard_centered"/>
+			<property name="Shape" value="New"/>-->
+			<property name="Texture" value="549" />
+			<property name="Stacknumber" value="1"/>
+			<drop event="Destroy" count="0" />
+			<property class="RepairItems">
+				<property name="resourceCloth" value="10"/>
+				<property name="resourceMechanicalParts" value="5"/>
+			</property>
+			<property name="Class" value="UpgradeRated" />
+			<property name="UpgradeRated.ToBlock" value="fishTrap_TRW" />
+			<property name="UpgradeRated.Rate" value="15" /> <!-- 15 -->
+			<property name="DowngradeBlock" value="fishTrapBroken_TRW"/>
+			<property name="DescriptionKey" value="fishTrapDesc"/>
+		</block>
+		
+		<block name="fishTrap_TRW">
+			<property name="CustomIcon" value="fishTrapBroken" />
+			<property name="StabilitySupport" value="false"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Class" value="Loot" />
+			<property name="LootList" value="groupFishingtrap" />
+			<property name="Material" value="MclothStable" />
+			<!--<property name="Model" value="billboard_centered"/>
+			<property name="Shape" value="New"/>-->
+			<property name="Texture" value="549" />
+			<property name="Stacknumber" value="1"/>
+			<drop event="Destroy" count="0" />
+			<property class="RepairItems">
+				<property name="resourceCloth" value="10"/>
+				<property name="resourceMechanicalParts" value="5"/>
+			</property>
+			<property name="DowngradeBlock" value="fishTrapRegen_TRW"/>
+			<property name="DescriptionKey" value="fishTrapDesc"/>
+		</block>
+		
+	</append>
+	
+</configs>

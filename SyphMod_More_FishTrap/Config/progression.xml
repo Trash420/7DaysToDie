@@ -1,0 +1,11 @@
+<configs>
+	
+	<append xpath="/progression/perks/perk[@name='perkMasterChef']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='3,5']/@tags">,foodFishStew_TRW</append>
+
+	<append xpath="/progression/perks/perk[@name='perkMasterChef']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='4,5']/@tags">,foodHotpotFish_TRW,foodSoupFish_TRW</append>
+
+	<append xpath="/progression/perks/perk[@name='perkTheHuntsman']/effect_group">
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,5" value="1" tags="resourceFishingKit_TRW"/>
+	</append>
+
+</configs>

@@ -1,0 +1,69 @@
+<configs>
+		
+	<append xpath="/recipes">
+	
+		<recipe name="foodHotpotFish_TRW" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="learnable">
+			<ingredient name="foodRawFish_TRW" count="1"/>
+			<ingredient name="foodCropPotato" count="2"/>
+			<ingredient name="foodCropCorn" count="2"/>
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+			<ingredient name="resourceAnimalFat" count="1"/>
+		</recipe>
+	
+		<recipe name="foodSoupFish_TRW" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="learnable">
+			<ingredient name="foodCropPotato" count="1"/>
+			<ingredient name="foodCropCorn" count="1"/>
+			<ingredient name="foodCropMushrooms" count="1"/>
+			<ingredient name="foodRawFish_TRW" count="1"/>
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+		</recipe>
+
+		<recipe name="resourceFishingKit_TRW" count="1" craft_area="workbench" tags="learnable">
+			<ingredient name="resourceWood" count="10"/>
+			<ingredient name="resourceFishingWeight" count="3"/>
+			<ingredient name="resourceCloth" count="30"/>
+			<ingredient name="resourceForgedIron" count="5"/>
+			<ingredient name="resourceWorms_TRW" count="5"/>
+		</recipe>
+		
+		<recipe name="foodFishStew_TRW" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="learnable">
+			<ingredient name="foodRawFish_TRW" count="1"/>
+			<ingredient name="foodCropPotato" count="1"/>
+			<ingredient name="foodCropCorn" count="1"/>
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+			<ingredient name="resourceAnimalFat" count="1"/>
+		</recipe>
+		
+		<recipe name="foodSashimi_TRW" count="1" tags="learnable">
+			<ingredient name="foodRawFish_TRW" count="1"/>	
+		</recipe>
+
+		<recipe name="foodNigirizushi_TRW" count="1" tags="learnable">
+			<ingredient name="foodRawFish_TRW" count="1"/>	
+			<!--<ingredient name="resourceCropWheatPlant_TRW" count="1"/>-->
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+		</recipe>
+
+		<recipe name="foodMakizushi_TRW" count="1" tags="learnable">
+			<ingredient name="foodRawFish_TRW" count="1"/>	
+			<ingredient name="foodGreenAlga_TRW" count="1"/>	
+			<!--<ingredient name="resourceCropWheatPlant_TRW" count="1"/>-->
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+		</recipe>
+
+		<recipe name="foodTemakizushi_TRW" count="1" tags="learnable">
+			<ingredient name="foodRawFish_TRW" count="1"/>	
+			<ingredient name="foodGreenAlga_TRW" count="1"/>	
+			<ingredient name="foodCropMushrooms" count="1"/>
+			<!--<ingredient name="resourceCropWheatPlant_TRW" count="1"/>-->
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+		</recipe>
+		
+		<recipe name="foodFishStick_TRW" count="1" craft_area="campfire">
+			<ingredient name="foodRawFish_TRW" count="1"/>
+			<ingredient name="resourceWood" count="1"/>
+		</recipe>
+		
+	</append>
+	
+</configs>
