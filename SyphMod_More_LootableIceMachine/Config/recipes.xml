@@ -1,0 +1,31 @@
+<configs>
+
+	<append xpath="/recipes">
+			
+		<recipe name="drinkJarIcedYuccaJuice" count="1" craft_area="campfire" tags="perkMasterChef">
+			<ingredient name="foodCropYuccaFruit" count="2"/>
+			<ingredient name="drinkJarEmpty" count="1"/>
+			<ingredient name="resourceSnowBall" count="1"/>
+		</recipe>
+		
+		<recipe name="drinkJarIcedRedTea" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+			<ingredient name="resourceCropChrysanthemumPlant" count="1"/>
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+			<ingredient name="resourceSnowBall" count="1"/>
+		</recipe>
+
+		<recipe name="drinkJarIcedGoldenRodTea" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+			<ingredient name="resourceCropGoldenrodPlant" count="1"/>
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+			<ingredient name="resourceSnowBall" count="1"/>
+		</recipe>
+
+		<recipe name="drinkJarIcedCoffee" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+			<ingredient name="resourceCropCoffeeBeans" count="1"/>
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+			<ingredient name="resourceSnowBall" count="1"/>
+		</recipe>
+
+	</append>
+	
+</configs>

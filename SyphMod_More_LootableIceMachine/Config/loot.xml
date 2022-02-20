@@ -1,0 +1,20 @@
+<configs>
+		
+	<append xpath="/lootcontainers">
+
+		<lootgroup name="groupicemachine" count="0,6">
+			<item name="resourceSnowBall" count="1,2"/>
+			<item name="drinkJarIcedCoffee" count="1,2"/>
+			<item name="drinkJarIcedRedTea" count="1,2"/>
+			<item name="drinkJarIcedGoldenRodTea" count="1,2"/>
+			<item name="drinkJarIcedYuccaJuice" count="1,2"/>
+			<item name="drinkJarIcedPureMineralWater" count="1,2"/>
+		</lootgroup>
+		
+		<lootcontainer id="900" name="icemachine" count="1" size="8,4" destroy_on_close="false" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualBaseTemplate">
+			<item group="groupicemachine" count="1"/>
+		</lootcontainer>
+		
+	</append>
+	
+</configs>
