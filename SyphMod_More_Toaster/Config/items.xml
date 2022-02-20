@@ -1,0 +1,23 @@
+<configs>
+	
+	<append xpath="/items">
+
+		<item name="foodBreadHoney_TRW">
+			<property name="Extends" value="foodHoney"/>
+			<property name="CustomIcon" value="foodBreadHoney"/>
+			<property name="DescriptionKey" value="foodBreadHoneyDesc"/>
+			<property name="DisplayType" value="foodCureInfection"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="12"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="4"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+				<display_value name="dCureInfection" value=".05"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffInfectionAddCurePerc" operation="add" value="5"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffInfectionAddCure"/>
+			</effect_group>
+			<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+		</item>
+
+	</append>
+	
+</configs>

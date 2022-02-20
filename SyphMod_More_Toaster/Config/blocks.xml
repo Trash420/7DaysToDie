@@ -1,0 +1,32 @@
+<configs>
+	
+	<append xpath="/blocks">
+
+		<block name="toaster_TRW">
+			<property name="Extends" value="decoEntityMetalMaster"/>
+			<property name="Model" value="Entities/Appliances/toasterPrefab"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="toaster" />
+			<property name="Stacknumber" value="1" />
+			<property name="Class" value="Campfire" />	
+			<property class="Workstation">
+				<property name="Modules" value="output,input"/>
+				<property name="Collide" value="melee,bullet,arrow,rocket"/>
+				<property name="CraftingAreaRecipes" value="toaster"/>
+			</property>
+			<property name="WorkstationWindow" value="workstation_toaster" />
+			<property name="OpenSound" value="campfire_open" />
+			<property name="CloseSound" value="campfire_close" />
+			<property name="DescriptionKey" value="toasterDesc"/>
+			<property name="WorkstationIcon" value="ui_game_symbol_Toaster"/>
+			<!--<property name="CraftActionName" value="lblContextActionCook"/>
+			<property name="CraftIcon" value="ui_game_symbol_spatula"/>-->
+			<property name="LightOpacity" value="0"/>
+			<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+			<drop event="Harvest" name="resourceElectricParts" count="1,4" tag="salvageHarvest"/>
+			<property name="FilterTags" value="fdecor,fother,ffurniture"/>
+		</block>
+		
+	</append>
+	
+</configs>

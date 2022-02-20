@@ -1,0 +1,17 @@
+<configs>
+	
+	<append xpath="/recipes">
+
+		<recipe name="toaster_TRW" count="1" craft_area="workbench" craft_time="15" tags="learnable">
+			<ingredient name="resourceForgedIron" count="2"/>
+			<ingredient name="resourceElectricParts" count="4"/>
+		</recipe>
+		
+		<recipe name="foodBreadHoney_TRW" count="1" craft_area="toaster">
+			<ingredient name="foodHoney" count="1"/>
+			<ingredient name="foodCornBread" count="1"/>
+		</recipe>
+		
+	</append>
+	
+</configs>

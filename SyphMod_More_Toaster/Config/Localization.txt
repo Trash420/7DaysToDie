@@ -1,0 +1,6 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
+
+foodBreadHoney_TRW,items,Food,,,Honey Toast,,,,Tartine au miel,,,,,,,,,,,
+foodBreadHoneyDesc,items,Food,,,"An Honey Toast.",,,,"Une Tartine Au Miel",,,,,,,,,,,
+toaster_TRW,blocks,Container,,,Toaster,,Toaster,Tostador,Grille-pain,Tostapane,?????,???,Toster,Torradeira,??????,Tost Makinesi,????,????,Tostador
+toasterDesc,blocks,Workstation,,,A fonctionnal toaster.,,,,Un toaster fonctionnel.,,,,,,,,,,
