@@ -1,0 +1,24 @@
+<configs>
+
+	<!--<append xpath="/blocks/block[@name='bed01']">
+		<property name="CanPickup" value="true"/>
+	</append>
+	-->
+	<append xpath="/blocks/block[@name='bed02']">
+		<property name="CanPickup" value="true"/>
+	</append>
+	
+	<append xpath="/blocks/block[@name='mattressCurled']">
+		<property name="CanPickup" value="true"/>
+	</append>
+	
+	<append xpath="/blocks/block[@name='bunkBedMade']">
+		<property name="CanPickup" value="true"/>
+	</append>
+	
+	<append xpath="/blocks/block[@name='mattressFlatThin']">
+		<property name="Class" value="SleepingBag"/>
+		<property name="CanPickup" value="true" param1="mattressFlatThin"/>
+	</append>	
+
+</configs>
