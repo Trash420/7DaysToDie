@@ -1,0 +1,14 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
+
+survivorSchemaChickenCoop_TRW,items,Book,,,Survivor note (Chicken Coop),,,,Note d'un survivant (Poulailler),,,,,,,,,,,
+survivorSchemaChickenCoopDesc,items,Book,,,A note of a survivor. That looks like a craft plan.,,,,Une note d'un survivant. Ca ressemble a un plan artisanal.,,,,,,,,,,,
+stationChickenCoop_TRW,blocks,Workstation,,,Chicken Coop,,,,Poulailler,,,,
+stationChickenCoopDesc,blocks,Workstation,,,An Fully functionnal ChickenCoop.,,,,Un poulailler pleinement fonctionnel.,,,,
+emptystationChickenCoop_TRW,blocks,Workstation,,,Chicken Coop [FFBB44](Empty)[-],,,,Poulailler [FFBB44](Vide)[-],,,,
+emptystationChickenCoopDesc,blocks,Workstation,,,Upgrade this bloc with a baby chicken to create an functionnal ChickenCoop.,,,,Ameliorer ce bloc avec un poussin pour avoir un poulailler fonctionnel.,,,,
+foodChicken_TRW,items,Item,,,Food for chickens,,,,Nourriture pour poulets,,,,
+foodChickenDesc,items,Item,,,"To have healthy chickens and good quality eggs, the food of your chickens must be adapted to their nutritional needs. This mixture seems perfect.",,,,"Pour avoir des poules en bonne sante et des œufs de bonne qualite, l'alimentation de vos poules doit etre adaptee a leurs besoins nutritionnels. Ce melange semble parfait.",,,
+babyChicken_TRW,items,Item,,,Baby chicken,,,,Poussin,,,,
+babyChickenDesc,items,Item,,,"A baby Chicken will be useful if you want to make a Chicken coop.",,,,"Un poussin vous sera utile si vous voulez un poulailler.",,,
+
+lblCategoryChickenCoop,UI,Tooltip,,,Chicken Product,,,,Production de poulet,,,,,,,,,,,

@@ -1,0 +1,14 @@
+<configs>
+	
+	<!-- Bath tub filled with... don't ask/Human corpse -->
+	<append xpath="/lootcontainers/lootgroup[@name='groupBathtub']">
+		<item name="survivorSchemaChickenCoop_TRW" loot_prob_template="veryLow"/>
+	</append>
+
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupBirdNest02']">
+		<item name="babyChicken_TRW" loot_prob_template="low"/> 
+	</append>
+
+
+</configs>

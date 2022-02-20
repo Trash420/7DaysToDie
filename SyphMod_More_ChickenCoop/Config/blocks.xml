@@ -1,0 +1,80 @@
+<configs>
+	
+	<append xpath="/blocks">
+	
+		<block name="emptystationChickenCoop_TRW">
+			<property name="CustomIcon" value="stationChickenCoop" />
+			<property name="DisplayType" value="defaultBlock"/>
+			<property name="StabilitySupport" value="true"/>
+			<property name="DescriptionKey" value="emptystationChickenCoopDesc"/>
+			<property name="Place" value="TowardsPlacerInverted"/>
+			<property name="Material" value="Mmetal_medium"/>
+			<property name="CustomUpgradeSound" value="place_block_metal"/>
+			<property name="Shape" value="New"/>
+			<property name="Model" value="cube"/>
+			<property name="Mesh" value="cutout"/>
+			<property name="UnlockedBy" value="survivorSchemaChickenCoop_TRW"/>
+			<property name="Frame"/>
+			<property name="Collide" value="sight,movement,melee,bullet,arrow,rocket"/>
+			<property name="Texture" value="49"/>
+			<property name="CreativeMode" value="Player"/>
+			<property class="RepairItems">
+				<property name="forgedIron" value="20" />			
+				<property name="resourceMechanicalParts" value="3" />
+			</property>
+			<property name="Class" value="SpawnEntity"/>
+				<property name="SpawnClass" value="dummyChicken"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="stationChickenCoop_TRW"/>
+				<property name="Item" value="babyChicken_TRW"/>
+				<property name="ItemCount" value="1"/>
+				<property name="UpgradeHitCount" value="1"/>
+			</property>
+			<property name="CustomUpgradeSound" value="place_block_metal"/>
+			<drop event="Destroy" name="resourceScrapIron" count="1,8"/>
+		</block>
+		
+		<block name="stationChickenCoop_TRW">
+			<property name="Class" value="Campfire" />
+			<property name="CustomIcon" value="stationChickenCoop" />
+			<property name="DisplayType" value="defaultBlock"/>
+			<property name="StabilitySupport" value="true"/>
+			<property name="Group" value="Building" />
+			<property name="DescriptionKey" value="survivorToolGroupDesc"/>
+			<property name="Material" value="Mmetal_weak" />
+			<property name="CreativeMode" value="Player"/>
+			<property name="Shape" value="New"/>
+			<property name="Model" value="cube"/>
+			<property name="Mesh" value="cutout"/>
+			<property name="Texture" value="49"/>
+			<property name="Frame"/>
+			<property name="Collide" value="melee,bullet,arrow,rocket,movement" />
+			<property class="Workstation">
+				<property name="Modules" value="output,input"/>
+				<property name="Collide" value="melee,bullet,arrow,rocket"/>
+				<property name="CraftingAreaRecipes" value="stationChickenCoop"/>
+			</property>
+			<property name="WorkstationWindow" value="workstation_stationChickenCoop" />
+			<property name="OpenSound" value="UseActions/open_dumpster" />
+			<property name="CloseSound" value="UseActions/close_dumpster" />
+			<property name="WorkstationIcon" value="ui_game_symbol_ChickenCoop"/>
+			<property name="CraftActionName" value="lblContextActionCook"/>
+			<property name="CraftIcon" value="ui_game_symbol_spatula"/>
+			<property class="RepairItems">
+				<property name="forgedIron" value="20" />			
+				<property name="resourceMechanicalParts" value="3" />
+			</property>
+			<property name="Stacknumber" value="1" />
+			<property name="HeatMapStrength" value="3"/>
+			<property name="HeatMapTime" value="1200"/>
+			<property name="HeatMapFrequency" value="25"/>
+			<drop event="Harvest" name="" count="0" tool_category="Disassemble" />
+			<drop event="Destroy" count="0" />
+			<property name="DescriptionKey" value="survivorToolGroupDesc"/>
+			<drop event="Fall" name="scrapMetalPile" count="1" prob=".2" stick_chance="1" />
+			<property name="SellableToTrader" value="false" />
+		</block>
+		
+	</append>
+	
+</configs>

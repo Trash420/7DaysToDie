@@ -1,0 +1,37 @@
+<configs>
+	<append xpath="/recipes">
+
+		<recipe name="emptystationChickenCoop_TRW" count="1" craft_area="workbench" tags="learnable">
+			<ingredient name="resourceForgedIron" count="20"/>	
+			<ingredient name="resourceMechanicalParts" count="3"/>
+		</recipe>
+		
+		<recipe name="foodChicken_TRW" count="1">
+			<ingredient name="plantedCorn1" count="2"/>
+			<ingredient name="plantedChrysanthemum1" count="2"/>
+			<ingredient name="plantedGoldenrod1" count="2"/>
+		</recipe>
+		
+		<recipe name="foodEgg" count="2" craft_area="stationChickenCoop" craft_tool="cntBirdnest" craft_time = "3600">
+			<ingredient name="foodChicken_TRW" count="1"/>	
+		</recipe>
+
+		<recipe name="resourceFeather" count="23" craft_area="stationChickenCoop" craft_tool="cntBirdnest" craft_time = "3600">
+			<ingredient name="foodChicken_TRW" count="1"/>	
+		</recipe>
+
+		<recipe name="foodRawMeat" count="10" craft_area="stationChickenCoop" craft_tool="cntBirdnest" craft_time = "7200">
+			<ingredient name="foodChicken_TRW" count="1"/>	
+		</recipe>
+
+		<recipe name="cntBirdnest" count="1" craft_area="stationChickenCoop" craft_time = "5">
+			<ingredient name="resourceYuccaFibers" count="10"/>
+		</recipe>		
+		
+		<recipe name="foodRawMeat" count="1" >
+			<ingredient name="babyChicken_TRW" count="1"/>
+		</recipe>
+		
+	</append>
+	
+</configs>
