@@ -1,0 +1,52 @@
+<configs>
+
+	
+	<append xpath="/items/item[@name='meleeToolRepairT0StoneAxe']/property[@class='Action1']/property[@name='Allowed_upgrade_items']/@value">,babyRabbit_TRW</append>
+
+	<append xpath="/items/item[@name='meleeToolRepairT1ClawHammer']/property[@class='Action1']/property[@name='Allowed_upgrade_items']/@value">,babyRabbit_TRW</append>
+
+	<append xpath="/items/item[@name='meleeToolRepairT3Nailgun']/property[@class='Action1']/property[@name='Allowed_upgrade_items']/@value">,babyRabbit_TRW</append>
+
+	
+	<append xpath="/items">
+
+		<item name="survivorSchemaHutch_TRW">
+			<property name="Extends" value="schematicNoQualityMaster"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="survivorSchemaHutch"/>
+			<property name="DescriptionKey" value="survivorSchemaHutchDesc"/>
+			<property name="UnlockedBy" value="survivorSchemaHutch_TRW"/>
+			<property name="Unlocks" value="emptystationHutch_TRW,survivorSchemaHutch_TRW"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="emptystationHutch_TRW" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="survivorSchemaHutch_TRW" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+			</effect_group>
+			<property name="Group" value="Books,DeskMag"/>
+		</item>
+				
+		<item name="foodRabbit_TRW">
+			<property name="Extends" value="resourceYuccaFibers"/>
+			<property name="CustomIcon" value="foodRabbit"/>
+			<property name="DescriptionKey" value="foodRabbitDesc"/>
+		</item>
+		
+		<item name="babyRabbit_TRW">
+			<property name="CustomIcon" value="babyRabbit"/>
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Morganic" />
+			<property name="Weight" value="5"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="EconomicValue" value="85"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="Stacknumber" value="10" />
+			<property name="DescriptionKey" value="babyRabbitDesc"/>
+			<property name="Group" value="Resources" />
+		</item>
+		
+		
+	</append>
+	
+</configs>

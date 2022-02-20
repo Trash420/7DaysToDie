@@ -1,0 +1,14 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
+
+survivorSchemaHutch_TRW,items,Book,,,Survivor note (Hutch),,,,Note d'un survivant (Clapier),,,,,,,,,,,
+survivorSchemaHutchDesc,items,Book,,,A note of a survivor. That looks like a craft plan.,,,,Une note d'un survivant. Ca ressemble a un plan artisanal.,,,,,,,,,,,
+stationHutch_TRW,blocks,Workstation,,,Hutch,,,,Clapier,,,,
+stationHutchDesc,blocks,Workstation,,,An Fully functionnal Hutch.,,,,Un clapier pleinement fonctionnel.,,,,
+emptystationHutch_TRW,blocks,Workstation,,,Hutch [FFBB44](Empty)[-],,,,Clapier [FFBB44](Vide)[-],,,,
+emptystationHutchDesc,blocks,Workstation,,,Upgrade this bloc with a baby rabbit to create an functionnal hutch.,,,,Ameliorer ce bloc avec un lapereau pour avoir un clapier fonctionnel.,,,,
+foodRabbit_TRW,items,Item,,,Food for rabbits,,,,Nourriture pour lapins,,,,
+foodRabbitDesc,items,Item,,,"To have healthy rabbits, the food of your rabbits must be adapted to their nutritional needs. This mixture seems perfect.",,,,"Pour avoir des lapins en bonne sante, l'alimentation de vos lapins doit etre adaptee a leurs besoins nutritionnels. Ce melange semble parfait.",,,
+babyRabbit_TRW,items,Item,,,Baby Rabbit,,,,Lapereau,,,,
+babyRabbitDesc,items,Item,,,"A baby rabbit will be useful if you want to make a hutch.",,,,"Un lapereau vous sera utile si vous voulez un clapier.",,,
+
+lblCategoryHutch,UI,Tooltip,,,Rabbit Product,,,,Production de lapin,,,,,,,,,,,

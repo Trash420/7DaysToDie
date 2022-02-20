@@ -1,0 +1,31 @@
+<configs>
+	
+	<append xpath="/recipes">
+
+		<!-- Hutch mod -->
+		<recipe name="emptystationHutch_TRW" count="1" craft_area="workbench" tags="learnable">
+			<ingredient name="resourceForgedIron" count="20"/>	
+			<ingredient name="resourceMechanicalParts" count="3"/>
+		</recipe>
+		
+		<recipe name="foodRabbit_TRW" count="1">
+			<ingredient name="resourceYuccaFibers" count="6"/>	
+			<ingredient name="foodCropCorn" count="1"/>	
+			<ingredient name="foodCropPotato" count="1"/>	
+		</recipe>
+		
+		<recipe name="foodRawMeat" count="10" craft_area="stationHutch" craft_time = "7200">
+			<ingredient name="foodRabbit_TRW" count="1"/>	
+		</recipe>
+
+		<recipe name="resourceLeather" count="23" craft_area="stationHutch" craft_time = "3600">
+			<ingredient name="foodRabbit_TRW" count="1"/>	
+		</recipe>
+				
+		<recipe name="foodRawMeat" count="1" >
+			<ingredient name="babyRabbit_TRW" count="1"/>
+		</recipe>
+		
+	</append>
+	
+</configs>
