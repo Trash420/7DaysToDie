@@ -1,0 +1,32 @@
+<configs>
+
+	<remove xpath="/quests/quest[@id='quest_BasicSurvival1']"/>
+	<remove xpath="/quests/quest[@id='quest_BasicSurvival3']"/>
+	<remove xpath="/quests/quest[@id='quest_BasicSurvival4']"/>
+	<remove xpath="/quests/quest[@id='quest_BasicSurvival7']"/>
+	<remove xpath="/quests/quest[@id='quest_BasicSurvival8']"/>
+	<remove xpath="/quests/quest[@id='quest_whiteRiverCitizen1']"/>
+	
+	
+	<!-- Craft stone axe -->
+	<set xpath="/quests/quest[@id='quest_BasicSurvival2']/@id">quest_BasicSurvival1</set>
+	<set xpath="/quests/quest[@id='quest_BasicSurvival1']/property[@name='name_key']/@value">quest_newBasicSurvival5</set>
+	<set xpath="/quests/quest[@id='quest_BasicSurvival1']/reward[@type='Quest']/@id">quest_BasicSurvival5</set>
+	<set xpath="/quests/quest[@id='quest_BasicSurvival1']/reward[@type='Exp']/@value">500</set>
+	
+	<!-- Craft Wooden club -->
+	<set xpath="/quests/quest[@id='quest_BasicSurvival5']/property[@name='name_key']/@value">quest_newBasicSurvival2</set>
+	<set xpath="/quests/quest[@id='quest_BasicSurvival5']/reward[@type='Quest']/@id">quest_BasicSurvival6</set>
+	<set xpath="/quests/quest[@id='quest_BasicSurvival5']/reward[@type='Exp']/@value">500</set>
+
+	<!-- Craft wooden bow -->
+	<set xpath="/quests/quest[@id='quest_BasicSurvival6']/property[@name='name_key']/@value">quest_newBasicSurvival6</set>
+	<remove xpath="/quests/quest[@id='quest_BasicSurvival6']/reward[@id='quest_BasicSurvival7']" />
+	<set xpath="/quests/quest[@id='quest_BasicSurvival6']/reward[@type='Exp']/@value">500</set>
+	<insertAfter xpath="/quests/quest[@id='quest_BasicSurvival6']/reward[@type='Exp']">
+		<reward type="SkillPoints" value="4" chainreward="true" />
+		<reward type="ShowTip" value="quest_endBasicSurvival_description" stage="aftercomplete" />
+	</insertAfter>
+
+
+</configs>

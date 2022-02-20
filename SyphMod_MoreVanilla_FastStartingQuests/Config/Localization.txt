@@ -1,0 +1,8 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
+
+------------ Localization - Quest --------------
+quest_newBasicSurvival5,Quest,Quest Info,,,Basic Survival 1/3,,,,Les bases de la survie 1/3,,,,,,,,,,,
+quest_newBasicSurvival2,Quest,Quest Info,,,Basic Survival 2/3,,,,Les bases de la survie 2/3,,,,,,,,,,,
+quest_newBasicSurvival6,Quest,Quest Info,,,Basic Survival 3/3,,,,Les bases de la survie 3/3,,,,,,,,,,,
+quest_endBasicSurvival_description,Quest,Quest Info,,,"Good Job Survivor,\n\nYou are ready to fight and you have proved to be capable with much potential. Now you need to find clothes, foods, best weapons as well as tools. You can make wooden frames to build a base, a campfire to cook, a bed for your respawn.\n\nGood luck because you’re gonna need it, Noah",,,,"Beau travail,\n\nTu es pret a combattre et tu as montre de quoi tu es capable. Maintenant, tu as besoin de trouver des vetements, de la nourritures, des meilleurs armes et aussi des outils. Tu peux fabriquer des structures en bois pour construire une base, un feu de camp pour cuisiner et un lit pour te reposer.\n\nBonne chance car tu vas en avoir besoin, Noah",,,,,,,,,,,
+quest_endBasicSurvival_description_title,Quest,Popup Tip,,,Prepared to fight,,,,Prepare au combat,,,,,,,,,,,
