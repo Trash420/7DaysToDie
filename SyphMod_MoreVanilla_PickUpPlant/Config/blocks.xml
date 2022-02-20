@@ -1,0 +1,59 @@
+<configs>
+	
+	<append xpath="/blocks/block[@name='plantedYucca3Harvest']">
+		<property name="CanPickup" value="true" param1="foodCropYuccaFruit"/>
+	</append>
+	
+	<append xpath="/blocks/block[@name='plantedCotton3Harvest']">
+		<property name="CanPickup" value="true" param1="resourceCropCottonPlant"/>
+	</append>
+	
+	<append xpath="/blocks/block[@name='plantedCoffee3Harvest']">
+		<property name="CanPickup" value="true" param1="resourceCropCoffeeBeans"/>
+	</append>
+	
+	<append xpath="/blocks/block[@name='plantedGoldenrod3Harvest']">
+		<property name="CanPickup" value="true" param1="resourceCropGoldenrodPlant"/>
+	</append>
+	
+	<append xpath="/blocks/block[@name='plantedAloe3Harvest']">
+		<property name="CanPickup" value="true" param1="resourceCropAloeLeaf"/>
+	</append>
+	
+	<append xpath="/blocks/block[@name='plantedBlueberry3Harvest']">
+		<property name="CanPickup" value="true" param1="foodCropBlueberries"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='mushroom01']">
+		<property name="CanPickup" value="true" param1="foodCropMushrooms"/>
+	</append>
+	
+	<append xpath="/blocks/block[@name='plantedMushroom3Harvest']">
+		<property name="CanPickup" value="true" param1="foodCropMushrooms"/>
+	</append>
+	
+	<append xpath="/blocks/block[@name='plantedPotato3Harvest']">
+		<property name="CanPickup" value="true" param1="foodCropPotato"/>
+	</append>
+	
+	<append xpath="/blocks/block[@name='plantedChrysanthemum3Harvest']">
+		<property name="CanPickup" value="true" param1="resourceCropChrysanthemumPlant"/>
+	</append>
+	
+	<append xpath="/blocks/block[@name='plantedCorn3Harvest']">
+		<property name="CanPickup" value="true" param1="foodCropCorn"/>
+	</append>
+	
+	<append xpath="/blocks/block[@name='plantedGraceCorn3Harvest']">
+		<property name="CanPickup" value="true" param1="foodCropGraceCorn"/>
+	</append>
+	
+	<append xpath="/blocks/block[@name='plantedHop3Harvest']">
+		<property name="CanPickup" value="true" param1="resourceCropHopsFlower"/>
+	</append>
+	
+	<append xpath="/blocks/block[@name='plantedPumpkin3Harvest']">
+		<property name="CanPickup" value="true" param1="foodCropPumpkin"/>
+	</append>
+
+</configs>
