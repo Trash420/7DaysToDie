@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="SyphMod_GUITweaks_4Digits" />
+		<Description value="Add possibility to craft items more than 4 digits in GUIgame." />
+		<Author value="Syphilis" />
+		<Version value="1.0" />
+		<Website value="" />
+	</ModInfo>
+</xml>

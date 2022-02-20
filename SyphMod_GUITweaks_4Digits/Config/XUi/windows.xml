@@ -1,0 +1,22 @@
+<configs>
+
+		<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/grid[@name='itemActions']/rect[@name='actions']/rect[@name='recipeCraftCountControl']/button[@name='countUp']/@pos">71,-20</set>
+		<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/grid[@name='itemActions']/rect[@name='actions']/rect[@name='recipeCraftCountControl']/button[@name='countMax']/@pos">102,-20</set>
+		<set xpath="/windows/window[@name='itemInfoPanel']/rect[@name='contentInfo']/rect/rect[@name='counterControl']/button[@name='countUp']/@pos">71,-20</set>
+		<set xpath="/windows/window[@name='itemInfoPanel']/rect[@name='contentInfo']/rect/rect[@name='counterControl']/button[@name='countMax']/@pos">102,-20</set>
+
+
+		<append xpath="/windows/window[@name='windowBackpack']/panel[@name='header']/rect[@controller='ContainerStandardControls']">
+			<combobox value_increment="1" value_wrap="true" value_max="45" value_min="0" type="ComboBoxInt" tooltip_key="xuiStashLockedSlots" height="30" width="100" pos="-115,-7" name="cbxLockedSlots" depth="3"/>
+		</append>
+
+		<append xpath="/windows/window[@name='windowVehicleStorage']/panel[@name='header']/rect[@controller='ContainerStandardControls']">
+			<combobox value_increment="1" value_wrap="true" value_max="{container_slots}" value_min="0" type="ComboBoxInt" tooltip_key="xuiStashLockedSlots" height="30" width="100" pos="70,-7" name="cbxLockedSlots" depth="3"/>
+		</append>
+
+		<append xpath="/windows/window[@name='windowLooting']/panel[@name='header']/rect[@controller='ContainerStandardControls']">
+			<combobox value_increment="1" value_wrap="true" value_max="{container_slots}" value_min="0" type="ComboBoxInt" tooltip_key="xuiStashLockedSlots" height="30" width="100" pos="70,-7" name="cbxLockedSlots" depth="3"/>
+		</append>
+
+
+</configs>	
