@@ -1,0 +1,15 @@
+<configs>
+		
+	<!--<setattribute xpath="/lootcontainers/lootcontainer[@id='25']" name="destroy_on_close">true</setattribute>
+	<setattribute xpath="/lootcontainers/lootcontainer[@name='dumpster']" name="destroy_on_close">true</setattribute>
+	-->
+	<append xpath="/lootcontainers">
+		
+		<!-- garbage, cntTrashPile -->
+		<lootcontainer id="911" name="birdNest1" count="1" size="6,2" destroy_on_close="true" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" loot_quality_template="qualBaseTemplate">
+			<item group="groupBirdNest"/>
+		</lootcontainer>
+
+	</append>
+	
+</configs>

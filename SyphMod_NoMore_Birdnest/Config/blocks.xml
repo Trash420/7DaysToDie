@@ -1,0 +1,9 @@
+<configs>
+
+	<!--<append xpath="/blocks/block[@name='cntTrashPile01']">
+		<property name="DowngradeBlock" value="garbage_decor1"/>
+	</append>-->
+	
+	<set xpath="/blocks/block[@name='cntBirdnest']/property[@name='LootList']/@value">birdNest1</set>
+
+</configs>
