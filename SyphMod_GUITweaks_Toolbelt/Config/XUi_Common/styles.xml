@@ -1,0 +1,6 @@
+<configs>
+
+	<set xpath="/styles/style[@name='itemStack']/style_entry[@name='holding_color']/@value">255,222,0</set> <!-- 79,195,247 -->
+	
+</configs>
+	
