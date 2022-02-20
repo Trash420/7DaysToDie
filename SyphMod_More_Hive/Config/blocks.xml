@@ -1,0 +1,45 @@
+<configs>
+
+	<append xpath="/blocks/block[@name='treeStump']">
+		<drop event="Destroy" name="queenBee_TRW" count="1" prob="0.15"/><!-- 0.05 -->
+	</append>
+
+	<append xpath="/blocks/block[@name='treeStumpPOI']">
+		<drop event="Destroy" name="queenBee_TRW" count="1" prob="0.25"/><!-- 0.05 -->
+	</append>
+
+
+	<append xpath="/blocks">
+			
+		<block name="stationHive_TRW">
+			<property name="Extends" value="woodNoUpgradeMaster" />
+			<property name="CustomIcon" value="stationHive" />
+			<property name="StabilitySupport" value="false"/>
+			<property name="Class" value="Campfire" />	
+			<property name="Shape" value="New" />
+			<property name="Model" value="wedge60"/> <property name="Place" value="TowardsPlacerInverted"/>
+			<property name="Texture" value="44,52,52,52,52,52" />
+			<property name="Collide" value="melee,bullet,arrow,rocket" />
+			<property name="UnlockedBy" value="beeKeeping_TRW"/>
+			<property class="Workstation">
+				<property name="Modules" value="output,input"/>
+				<property name="Collide" value="melee,bullet,arrow,rocket"/>
+				<property name="CraftingAreaRecipes" value="stationHive"/>
+			</property>
+			<property name="WorkstationWindow" value="workstation_stationHive" />
+			<property name="OpenSound" value="UseActions/open_chest" />
+			<property name="CloseSound" value="UseActions/close_chest" />
+			<property name="WorkstationIcon" value="ui_game_symbol_Bee"/>
+			<!--<property name="CraftActionName" value="lblContextActionCook"/>-->
+			<property name="CraftIcon" value="ui_game_symbol_Bee"/>
+			<property class="RepairItems"> <property name="wood" value="100" /> </property>
+			<drop event="Harvest" name="" count="0" tool_category="Disassemble" />
+			<drop event="Destroy" count="0" />
+			<property name="Stacknumber" value="1" />
+			<property name="EconomicValue" value="300" />
+			<property name="DescriptionKey" value="stationHiveDesc"/>
+		</block>
+		
+	</append>
+	
+</configs>

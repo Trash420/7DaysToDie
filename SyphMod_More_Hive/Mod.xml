@@ -1,0 +1,10 @@
+<mod>
+	<info>
+		<author>Syphilis</author>
+		<name>SyphMod_More_Hive</name>
+		<description>Add hive and items from honey.</description>
+		<mod_version>1.0</mod_version>
+		<game_version>A20.1</game_version>
+		<launcher_version>0.1.0</launcher_version>
+	</info>
+</mod>

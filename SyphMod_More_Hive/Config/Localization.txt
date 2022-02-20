@@ -1,0 +1,13 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
+
+------------ New Hive Mod --------------
+beeKeeping_TRW,items,Item,,,Bee Keeping Magazine,,,,Bee Keeping Magazine,,,,
+beeKeepingDesc,items,Item,,,"Learn how to assemble and repair Hive by reading this schematic.",,,,"Apprenez a fabriquer et reparer une ruche en lisant ce schema.",,,,
+stationHive_TRW,blocks,Workstation,,,Hive,,,,Ruche,,,,
+stationHiveDesc,blocks,Workstation,,,This attractive hive will allow you to obtain from some honey. Place a wooden table as a support for a better effect.,,,,Cette jolie ruche vous permettra d'obtenir du miel.Placer une table en bois comme support pour un meilleur effet.,,,,
+queenBee_TRW,items,Item,,,Queen Bee (Apis mellifera),,,,Reine abeille (Apis mellifera),,,,
+queenBeeDesc,items,Item,,,Allows to build a hive to obtain from some honey.,,,,Permet de construire une ruche afin d'obtenir du miel.,,,,,,,,,,,
+foodRoyalJelly_TRW,items,Item,,,Royal Jelly,,,,Gelée Royale,,,,
+foodRoyalJellyDesc,items,Item,,,This delicious royal jelly is the mother nature's miracle. It gives you some energy, tastes great, and can help fight off stages of infection and pneumonia.\n(Not an instant cure)",,,,"Cette délicieuse gelée royale est le miracle de mère Nature. Il vous donne de l'énergie, il a bon goût et peut vous aider à combattre les symptômes d'une infection et de la pneumonie.\n(Ce n'est pas un traitement instantané)",,,,,,,,,,,
+
+lblCategoryBee,UI,Tooltip,,,Bee Product,,,,Production d'abeille,,,,,,,,,,,
