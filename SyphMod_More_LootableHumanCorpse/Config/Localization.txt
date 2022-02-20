@@ -1,0 +1,6 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
+
+goreBlockHumanCorpse,blocks,Block,,,Decaying Human Corpse,,,,Cadavre humain en décomposition,,,,,,,,,,,
+goreBlockHumanCorpse1,blocks,Block,,,Decaying Human Corpse,,,,Cadavre humain en décomposition,,,,,,,,,,,
+goreBlockHumanCorpse2,blocks,Block,,,Decaying Human Corpse,,,,Cadavre humain en décomposition,,,,,,,,,,,
+goreBlockHumanCorpse3,blocks,Block,,,Decaying Human Corpse,,,,Cadavre humain en décomposition,,,,,,,,,,,
