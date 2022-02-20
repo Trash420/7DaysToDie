@@ -1,0 +1,32 @@
+<configs>
+	
+	
+	<append xpath="/items/item[@name='foodBlueberryPie']/property[@name='UnlockedBy']//@value">,cakeBook_TRW</append>
+	<append xpath="/items/item[@name='foodPumpkinPie']/property[@name='UnlockedBy']//@value">,cakeBook_TRW</append>
+	<append xpath="/items/item[@name='foodPumpkinCheesecake']/property[@name='UnlockedBy']//@value">,cakeBook_TRW</append>
+	<append xpath="/items/item[@name='foodPumpkinBread']/property[@name='UnlockedBy']//@value">,cakeBook_TRW</append>
+
+
+
+	<append xpath="/items">
+
+		<item name="cakeBook_TRW">
+			<property name="Extends" value="schematicNoQualityRecipeMaster"/>
+			<property name="CustomIcon" value="cakeBook"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DescriptionKey" value="cakeBookDesc"/>
+			<!--<property name="UnlockedBy" value="cakeBook_TRW"/>-->
+			<property name="Unlocks" value="foodBlueberryPie,foodPumpkinPie,foodPumpkinCheesecake,foodPumpkinBread"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodBlueberryPie" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodPumpkinPie" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodPumpkinCheesecake" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodPumpkinBread" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>					
+			</effect_group>
+			<property name="Group" value="Books"/>
+		</item>
+		
+	</append>
+	
+</configs>

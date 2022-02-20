@@ -1,0 +1,4 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
+
+cakeBook_TRW,items,Item,,,Cake Book,,,,Livre de Patisserie,,,,,,,,,,,
+cakeBookDesc,items,Item,,,"An Cake Book.",,,,"Un Livre de Patisserie.",,,,,,,,,,,
