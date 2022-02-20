@@ -1,0 +1,32 @@
+<configs>
+	
+	
+	<append xpath="/items/item[@name='foodBaconAndEggs']/property[@name='UnlockedBy']//@value">,cookBook_TRW</append>
+	<append xpath="/items/item[@name='foodBakedPotato']/property[@name='UnlockedBy']//@value">,cookBook_TRW</append>
+	<append xpath="/items/item[@name='foodCornBread']/property[@name='UnlockedBy']//@value">,cookBook_TRW</append>
+	<append xpath="/items/item[@name='drinkYuccaJuiceSmoothie']/property[@name='UnlockedBy']//@value">,cookBook_TRW</append>
+	<append xpath="/items/item[@name='foodMeatStew']/property[@name='UnlockedBy']//@value">,cookBook_TRW</append>
+
+
+	<append xpath="/items">
+		
+		<item name="cookBook_TRW">
+			<property name="Extends" value="schematicNoQualityMaster"/>
+			<property name="CustomIcon" value="cookBook"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DescriptionKey" value="cookBookDesc"/>
+			<property name="Unlocks" value="foodBaconAndEggs,foodBakedPotato,foodCornBread,drinkYuccaJuiceSmoothie,foodMeatStew"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodBaconAndEggs" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodBakedPotato" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodCornBread" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="drinkYuccaJuiceSmoothie" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodMeatStew" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>		
+			</effect_group>
+			<property name="Group" value="Books"/>
+		</item>
+
+	</append>
+	
+</configs>
