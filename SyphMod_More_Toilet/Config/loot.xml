@@ -1,0 +1,8 @@
+<configs>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupToilet01']">
+		<item name="toiletPaper_TRW" loot_prob_template="low"/>
+		<item name="humanTurd_TRW" loot_prob_template="low"/>
+	</append>
+	
+</configs>

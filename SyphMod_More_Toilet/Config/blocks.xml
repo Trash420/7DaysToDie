@@ -1,0 +1,61 @@
+<configs>
+	
+	<append xpath="/blocks">
+
+		<block name="toilet01_TRW">
+			<property name="Material" value="MstoneFurniture"/>
+			<property name="StabilitySupport" value="false"/> <!-- build restriction -->
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Path" value="solid"/>
+			<property name="Model" value="#Entities/LootContainers?toiletCommercial01Prefab.prefab"/>
+			<property name="Place" value="TowardsPlacer"/>
+			<property name="ImposterExchange" value="imposterCTREighth" param1="98"/>
+			<property name="CustomIcon" value="toilet01" />
+			<property name="CreativeMode" value="Player"/>
+			<property name="DescriptionKey" value="toiletDesc"/>
+			<property name="Stacknumber" value="1" />
+			<property name="IsTerrainDecoration" value="true"/>
+			<property class="RepairItems"> <property name="resourceMetalPipe" value="2"/> <property name="resourceConcreteMix" value="30"/> </property>
+			<property name="UnlockedBy" value="plumbingBook_TRW"/>
+			<property name="Class" value="Campfire" />	
+			<property class="Workstation">
+				<property name="Modules" value="output,input"/>
+				<property name="Collide" value="melee,bullet,arrow,rocket"/>
+				<property name="CraftingAreaRecipes" value="toilet"/>
+			</property>
+			<property name="WorkstationWindow" value="workstation_toilet" />
+			<property name="OpenSound" value="forge_open" />
+			<property name="CloseSound" value="forge_close" />
+			<property name="WorkstationIcon" value="ui_game_symbol_Toilet"/>
+			<!--<property name="CraftActionName" value="lblContextActionCook"/>
+			<property name="CraftIcon" value="ui_game_symbol_spatula"/>-->
+			<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+			<drop event="Harvest" name="resourceScrapIron" count="5,10" tag="salvageHarvest"/>
+			<drop event="Destroy" name="toilet01_TRW" count="1"/>
+			<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+			<property name="EconomicValue" value="42"/>
+			<property name="FilterTags" value="fdecor,fother,ffurniture"/>
+			<property name="Group" value="Decor/Miscellaneous"/>
+		</block>
+
+		<block name="toilet02_TRW">
+			<property name="Extends" value="toilet01_TRW"/>
+			<property name="Model" value="#Entities/LootContainers?toiletCommercial02Prefab.prefab"/>
+			<property name="CustomIcon" value="toilet02" />
+			<property name="CreativeMode" value="Player"/>
+			<drop event="Destroy" name="toilet02_TRW" count="1"/>
+			<property name="DescriptionKey" value="toiletDesc"/>
+		</block>
+
+		<block name="toilet03_TRW">
+			<property name="Extends" value="toilet01_TRW"/>
+			<property name="Model" value="#Entities/LootContainers?toiletCommercial03Prefab.prefab"/>
+			<property name="CustomIcon" value="toilet03" />
+			<property name="CreativeMode" value="Player"/>
+			<drop event="Destroy" name="toilet03_TRW" count="1"/>
+			<property name="DescriptionKey" value="toiletDesc"/>
+		</block>
+
+	</append>
+	
+</configs>

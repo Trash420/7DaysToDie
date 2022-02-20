@@ -1,0 +1,14 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
+
+plumbingBook_TRW,items,Item,,,Plumbing for Dummies,,,,Plomberie pour les nuls,,,,,,,,,,
+plumbingBookDesc,items,Item,,,"An Plumbing magazine.",,,,"Un magazine de Plomberie.",,,,,,,,,,
+toiletPaper_TRW,items,Item,,,Toilet Paper,Papier Toilette,,,,,,,,,,
+toiletPaperDesc,items,Item,,,"Probably an essential during the apocalypse.",,,,"Probablement un indispensable durant l'apocalypse.",,,,,,,,,,
+toilet01_TRW,blocks,Container,,,Normal Toilet,,,,WC ordinaire,,,,,,,,,,
+toilet02_TRW,blocks,Container,,,Fancy Toilet,,,,WC de luxe,,,,,,,,,,
+toilet03_TRW,blocks,Container,,,Commercial Toilet,,,,WC de commerce,,,,,,,,,,
+toiletDesc,blocks,Block,,,Furniture can make your place look pretty but it usually has little defensive value and this one is functionnal.,,,,"Les meubles peuvent vous aider à embellir votre foyer, mais ils n'ont généralement que peu de valeur défensive et celle ci est fonctionnelle.",,,,,,,,,,
+humanTurd_TRW,items,Item,,,Human turd,,,,Excrement humain,,,,,,,,,,,
+humanTurdDesc,items,Item,,,"Human Turd can be found in Toilets. Like Small Stones, Human Turds can be thrown at enemies, but it is unlikely to do any damage. Once thrown they can be picked up again.",,,,"Les excrements humain peuvent etre trouvés dans les toilets. Comme les pierres, les excrements humain peuvent etre lancés pour distraire les zombies mais ils ne font aucun degats. Une fois lancé, ils peuvent etre ramassés de nouveau.",,,,,,,,,,,
+
+lblCategoryToilet,UI,Tooltip,,,Toilet,,,,Toilette,,,,,,,,,,,

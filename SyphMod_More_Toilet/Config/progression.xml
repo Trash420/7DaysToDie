@@ -1,0 +1,5 @@
+<configs>
+	
+	<append xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='1,5']/@tags">,toilet01_TRW,toilet02_TRW,toilet03_TRW</append>
+
+</configs>

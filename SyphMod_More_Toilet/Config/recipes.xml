@@ -1,0 +1,27 @@
+<configs>
+	
+	<append xpath="/recipes">
+		
+		<!-- Toilets Mod -->
+		<recipe name="humanTurd_TRW" count="1" craft_area="toilet" craft_time="10">
+			<ingredient name="toiletPaper_TRW" count="1"/>
+		</recipe>
+		
+		<recipe name="toilet01_TRW" count="1" craft_area="cementMixer" tags="learnable"> 
+			<ingredient name="resourceConcreteMix" count="60"/>	
+			<ingredient name="resourceMetalPipe" count="3"/>
+		</recipe>
+		
+		<recipe name="toilet02_TRW" count="1" craft_area="cementMixer" tags="learnable"> 
+			<ingredient name="resourceConcreteMix" count="60"/>	
+			<ingredient name="resourceMetalPipe" count="3"/>
+		</recipe>
+		
+		<recipe name="toilet03_TRW" count="1" craft_area="cementMixer" tags="learnable"> 
+			<ingredient name="resourceConcreteMix" count="60"/>	
+			<ingredient name="resourceMetalPipe" count="3"/>
+		</recipe>
+				
+	</append>
+	
+</configs>
