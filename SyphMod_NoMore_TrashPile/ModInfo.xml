@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="SyphMod_NoMore_TrashPile" />
+		<Description value="Destroy trash pile once open and replace by decor." />
+		<Author value="Syphilis" />
+		<Version value="1.0" />
+		<Website value="" />
+	</ModInfo>
+</xml>
