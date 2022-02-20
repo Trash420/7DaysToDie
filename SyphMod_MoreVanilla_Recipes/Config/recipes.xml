@@ -1,0 +1,124 @@
+<configs>
+	
+	<append xpath="/recipes">
+		
+		
+		<recipe name="foodCornMeal" count="2">
+			<ingredient name="foodCropGraceCorn" count="1"/>
+		</recipe>
+		
+		
+		<!-- Vanilla Tweaks Medic Mod -->
+		<recipe name="medicalFirstAidBandage" count="1" tags="learnable">
+			<ingredient name="medicalAloeCream" count="1"/>
+			<ingredient name="medicalBandage" count="1"/>
+		</recipe>
+
+		<recipe name="medicalFirstAidKit" count="1" craft_area="chemistryStation" tags="learnable" >
+			<ingredient name="medicalBloodBag" count="1"/>
+			<ingredient name="drinkJarBeer" count="1"/>
+			<ingredient name="resourceCloth" count="2"/>
+			<ingredient name="resourceDuctTape" count="1"/>
+		</recipe>
+
+		<recipe name="medicalFirstAidKit" count="1" craft_area="chemistryStation" tags="learnable" >
+			<ingredient name="drugAntibiotics" count="1"/>
+			<ingredient name="drinkJarBeer" count="1"/>
+			<ingredient name="medicalFirstAidBandage" count="1"/>
+			<ingredient name="resourceDuctTape" count="1"/>
+		</recipe>
+		
+		<recipe name="medicalFirstAidKit" count="1" craft_area="chemistryStation" tags="learnable" >
+			<ingredient name="drugHerbalAntibiotics" count="2"/>
+			<ingredient name="drinkJarBeer" count="1"/>
+			<ingredient name="medicalFirstAidBandage" count="1"/>
+			<ingredient name="resourceDuctTape" count="1"/>
+		</recipe>
+		
+		
+		<!-- Vanilla Tweaks Ammo Mod -->
+		
+		<recipe name="ammoArrowStone" count="1">
+			<ingredient name="ammoCrossbowBoltStone" count="1"/>
+		</recipe>
+		
+		<recipe name="ammoArrowIron" count="1">
+			<ingredient name="ammoCrossbowBoltIron" count="1"/>
+		</recipe>
+		
+		<recipe name="ammoArrowSteelAP" count="1">
+			<ingredient name="ammoCrossbowBoltSteelAP" count="1"/>
+		</recipe>
+		
+		<recipe name="ammoCrossbowBoltStone" count="1">
+			<ingredient name="ammoArrowStone" count="1"/>
+		</recipe>
+		
+		<recipe name="ammoCrossbowBoltIron" count="1">
+			<ingredient name="ammoArrowIron" count="1"/>
+		</recipe>
+		
+		<recipe name="ammoCrossbowBoltSteelAP" count="1">
+			<ingredient name="ammoArrowSteelAP" count="1"/>
+		</recipe>
+
+
+		<!-- Vanilla Tweaks Misc Mod -->
+		
+		<recipe name="resourceCoal" count="1" craft_time="10" craft_area="campfire">
+			<ingredient name="resourceWood" count="1"/>
+		</recipe>
+
+		<recipe name="resourceAcid" count="2" craft_area="workbench">
+			<ingredient name="carBattery" count="1"/>
+		</recipe>
+				
+		<recipe name="toolBeaker" count="1" craft_area="forge" craft_tool="toolForgeCrucible" material_based="true">
+			<ingredient name="unit_glass" count="100"/>
+			<ingredient name="unit_clay" count="20"/>
+		</recipe>
+		
+		<recipe name="resourceFishingWeight" count="1" craft_area="forge" craft_tool="toolForgeCrucible" material_based="true">
+			<ingredient name="unit_lead" count="5"/>
+			<ingredient name="unit_clay" count="10"/>
+		</recipe>
+		
+		<recipe name="modDyeRed" craft_area="chemistryStation" count="1">
+			<ingredient name="resourcePaint" count="1"/>
+			<ingredient name="medicalBloodBag" count="1"/>
+		</recipe>
+
+		<recipe name="modDyeGreen" craft_area="chemistryStation" count="1">
+			<ingredient name="resourcePaint" count="1"/>
+			<ingredient name="resourceYuccaFibers" count="1"/>
+		</recipe>
+
+		<recipe name="modDyeBlack" craft_area="chemistryStation" count="1">
+			<ingredient name="resourcePaint" count="1"/>
+			<ingredient name="resourceCoal" count="1"/>
+		</recipe>
+
+		<recipe name="modDyeBlue" craft_area="chemistryStation" count="1">
+			<ingredient name="resourcePaint" count="1"/>
+			<ingredient name="foodCropBlueberries" count="1"/>
+		</recipe>
+
+		<recipe name="modDyeBrown" craft_area="chemistryStation" count="1">
+			<ingredient name="resourcePaint" count="1"/>
+			<ingredient name="resourceCropCoffeeBeans" count="1"/>
+		</recipe>
+
+		<recipe name="modDyePink" craft_area="chemistryStation" count="1">
+			<ingredient name="resourcePaint" count="1"/>
+			<ingredient name="resourceCropChrysanthemumPlant" count="1"/>
+		</recipe>
+
+
+		<recipe name="resourceDoorKnob" count="1" craft_area="forge" craft_tool="toolAnvil" material_based="true" craft_time="3">
+			<ingredient name="unit_brass" count="100"/>
+			<ingredient name="unit_clay" count="30"/>
+		</recipe>
+		
+	</append>
+	
+</configs>
