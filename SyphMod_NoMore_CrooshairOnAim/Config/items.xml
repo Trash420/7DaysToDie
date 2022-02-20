@@ -1,0 +1,34 @@
+<configs>
+
+	<set xpath="/items/item[@name='gunHandgunT0PipePistol']/property[@name='CrosshairOnAim']/@value">false</set>
+	<set xpath="/items/item[@name='gunHandgunT1Pistol']/property[@name='CrosshairOnAim']/@value">false</set>
+	<set xpath="/items/item[@name='gunHandgunT2Magnum44']/property[@name='CrosshairOnAim']/@value">false</set>
+	<set xpath="/items/item[@name='gunHandgunT3SMG5']/property[@name='CrosshairOnAim']/@value">false</set>	
+	<set xpath="/items/item[@name='gunHandgunT3DesertVulture']/property[@name='CrosshairOnAim']/@value">false</set>
+	
+	<set xpath="/items/item[@name='gunShotgunT0PipeShotgun']/property[@name='CrosshairOnAim']/@value">false</set>
+	<set xpath="/items/item[@name='gunShotgunT1DoubleBarrel']/property[@name='CrosshairOnAim']/@value">false</set>
+	<set xpath="/items/item[@name='gunShotgunT2PumpShotgun']/property[@name='CrosshairOnAim']/@value">false</set>
+	<set xpath="/items/item[@name='gunShotgunT3AutoShotgun']/property[@name='CrosshairOnAim']/@value">false</set>
+	
+	<set xpath="/items/item[@name='gunRifleT0PipeRifle']/property[@name='CrosshairOnAim']/@value">false</set>
+	<set xpath="/items/item[@name='gunRifleT1HuntingRifle']/property[@name='CrosshairOnAim']/@value">false</set>
+	<set xpath="/items/item[@name='gunRifleT2LeverActionRifle']/property[@name='CrosshairOnAim']/@value">false</set>	
+	<set xpath="/items/item[@name='gunRifleT3SniperRifle']/property[@name='CrosshairOnAim']/@value">false</set>
+	
+	<set xpath="/items/item[@name='gunMGT0PipeMachineGun']/property[@name='CrosshairOnAim']/@value">false</set>
+	<set xpath="/items/item[@name='gunMGT1AK47']/property[@name='CrosshairOnAim']/@value">false</set>
+	<set xpath="/items/item[@name='gunMGT2TacticalAR']/property[@name='CrosshairOnAim']/@value">false</set>
+	<set xpath="/items/item[@name='gunMGT3M60']/property[@name='CrosshairOnAim']/@value">false</set>
+		
+	<set xpath="/items/item[@name='gunExplosivesT3RocketLauncher']/property[@name='CrosshairOnAim']/@value">false</set>
+	
+	<!--<set xpath="/items/item[@name='gunBowT0PrimitiveBow']/property[@name='CrosshairOnAim']/@value">false</set>-->
+	<!--<set xpath="/items/item[@name='gunBowT1WoodenBow']/property[@name='CrosshairOnAim']/@value">false</set>-->		
+	<set xpath="/items/item[@name='gunBowT3CompoundBow']/property[@name='CrosshairOnAim']/@value">false</set>
+	
+	<!--<set xpath="/items/item[@name='gunBowT1IronCrossbow']/property[@name='CrosshairOnAim']/@value">false</set>-->
+	<!--<set xpath="/items/item[@name='gunBowT3CompoundCrossbow']/property[@name='CrosshairOnAim']/@value">false</set>-->
+
+	
+</configs>
