@@ -1,0 +1,66 @@
+<configs>
+	
+	<append xpath="/blocks">
+
+		<block name="coffeeMaker_TRW">
+			<property name="Class" value="Campfire"/>
+			<property name="DisplayType" value="blockElectrical"/>
+			<property name="Extends" value="decoEntityMetalMaster"/>
+			<property name="Model" value="Entities/Appliances/coffeeMakerPrefab"/>
+			<property name="StabilitySupport" value="false"/> <!-- build restriction -->
+			<property name="Path" value="solid"/>
+			<property name="Place" value="TowardsPlacerInverted"/>
+			<property name="CustomIcon" value="coffeeMaker"/>
+			<property name="UnlockedBy" value="perkAdvancedEngineering"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="Group" value="Food/Cooking,Basics,Building"/>
+			<property class="Workstation">
+				<property name="Modules" value="output,fuel,input"/>
+				<property name="Collide" value="melee,bullet,arrow,rocket"/>
+				<property name="CraftingAreaRecipes" value="coffeeMaker"/>
+			</property>
+			<property name="WorkstationWindow" value="workstation_coffeeMaker" />
+			<property name="WorkstationIcon" value="ui_game_symbol_coffee" />
+			<property name="CraftActionName" value="lblContextActionCook" />
+			<property name="CraftIcon" value="ui_game_symbol_spatula" />
+			<property name="OpenSound" value="open_workbench" />
+			<property name="CloseSound" value="close_workbench" />
+			<property name="CraftSound" value="campfire_cook_click" />
+			<property name="CraftCompleteSound" value="campfire_complete_item" />
+			<property name="WorkstationJournalTip" value="campfireTip" />
+			<property class="RepairItems">
+				<property name="resourceForgedIron" value="2"/>
+				<property name="resourceElectricParts" value="4"/>
+			</property>
+			<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+			<drop event="Harvest" name="resourceElectricParts" count="1,2" tag="salvageHarvest"/>
+			<drop event="Destroy" name="resourceScrapIron" count="2,5"/>
+			<property name="FilterTags" value="floot,fdecor,fother,ffurniture"/>
+		</block>
+
+		<block name="coffeeMakerCommercial_TRW">
+			<property name="Extends" value="coffeeMaker_TRW"/>
+			<property name="CustomIcon" value="coffeeMakerCommercial"/>
+			<property name="UnlockedBy" value="perkAdvancedEngineering"/>
+			<property name="Stacknumber" value="1"/>
+			<property class="Workstation">
+				<property name="Modules" value="output,fuel,input"/>
+				<property name="Collide" value="melee,bullet,arrow,rocket"/>
+				<property name="CraftingAreaRecipes" value="coffeeMaker"/>
+			</property>
+			<property name="WorkstationWindow" value="workstation_coffeeMaker" />
+			<property name="WorkstationIcon" value="ui_game_symbol_coffee" />
+			<property name="CraftActionName" value="lblContextActionCook" />
+			<property name="CraftIcon" value="ui_game_symbol_spatula" />
+			<property name="OpenSound" value="open_workbench" />
+			<property name="CloseSound" value="close_workbench" />
+			<property name="CraftSound" value="campfire_cook_click" />
+			<property name="CraftCompleteSound" value="campfire_complete_item" />
+			<property name="WorkstationJournalTip" value="campfireTip" />
+			<property name="Group" value="Food/Cooking,Basics,Building"/>
+			<property name="Model" value="Entities/Appliances/commercialCoffeeMakerPrefab"/>
+		</block>
+
+	</append>
+	
+</configs>

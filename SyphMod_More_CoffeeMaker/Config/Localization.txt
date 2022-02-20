@@ -1,0 +1,6 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
+
+coffeeMaker_TRW,blocks,Workstation,,,Coffee Maker,,,,Cafetière,,,,,,,,,,
+coffeeMakerCommercial_TRW,blocks,Workstation,,,Commercial Coffee Maker,,,,Cafetière industrielle,,,,,,,,,,
+
+lblCategoryCoffee,UI,Tooltip,,,Coffee,,,,Cafe,,,,,,,,,,,

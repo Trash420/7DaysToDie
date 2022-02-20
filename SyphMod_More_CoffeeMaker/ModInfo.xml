@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="SyphMod_More_CoffeeMaker" />
+		<Description value="Adds founctionnals coffe maker in game." />
+		<Author value="Syphilis" />
+		<Version value="1.0" />
+		<Website value="" />
+	</ModInfo>
+</xml>
