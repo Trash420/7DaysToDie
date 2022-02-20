@@ -1,0 +1,237 @@
+<configs>
+
+	<insertAfter xpath="/quests/quest[@id='quest_BasicSurvival1']/property[@name='shareable']">
+		<reward type="Quest" id="challenge_zombieskiller1" stage="aftercomplete" />
+		<action type="TrackQuest" />
+	</insertAfter>
+	
+	<append xpath="/quests" >
+	
+		<quest id="challenge_zombieskiller1">
+			<property name="name_key" value="challenge_zombieskiller1" />
+			<property name="subtitle_key" value="challenge_zombieskiller1_subtitle" />
+			<property name="description_key" value="challenge_zombieskiller1_description" />
+			<property name="icon" value="ui_game_symbol_zombie" />
+			<property name="category_key" value="quest" />
+			<property name="difficulty" value="easy" />
+			<property name="shareable" value="false" />
+
+			<objective type="ZombieKill" value="5" />
+
+			<reward type="Quest" id="challenge_zombieskiller2" />
+			<reward type="SkillPoints" value="1" />
+
+		</quest>
+
+		<quest id="challenge_zombieskiller2">
+			<property name="name_key" value="challenge_zombieskiller2" />
+			<property name="subtitle_key" value="challenge_zombieskiller1_subtitle" />
+			<property name="description_key" value="challenge_zombieskiller1_description" />
+			<property name="icon" value="ui_game_symbol_zombie" />
+			<property name="category_key" value="quest" />
+			<property name="difficulty" value="easy" />
+			<property name="shareable" value="false" />
+
+			<objective type="ZombieKill" value="25" />
+
+			<reward type="Quest" id="challenge_zombieskiller3" />
+			<reward type="SkillPoints" value="1" />
+			
+		</quest>
+			
+		<quest id="challenge_zombieskiller3">
+			<property name="name_key" value="challenge_zombieskiller3" />
+			<property name="subtitle_key" value="challenge_zombieskiller1_subtitle" />
+			<property name="description_key" value="challenge_zombieskiller1_description" />
+			<property name="icon" value="ui_game_symbol_zombie" />
+			<property name="category_key" value="quest" />
+			<property name="difficulty" value="easy" />
+			<property name="shareable" value="false" />
+
+			<objective type="ZombieKill" value="50" />
+			
+			<reward type="Quest" id="challenge_zombieskiller4" />
+			<reward type="SkillPoints" value="1" />
+			
+		</quest>
+			
+		<quest id="challenge_zombieskiller4">
+			<property name="name_key" value="challenge_zombieskiller4" />
+			<property name="subtitle_key" value="challenge_zombieskiller1_subtitle" />
+			<property name="description_key" value="challenge_zombieskiller1_description" />
+			<property name="icon" value="ui_game_symbol_zombie" />
+			<property name="category_key" value="quest" />
+			<property name="difficulty" value="easy" />
+			<property name="shareable" value="false" />
+
+			<objective type="ZombieKill" value="70" />
+
+			<reward type="Quest" id="challenge_zombieskiller5" />
+			<reward type="SkillPoints" value="1" />
+
+		</quest>
+
+		<quest id="challenge_zombieskiller5">
+			<property name="name_key" value="challenge_zombieskiller5" />
+			<property name="subtitle_key" value="challenge_zombieskiller1_subtitle" />
+			<property name="description_key" value="challenge_zombieskiller1_description" />
+			<property name="icon" value="ui_game_symbol_zombie" />
+			<property name="category_key" value="quest" />
+			<property name="difficulty" value="easy" />
+			<property name="shareable" value="false" />
+
+			<objective type="ZombieKill" value="100" />
+				
+			<reward type="Quest" id="challenge_zombieskiller6" />
+			<reward type="SkillPoints" value="1" />
+			
+		</quest>
+			
+		<quest id="challenge_zombieskiller6">
+			<property name="name_key" value="challenge_zombieskiller6" />
+			<property name="subtitle_key" value="challenge_zombieskiller1_subtitle" />
+			<property name="description_key" value="challenge_zombieskiller1_description" />
+			<property name="icon" value="ui_game_symbol_zombie" />
+			<property name="category_key" value="quest" />
+			<property name="difficulty" value="easy" />
+			<property name="shareable" value="false" />
+
+			<objective type="ZombieKill" value="250" />
+				
+			<reward type="Quest" id="challenge_zombieskiller7" />
+			<reward type="SkillPoints" value="5" />
+			
+		</quest>
+			
+		<quest id="challenge_zombieskiller7">
+			<property name="name_key" value="challenge_zombieskiller7" />
+			<property name="subtitle_key" value="challenge_zombieskiller1_subtitle" />
+			<property name="description_key" value="challenge_zombieskiller1_description" />
+			<property name="icon" value="ui_game_symbol_zombie" />
+			<property name="category_key" value="quest" />
+			<property name="difficulty" value="easy" />
+			<property name="shareable" value="false" />
+
+			<objective type="ZombieKill" value="250" />
+
+			<reward type="Quest" id="challenge_zombieskiller8" />
+			<reward type="SkillPoints" value="5" />
+
+		</quest>
+
+		<quest id="challenge_zombieskiller8">
+			<property name="name_key" value="challenge_zombieskiller8" />
+			<property name="subtitle_key" value="challenge_zombieskiller1_subtitle" />
+			<property name="description_key" value="challenge_zombieskiller1_description" />
+			<property name="icon" value="ui_game_symbol_zombie" />
+			<property name="category_key" value="quest" />
+			<property name="difficulty" value="easy" />
+			<property name="shareable" value="false" />
+
+			<objective type="ZombieKill" value="250" />
+				
+			<reward type="Quest" id="challenge_zombieskiller9" />
+			<reward type="SkillPoints" value="5" />
+			
+		</quest>
+			
+		<quest id="challenge_zombieskiller9">
+			<property name="name_key" value="challenge_zombieskiller9" />
+			<property name="subtitle_key" value="challenge_zombieskiller1_subtitle" />
+			<property name="description_key" value="challenge_zombieskiller1_description" />
+			<property name="icon" value="ui_game_symbol_zombie" />
+			<property name="category_key" value="quest" />
+			<property name="difficulty" value="easy" />
+			<property name="shareable" value="false" />
+
+			<objective type="ZombieKill" value="250" />
+			
+			<reward type="Quest" id="challenge_zombieskiller10" />
+			<reward type="SkillPoints" value="5" />
+			
+		</quest>
+			
+		<quest id="challenge_zombieskiller10">
+			<property name="name_key" value="challenge_zombieskiller10" />
+			<property name="subtitle_key" value="challenge_zombieskiller1_subtitle" />
+			<property name="description_key" value="challenge_zombieskiller1_description" />
+			<property name="icon" value="ui_game_symbol_zombie" />
+			<property name="category_key" value="quest" />
+			<property name="difficulty" value="easy" />
+			<property name="shareable" value="false" />
+
+			<objective type="ZombieKill" value="250" />
+
+			<reward type="Quest" id="challenge_zombieskiller11" />
+			<reward type="SkillPoints" value="5" />
+
+		</quest>
+
+		<quest id="challenge_zombieskiller11">
+			<property name="name_key" value="challenge_zombieskiller11" />
+			<property name="subtitle_key" value="challenge_zombieskiller1_subtitle" />
+			<property name="description_key" value="challenge_zombieskiller1_description" />
+			<property name="icon" value="ui_game_symbol_zombie" />
+			<property name="category_key" value="quest" />
+			<property name="difficulty" value="easy" />
+			<property name="shareable" value="false" />
+
+			<objective type="ZombieKill" value="250" />
+
+			<reward type="Quest" id="challenge_zombieskiller12" />
+			<reward type="SkillPoints" value="5" />
+
+		</quest>
+			
+					
+		<quest id="challenge_zombieskiller12">
+			<property name="name_key" value="challenge_zombieskiller12" />
+			<property name="subtitle_key" value="challenge_zombieskiller1_subtitle" />
+			<property name="description_key" value="challenge_zombieskiller1_description" />
+			<property name="icon" value="ui_game_symbol_zombie" />
+			<property name="category_key" value="quest" />
+			<property name="difficulty" value="easy" />
+			<property name="shareable" value="false" />
+
+			<objective type="ZombieKill" value="250" />
+
+			<reward type="Quest" id="challenge_zombieskiller13" />
+			<reward type="SkillPoints" value="5" />
+
+		</quest>
+			
+		<quest id="challenge_zombieskiller13">
+			<property name="name_key" value="challenge_zombieskiller13" />
+			<property name="subtitle_key" value="challenge_zombieskiller1_subtitle" />
+			<property name="description_key" value="challenge_zombieskiller1_description" />
+			<property name="icon" value="ui_game_symbol_zombie" />
+			<property name="category_key" value="quest" />
+			<property name="difficulty" value="easy" />
+			<property name="shareable" value="false" />
+
+			<objective type="ZombieKill" value="250" />
+
+			<reward type="Quest" id="challenge_zombieskiller14" />
+			<reward type="SkillPoints" value="5" />
+
+		</quest>
+			
+		<quest id="challenge_zombieskiller14">
+			<property name="name_key" value="challenge_zombieskiller14" />
+			<property name="subtitle_key" value="challenge_zombieskiller1_subtitle" />
+			<property name="description_key" value="challenge_zombieskiller1_description" />
+			<property name="icon" value="ui_game_symbol_zombie" />
+			<property name="category_key" value="quest" />
+			<property name="difficulty" value="easy" />
+			<property name="shareable" value="false" />
+
+			<objective type="ZombieKill" value="250" />
+
+			<!--<reward type="Quest" id="challenge_zombieskiller15" />-->
+			<reward type="SkillPoints" value="5" />
+
+		</quest>
+		
+	</append>
+
+</configs>

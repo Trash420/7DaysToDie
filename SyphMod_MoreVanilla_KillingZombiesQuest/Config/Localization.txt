@@ -1,0 +1,18 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
+
+challenge_zombieskiller1,Challenge,Challenge Info,,,Zombies Killer 1,,,,Tueur de zombies 1,,,,,,,,,,,
+challenge_zombieskiller2,Challenge,Challenge Info,,,Zombies Killer 2,,,,Tueur de zombies 2,,,,,,,,,,,
+challenge_zombieskiller3,Challenge,Challenge Info,,,Zombies Killer 3,,,,Tueur de zombies 3,,,,,,,,,,,
+challenge_zombieskiller4,Challenge,Challenge Info,,,Zombies Killer 4,,,,Tueur de zombies 4,,,,,,,,,,,
+challenge_zombieskiller5,Challenge,Challenge Info,,,Zombies Killer 5,,,,Tueur de zombies 5,,,,,,,,,,,
+challenge_zombieskiller6,Challenge,Challenge Info,,,Zombies Killer 6,,,,Tueur de zombies 6,,,,,,,,,,,
+challenge_zombieskiller7,Challenge,Challenge Info,,,Zombies Killer 7,,,,Tueur de zombies 7,,,,,,,,,,,
+challenge_zombieskiller8,Challenge,Challenge Info,,,Zombies Killer 8,,,,Tueur de zombies 8,,,,,,,,,,,
+challenge_zombieskiller9,Challenge,Challenge Info,,,Zombies Killer 9,,,,Tueur de zombies 9,,,,,,,,,,,
+challenge_zombieskiller10,Challenge,Challenge Info,,,Zombies Killer 10,,,,Tueur de zombies 10,,,,,,,,,,,
+challenge_zombieskiller11,Challenge,Challenge Info,,,Zombies Killer 11,,,,Tueur de zombies 11,,,,,,,,,,,
+challenge_zombieskiller12,Challenge,Challenge Info,,,Zombies Killer 12,,,,Tueur de zombies 12,,,,,,,,,,,
+challenge_zombieskiller13,Challenge,Challenge Info,,,Zombies Killer 13,,,,Tueur de zombies 13,,,,,,,,,,,
+challenge_zombieskiller14,Challenge,Challenge Info,,,Zombies Killer 14,,,,Tueur de zombies 14,,,,,,,,,,,
+challenge_zombieskiller1_description,Challenge,Challenge Info,,,"Well Survivor,\nIt's time to kill some zombies, a bunch of zombies.\n\nTake care of you and make your job!\n\nGood Luck\n\nChallenge: Kill some Zombies",,,,"Hey survivant,\nIl est temps de tuer quelques zombies, un paquet de zombies.\nPrends soin de toi et fait ton boulot !!\n\nDefi : tuer des zombies",,,,,,,"Merhaba Zombi yemegi,\nBu notu bulduysan seni izledigimizi artik biliyorsun demektir. Buraya kadar gelebildiysen belki o kadar da ise yaramaz degilsindir. Aradigimiz kisi sen olabilirsin ama önce bu mücadeleyi tamamlaman gerekiyor.\n\ncilgin J\n\nMücadele: Birkac zombi Amerikan futbolcusu öldür",?,????,\n??????????,??????????????????????,????????????????????,?????????????\n\n????\n\n??:??????????,?,????,\n??????????,???????????????????,?????????????????????????,??????????????\n\n??? J \n\n??:????????????,"Hola, comida para zombis.\nSi encontraste esta nota entonces sabes que te estamos observando. Has llegado hasta aquí, así que tal vez no eres inútil del todo. Podríamos estar buscando a alguien como tú si puedes superar este desafío.\n\nCrazy J\n\nDesafío: Mata algunos jugadores de fútbol zombi."
+challenge_zombieskiller1_subtitle,Challenge,Challenge Info,,,Kill some Zombies,,,,Tuer des Zombies,,,,,,,,,,,
