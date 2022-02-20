@@ -1,0 +1,15 @@
+<configs>
+
+	<append xpath="/recipes">
+		
+		<recipe name="modArmorHelmetNightvision_TRW" count="1" tags="learnable">
+			<ingredient name="armorMilitarySetParts" count="15"/>
+			<ingredient name="resourceMilitaryFiber" count="3"/>
+			<ingredient name="resourceScrapPolymers" count="10"/>
+			<ingredient name="resourceDuctTape" count="2"/>
+			<ingredient name="resourceSewingKit" count="5"/>
+		</recipe>
+
+	</append>
+	
+</configs>

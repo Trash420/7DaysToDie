@@ -1,0 +1,5 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
+
+modArmorHelmetNightvision_TRW,item_modifiers,mod,,,Night Vision Mod,,,,Module de vision nocturne,,,,
+modArmorHelmetNightvisionDesc,item_modifiers,mod,,,Help you when you need to be discrete.,,,,Vous aides quand vous avez besoin d'etre discret.,,,,
+

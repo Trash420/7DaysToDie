@@ -1,0 +1,8 @@
+<configs>
+
+	<!-- Helmet Night vision mod -->
+	<append xpath="/lootcontainers/lootgroup[@name='modArmorT3']">
+		<item name="modArmorHelmetNightvision_TRW" loot_prob_template="veryLow"/>
+	</append>
+
+</configs>
