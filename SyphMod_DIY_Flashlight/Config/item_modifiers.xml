@@ -1,0 +1,128 @@
+<configs>
+
+	<append xpath="/item_modifiers">
+
+		<item_modifier name="modArmorHelmetLightDIY_TRW" installable_tags="head" blocked_tags="clothing" modifier_tags="misc" type="attachment" rarity="0.5">
+			<property name="DescriptionKey" value="modArmorHelmetLightDIYDesc"/>
+			<property name="CustomIcon" value="modArmorHelmetLightDIY"/>
+			<!--<property name="UnlockedBy" value="modArmorHelmetLightSchematic,perkArtOfMiningLantern"/>-->
+			<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Msteel"/>
+			<property name="LightValue" value="0.99"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfEquipStart" action="AddPart" part="HeadLight" prefab="Entities/Lighting/miningHelmetLightSource" parentTransform="Spotlight" localPos="0,0,0" localRot="90,0,0"/>
+				<triggered_effect trigger="onSelfEquipStart" action="AddPart" part="HeadLightCam" prefab="Entities/Lighting/miningHelmetLightSource" parentTransform="CameraNode" localPos="0,0,0" localRot="-90,0,0"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="HeadLight"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="HeadLightCam"/>
+				<triggered_effect trigger="onSelfItemActivate" action="SetPartActive" part="HeadLight" active="@!.IsFPV"/>
+				<triggered_effect trigger="onSelfItemActivate" action="SetPartActive" part="HeadLightCam" active="@.IsFPV"/>
+				<triggered_effect trigger="onSelfItemDeactivate" action="SetPartActive" part="HeadLight" active="false"/>
+				<triggered_effect trigger="onSelfItemDeactivate" action="SetPartActive" part="HeadLightCam" active="false"/>
+			</effect_group>
+		</item_modifier>
+		
+		<item_modifier name="modGunFlashlightDIY_TRW" installable_tags="sideAttachments" modifier_tags="sideAttachment" type="attachment">
+			
+			<property name="CustomIcon" value="modGunFlashlightDIY"/>
+			<property name="DescriptionKey" value="modGunFlashlightDIYDesc"/>
+			<!--<property name="UnlockedBy" value="modGunFlashlightSchematic"/>-->
+			<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="LightValue" value="0.99"/>
+
+		<item_property_overrides name="gunHandgunT1Pistol">
+			<property name="SideOffset" value="0,.0198,.0475"/>
+			<property name="SideScale" value=".75,.75,.75"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="gunShotgunT0Blunderbuss">
+			<property name="SideOffset" value="0,-.026,.27"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="gunShotgunT1DoubleBarrel">
+			<property name="SideOffset" value="0,-.03,.066"/>
+			<property name="SideScale" value=".4,.4,.4"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="gunShotgunT2PumpShotgun">
+			<property name="SideOffset" value="0,0,.41"/>
+			<property name="SideScale" value="1.12,1.12,1.12"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="gunMGT1AK47">
+			<property name="SideOffset" value="0,0,.28"/>
+			<property name="SideScale" value="1,1,1"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="gunMGT2TacticalAR">
+			<property name="SideOffset" value="0,0.0,0.23"/>
+			<property name="SideScale" value="1,1,1"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="gunMGT3M60">
+			<property name="SideOffset" value="-.0386,.0382,.3519"/>
+			<property name="SideRotation" value="0,0,-90"/>
+			<property name="SideScale" value="1,1,1"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="gunHandgunT2Magnum44">
+			<property name="SideOffset" value="0,.0621,.095"/>
+			<property name="SideScale" value=".75,.75,.75"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="gunHandgunT3SMG5">
+			<property name="SideOffset" value="0,.0065,0"/>
+			<property name="SideScale" value="1.5,1.5,1.5"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="gunRifleT1HuntingRifle">
+			<property name="SideOffset" value="0,.0061,.2455"/>
+			<property name="SideScale" value="1,1,1"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="gunRifleT2MarksmanRifle">
+			<property name="SideOffset" value="0,-.0025,.175"/>
+			<property name="SideScale" value="1.12,1.12,1.12"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="gunExplosivesT3RocketLauncher">
+			<property name="SideOffset" value=".037,-.1,.16"/>
+			<property name="SideScale" value="1,1,1"/>
+			<property name="SideRotation" value="0,0,20"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="gunBowT1IronCrossbow">
+			<property name="SideOffset" value="0,-.038,.32"/>
+			<property name="SideScale" value="1,1,1"/>
+			<property name="SideRotation" value="0,0,0"/>
+		</item_property_overrides>
+		<item_property_overrides name="gunBowT3CompoundCrossbow">
+			<property name="SideOffset" value="0,0,.32"/>
+			<property name="SideScale" value="1,1,1"/>
+		</item_property_overrides>
+
+		<!-- visible attachment: flashlight -->
+		<effect_group tiered="false" name="external attachment prefab (old way)">
+			<requirement name="!HoldingItemHasTags" tags="attachmentsIncluded"/>
+				<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="#Other/Items?Mods/Sides/side_attachment_flashlightPrefab.prefab" parent_transform="Attachments/Side"/>
+				<triggered_effect trigger="onSelfItemActivate" action="SetTransformActive" active="true" parent_transform="Side" transform_path="lightSource"/>
+				<triggered_effect trigger="onSelfItemDeactivate" action="SetTransformActive" active="false" parent_transform="Side" transform_path="lightSource"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="false" parent_transform="Side" transform_path="lightSource"/>
+		</effect_group>
+		<effect_group tiered="false" name="internal attachment prefab (A19)">
+			<requirement name="HoldingItemHasTags" tags="attachmentsIncluded"/>
+				<triggered_effect trigger="onSelfHoldingItemCreated" action="SetTransformActive" active="true" parent_transform="#HeldItemRoot" transform_path="flashlight"/>
+
+				<triggered_effect trigger="onSelfItemActivate" action="SetTransformActive" active="true" parent_transform="Gunjoint" transform_path="flashlight_lightSource"/>
+				<triggered_effect trigger="onSelfItemDeactivate" action="SetTransformActive" active="false" parent_transform="Gunjoint" transform_path="flashlight_lightSource"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="false" parent_transform="Gunjoint" transform_path="flashlight_lightSource"/>
+
+		</effect_group>
+			<property name="PickupJournalEntry" value="augmentGunsTip"/>
+		</item_modifier>
+	
+	</append>
+	
+</configs>
+	

@@ -1,0 +1,9 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
+
+
+------------ New Gun/Armor mod Mod --------------
+modArmorHelmetLightDIY_TRW,item_modifiers,mod,,,DIY Helmet Light,,,,"Lampe bricole pour casque",,,,
+modArmorHelmetLightDIYDesc,item_modifiers,mod,,,"An Homemade Helmet Light. Installs into any head armor.\n\nPress F to activate. Hold F to activate multiple items.",,,,"Une lampe pour casque faite maison. A installer sur n'importe quel casque.\n\nAppuyer sur F pour activer. Maintenir F pour activer plusieurs objets.",,,,,,,,
+modGunFlashlightDIY_TRW,item_modifiers,mod,,,DIY Weapon Flashlight,,,,"Lampe bricole pour arme",,,,
+modGunFlashlightDIYDesc,item_modifiers,mod,,,"An Homemade Weapon Flashlight. Installs into any firearm or crossbow.\n\nPress F to activate. Hold F to activate multiple items.",,,,"Une lampe pour arme a feu faite maison. A installer sur arme a feu ou arbalete.\n\nAppuyer sur F pour activer. Maintenir F pour activer plusieurs objets.",,,,
+

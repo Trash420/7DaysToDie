@@ -1,0 +1,18 @@
+<configs>
+		
+	<append xpath="/recipes">
+		
+		<!-- New mod Mod -->		
+		<recipe name="modArmorHelmetLightDIY_TRW" count="1">
+			<ingredient name="meleeToolFlashlight02" count="1"/>
+			<ingredient name="resourceDuctTape" count="1"/>
+		</recipe>
+		
+		<recipe name="modGunFlashlightDIY_TRW" count="1">
+			<ingredient name="meleeToolFlashlight02" count="1"/>
+			<ingredient name="resourceDuctTape" count="1"/>
+		</recipe>
+		
+	</append>
+	
+</configs>

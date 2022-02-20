@@ -1,0 +1,10 @@
+<mod>
+	<info>
+		<author>Syphilis</author>
+		<name>SyphMod_DIY_Flashlight</name>
+		<description>Add DIY Flashlight for helmets and weapons (recipes, items) in game.</description>
+		<mod_version>1.0</mod_version>
+		<game_version>A20.1</game_version>
+		<launcher_version>0.1.0</launcher_version>
+	</info>
+</mod>
