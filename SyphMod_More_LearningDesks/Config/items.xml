@@ -1,0 +1,1596 @@
+<configs>
+
+	<append xpath="/items/item[@name='plantedAloe1Schematic']">
+		<property name="Group" value="DeskSeed"/>
+	</append>
+	<append xpath="/items/item[@name='plantedBlueberry1Schematic']">
+		<property name="Group" value="DeskSeed"/>
+	</append>
+	<append xpath="/items/item[@name='plantedChrysanthemum1Schematic']">
+		<property name="Group" value="DeskSeed"/>
+	</append>
+	<append xpath="/items/item[@name='plantedCoffee1Schematic']">
+		<property name="Group" value="DeskSeed"/>
+	</append>
+	<append xpath="/items/item[@name='plantedCorn1Schematic']">
+		<property name="Group" value="DeskSeed"/>
+	</append>
+	<append xpath="/items/item[@name='plantedCotton1Schematic']">
+		<property name="Group" value="DeskSeed"/>
+	</append>
+	<append xpath="/items/item[@name='plantedGoldenrod1Schematic']">
+		<property name="Group" value="DeskSeed"/>
+	</append>
+	<append xpath="/items/item[@name='plantedGraceCorn1Schematic']">
+		<property name="Group" value="DeskSeed"/>
+	</append>
+	<append xpath="/items/item[@name='plantedHop1Schematic']">
+		<property name="Group" value="DeskSeed"/>
+	</append>
+	<append xpath="/items/item[@name='plantedMushroom1Schematic']">
+		<property name="Group" value="DeskSeed"/>
+	</append>
+	<append xpath="/items/item[@name='plantedPotato1Schematic']">
+		<property name="Group" value="DeskSeed"/>
+	</append>
+	<append xpath="/items/item[@name='plantedYucca1Schematic']">
+		<property name="Group" value="DeskSeed"/>
+	</append>
+	<append xpath="/items/item[@name='plantedPumpkin1Schematic']">
+		<property name="Group" value="DeskSeed"/>
+	</append>
+	
+	<append xpath="/items/item[@name='foodCanShamSchematic']/property[@name='Unlocks']//@value">,foodCanShamSchematic</append>	
+	<append xpath="/items/item[@name='foodCanShamSchematic']">
+		<property name="UnlockedBy" value="foodCanShamSchematic"/>
+		<property name="Group" value="Books,Mods,DeskFood"/>
+	</append>
+	<append xpath="/items/item[@name='foodCanShamSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodCanShamSchematic" operation="set" value="1"/>
+	</append>
+	
+	<append xpath="/items/item[@name='foodVegetableStewSchematic']/property[@name='Unlocks']//@value">,foodVegetableStewSchematic</append>	
+	<append xpath="/items/item[@name='foodVegetableStewSchematic']">
+		<property name="UnlockedBy" value="foodVegetableStewSchematic"/>
+		<property name="Group" value="Books,Mods,DeskFood"/>
+	</append>
+	<append xpath="/items/item[@name='foodVegetableStewSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodVegetableStewSchematic" operation="set" value="1"/>
+	</append>
+	
+	<append xpath="/items/item[@name='foodSteakAndPotatoSchematic']/property[@name='Unlocks']//@value">,foodSteakAndPotatoSchematic</append>	
+	<append xpath="/items/item[@name='foodSteakAndPotatoSchematic']">
+		<property name="UnlockedBy" value="foodSteakAndPotatoSchematic"/>
+		<property name="Group" value="Books,Mods,DeskFood"/>
+	</append>
+	<append xpath="/items/item[@name='foodSteakAndPotatoSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodSteakAndPotatoSchematic" operation="set" value="1"/>
+	</append>
+	
+	<append xpath="/items/item[@name='foodShamChowderSchematic']/property[@name='Unlocks']//@value">,foodShamChowderSchematic</append>	
+	<append xpath="/items/item[@name='foodShamChowderSchematic']">
+		<property name="UnlockedBy" value="foodShamChowderSchematic"/>
+		<property name="Group" value="Books,Mods,DeskFood"/>
+	</append>
+	<append xpath="/items/item[@name='foodShamChowderSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodShamChowderSchematic" operation="set" value="1"/>
+	</append>
+	
+	<append xpath="/items/item[@name='foodMeatStewSchematic']/property[@name='Unlocks']//@value">,foodMeatStewSchematic</append>	
+	<append xpath="/items/item[@name='foodMeatStewSchematic']">
+		<property name="UnlockedBy" value="foodMeatStewSchematic"/>
+		<property name="Group" value="Books,Mods,DeskFood"/>
+	</append>
+	<append xpath="/items/item[@name='foodMeatStewSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodMeatStewSchematic" operation="set" value="1"/>
+	</append>
+	
+	<append xpath="/items/item[@name='foodHoboStewSchematic']/property[@name='Unlocks']//@value">,foodHoboStewSchematic</append>	
+	<append xpath="/items/item[@name='foodHoboStewSchematic']">
+		<property name="UnlockedBy" value="foodHoboStewSchematic"/>
+		<property name="Group" value="Books,Mods,DeskFood"/>
+	</append>
+	<append xpath="/items/item[@name='foodHoboStewSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHoboStewSchematic" operation="set" value="1"/>
+	</append>
+
+	<append xpath="/items/item[@name='foodGrilledMeatSchematic']/property[@name='Unlocks']//@value">,foodGrilledMeatSchematic</append>	
+	<append xpath="/items/item[@name='foodGrilledMeatSchematic']">
+		<property name="UnlockedBy" value="foodGrilledMeatSchematic"/>
+		<property name="Group" value="Books,Mods,DeskFood"/>
+	</append>
+	<append xpath="/items/item[@name='foodGrilledMeatSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodGrilledMeatSchematic" operation="set" value="1"/>
+	</append>
+	
+	<append xpath="/items/item[@name='foodFishTacosSchematic']/property[@name='Unlocks']//@value">,foodFishTacosSchematic</append>	
+	<append xpath="/items/item[@name='foodFishTacosSchematic']">
+		<property name="UnlockedBy" value="foodFishTacosSchematic"/>
+		<property name="Group" value="Books,Mods,DeskFood"/>
+	</append>
+	<append xpath="/items/item[@name='foodFishTacosSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodFishTacosSchematic" operation="set" value="1"/>
+	</append>
+	
+	<append xpath="/items/item[@name='foodCornOnTheCobSchematic']/property[@name='Unlocks']//@value">,foodCornOnTheCobSchematic</append>	
+	<append xpath="/items/item[@name='foodCornOnTheCobSchematic']">
+		<property name="UnlockedBy" value="foodCornOnTheCobSchematic"/>
+		<property name="Group" value="Books,Mods,DeskFood"/>
+	</append>
+	<append xpath="/items/item[@name='foodCornOnTheCobSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodCornOnTheCobSchematic" operation="set" value="1"/>
+	</append>
+	
+	<append xpath="/items/item[@name='foodCornBreadSchematic']/property[@name='Unlocks']//@value">,foodCornBreadSchematic</append>	
+	<append xpath="/items/item[@name='foodCornBreadSchematic']">
+		<property name="UnlockedBy" value="foodCornBreadSchematic"/>
+		<property name="Group" value="Books,Mods,DeskFood"/>
+	</append>
+	<append xpath="/items/item[@name='foodCornBreadSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodCornBreadSchematic" operation="set" value="1"/>
+	</append>
+
+	<append xpath="/items/item[@name='foodChiliDogSchematic']/property[@name='Unlocks']//@value">,foodChiliDogSchematic</append>	
+	<append xpath="/items/item[@name='foodChiliDogSchematic']">
+		<property name="UnlockedBy" value="foodChiliDogSchematic"/>
+		<property name="Group" value="Books,Mods,DeskFood"/>
+	</append>
+	<append xpath="/items/item[@name='foodChiliDogSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodChiliDogSchematic" operation="set" value="1"/>
+	</append>
+	
+	<append xpath="/items/item[@name='foodBoiledMeatSchematic']/property[@name='Unlocks']//@value">,foodBoiledMeatSchematic</append>	
+	<append xpath="/items/item[@name='foodBoiledMeatSchematic']">
+		<property name="UnlockedBy" value="foodBoiledMeatSchematic"/>
+		<property name="Group" value="Books,Mods,DeskFood"/>
+	</append>
+	<append xpath="/items/item[@name='foodBoiledMeatSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodBoiledMeatSchematic" operation="set" value="1"/>
+	</append>
+	
+	<append xpath="/items/item[@name='foodTunaFishGravyToastSchematic']/property[@name='Unlocks']//@value">,foodTunaFishGravyToastSchematic</append>	
+	<append xpath="/items/item[@name='foodTunaFishGravyToastSchematic']">
+		<property name="UnlockedBy" value="foodTunaFishGravyToastSchematic"/>
+		<property name="Group" value="Books,Mods,DeskFood"/>
+	</append>
+	<append xpath="/items/item[@name='foodTunaFishGravyToastSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodTunaFishGravyToastSchematic" operation="set" value="1"/>
+	</append>
+	
+	<append xpath="/items/item[@name='foodSpaghettiSchematic']/property[@name='Unlocks']//@value">,foodSpaghettiSchematic</append>	
+	<append xpath="/items/item[@name='foodSpaghettiSchematic']">
+		<property name="UnlockedBy" value="foodSpaghettiSchematic"/>
+		<property name="Group" value="Books,Mods,DeskFood"/>
+	</append>
+	<append xpath="/items/item[@name='foodSpaghettiSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodSpaghettiSchematic" operation="set" value="1"/>
+	</append>	
+	
+	<append xpath="/items/item[@name='foodShepardsPieSchematic']/property[@name='Unlocks']//@value">,foodShepardsPieSchematic</append>	
+	<append xpath="/items/item[@name='foodShepardsPieSchematic']">
+		<property name="UnlockedBy" value="foodShepardsPieSchematic"/>
+		<property name="Group" value="Books,Mods,DeskFood"/>
+	</append>
+	<append xpath="/items/item[@name='foodShepardsPieSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodShepardsPieSchematic" operation="set" value="1"/>
+	</append>
+
+	<append xpath="/items/item[@name='foodGumboStewSchematic']/property[@name='Unlocks']//@value">,foodGumboStewSchematic</append>	
+	<append xpath="/items/item[@name='foodGumboStewSchematic']">
+		<property name="UnlockedBy" value="foodGumboStewSchematic"/>
+		<property name="Group" value="Books,Mods,DeskFood"/>
+	</append>
+	<append xpath="/items/item[@name='foodGumboStewSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodGumboStewSchematic" operation="set" value="1"/>
+	</append>
+
+	<append xpath="/items/item[@name='foodPumpkinBreadSchematic']/property[@name='Unlocks']//@value">,foodPumpkinBreadSchematic</append>	
+	<append xpath="/items/item[@name='foodPumpkinBreadSchematic']">
+		<property name="UnlockedBy" value="foodPumpkinBreadSchematic"/>
+		<property name="Group" value="Books,Mods,DeskFood"/>
+	</append>
+	<append xpath="/items/item[@name='foodPumpkinBreadSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodPumpkinBreadSchematic" operation="set" value="1"/>
+	</append>
+	
+	<append xpath="/items/item[@name='foodPumpkinCheesecakeSchematic']/property[@name='Unlocks']//@value">,foodPumpkinCheesecakeSchematic</append>	
+	<append xpath="/items/item[@name='foodPumpkinCheesecakeSchematic']">
+		<property name="UnlockedBy" value="foodPumpkinCheesecakeSchematic"/>
+		<property name="Group" value="Books,Mods,DeskFood"/>
+	</append>
+	<append xpath="/items/item[@name='foodPumpkinCheesecakeSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodPumpkinCheesecakeSchematic" operation="set" value="1"/>
+	</append>
+
+	<append xpath="/items/item[@name='foodPumpkinPieSchematic']/property[@name='Unlocks']//@value">,foodPumpkinPieSchematic</append>	
+	<append xpath="/items/item[@name='foodPumpkinPieSchematic']">
+		<property name="UnlockedBy" value="foodPumpkinPieSchematic"/>
+		<property name="Group" value="Books,Mods,DeskFood"/>
+	</append>
+	<append xpath="/items/item[@name='foodPumpkinPieSchematic']/effect_group">
+	<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodPumpkinPieSchematic" operation="set" value="1"/>
+	</append>
+	
+	<append xpath="/items/item[@name='foodBlueberryPieSchematic']/property[@name='Unlocks']//@value">,foodBlueberryPieSchematic</append>	
+	<append xpath="/items/item[@name='foodBlueberryPieSchematic']">
+		<property name="UnlockedBy" value="foodBlueberryPieSchematic"/>
+		<property name="Group" value="Books,Mods,DeskFood"/>
+	</append>
+	<append xpath="/items/item[@name='foodBlueberryPieSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodBlueberryPieSchematic" operation="set" value="1"/>
+	</append>
+	
+	<append xpath="/items/item[@name='foodBakedPotatoSchematic']/property[@name='Unlocks']//@value">,foodBakedPotatoSchematic</append>	
+	<append xpath="/items/item[@name='foodBakedPotatoSchematic']">
+		<property name="UnlockedBy" value="foodBakedPotatoSchematic"/>
+		<property name="Group" value="Books,Mods,DeskFood"/>
+	</append>
+	<append xpath="/items/item[@name='foodBakedPotatoSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodBakedPotatoSchematic" operation="set" value="1"/>
+	</append>
+	
+	<append xpath="/items/item[@name='foodBaconAndEggsSchematic']/property[@name='Unlocks']//@value">,foodBaconAndEggsSchematic</append>	
+	<append xpath="/items/item[@name='foodBaconAndEggsSchematic']">
+		<property name="UnlockedBy" value="foodBaconAndEggsSchematic"/>
+		<property name="Group" value="Books,Mods,DeskFood"/>
+	</append>
+	<append xpath="/items/item[@name='foodBaconAndEggsSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodBaconAndEggsSchematic" operation="set" value="1"/>
+	</append>	
+	
+	<append xpath="/items/item[@name='drinkYuccaJuiceSmoothieSchematic']/property[@name='Unlocks']//@value">,drinkYuccaJuiceSmoothieSchematic</append>	
+	<append xpath="/items/item[@name='drinkYuccaJuiceSmoothieSchematic']">
+		<property name="UnlockedBy" value="drinkYuccaJuiceSmoothieSchematic"/>
+		<property name="Group" value="Books,Mods,DeskFood"/>
+	</append>
+	<append xpath="/items/item[@name='drinkYuccaJuiceSmoothieSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="drinkYuccaJuiceSmoothieSchematic" operation="set" value="1"/>
+	</append>
+
+	<append xpath="/items/item[@name='drinkJarRedTeaSchematic']/property[@name='Unlocks']//@value">,drinkJarRedTeaSchematic</append>	
+	<append xpath="/items/item[@name='drinkJarRedTeaSchematic']">
+		<property name="UnlockedBy" value="drinkJarRedTeaSchematic"/>
+		<property name="Group" value="Books,Mods,DeskFood"/>
+	</append>
+	<append xpath="/items/item[@name='drinkJarRedTeaSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="drinkJarRedTeaSchematic" operation="set" value="1"/>
+	</append>
+
+	<append xpath="/items/item[@name='drinkJarGrandpasMoonshineSchematic']/property[@name='Unlocks']//@value">,drinkJarGrandpasMoonshineSchematic</append>	
+	<append xpath="/items/item[@name='drinkJarGrandpasMoonshineSchematic']">
+		<property name="UnlockedBy" value="drinkJarGrandpasMoonshineSchematic"/>
+		<property name="Group" value="Books,Mods,DeskFood"/>
+	</append>
+	<append xpath="/items/item[@name='drinkJarGrandpasMoonshineSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="drinkJarGrandpasMoonshineSchematic" operation="set" value="1"/>
+	</append>
+	
+	<append xpath="/items/item[@name='drinkJarGrandpasLearningElixirSchematic']/property[@name='Unlocks']//@value">,drinkJarGrandpasLearningElixirSchematic</append>	
+	<append xpath="/items/item[@name='drinkJarGrandpasLearningElixirSchematic']">
+		<property name="UnlockedBy" value="drinkJarGrandpasLearningElixirSchematic"/>
+		<property name="Group" value="Books,Mods,DeskFood"/>
+	</append>
+	<append xpath="/items/item[@name='drinkJarGrandpasLearningElixirSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="drinkJarGrandpasLearningElixirSchematic" operation="set" value="1"/>
+	</append>
+
+	<append xpath="/items/item[@name='drinkJarGrandpasAwesomeSauceSchematic']/property[@name='Unlocks']//@value">,drinkJarGrandpasAwesomeSauceSchematic</append>	
+	<append xpath="/items/item[@name='drinkJarGrandpasAwesomeSauceSchematic']">
+		<property name="UnlockedBy" value="drinkJarGrandpasAwesomeSauceSchematic"/>
+		<property name="Group" value="Books,Mods,DeskFood"/>
+	</append>
+	<append xpath="/items/item[@name='drinkJarGrandpasAwesomeSauceSchematic']/effect_group">
+	<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="drinkJarGrandpasAwesomeSauceSchematic" operation="set" value="1"/>
+	</append>
+	
+	<append xpath="/items/item[@name='drinkJarGoldenRodTeaSchematic']/property[@name='Unlocks']//@value">,drinkJarGoldenRodTeaSchematic</append>	
+	<append xpath="/items/item[@name='drinkJarGoldenRodTeaSchematic']">
+		<property name="UnlockedBy" value="drinkJarGoldenRodTeaSchematic"/>
+		<property name="Group" value="Books,Mods,DeskFood"/>
+	</append>
+	<append xpath="/items/item[@name='drinkJarGoldenRodTeaSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="drinkJarGoldenRodTeaSchematic" operation="set" value="1"/>
+	</append>
+	
+	<append xpath="/items/item[@name='drinkJarBeerSchematic']/property[@name='Unlocks']//@value">,drinkJarBeerSchematic</append>	
+	<append xpath="/items/item[@name='drinkJarBeerSchematic']">
+		<property name="UnlockedBy" value="drinkJarBeerSchematic"/>
+		<property name="Group" value="Books,Mods,DeskFood"/>
+	</append>
+	<append xpath="/items/item[@name='drinkJarBeerSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="drinkJarBeerSchematic" operation="set" value="1"/>
+	</append>
+	
+	<append xpath="/items/item[@name='drinkJarCoffeeSchematic']/property[@name='Unlocks']//@value">,drinkJarCoffeeSchematic</append>	
+	<append xpath="/items/item[@name='drinkJarCoffeeSchematic']">
+		<property name="UnlockedBy" value="drinkJarCoffeeSchematic"/>
+		<property name="Group" value="Books,Mods,DeskFood"/>
+	</append>
+	<append xpath="/items/item[@name='drinkJarCoffeeSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="drinkJarCoffeeSchematic" operation="set" value="1"/>
+	</append>	
+	
+
+	<!-- DeskFood -->
+	<append xpath="/items/item[@name='drugHerbalAntibioticsSchematic']/property[@name='Unlocks']//@value">,drugHerbalAntibioticsSchematic</append>	
+	<append xpath="/items/item[@name='drugHerbalAntibioticsSchematic']">
+		<property name="UnlockedBy" value="drugHerbalAntibioticsSchematic"/>
+		<property name="Group" value="Books,Mods,DeskFood"/>
+	</append>
+	<append xpath="/items/item[@name='drugHerbalAntibioticsSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="drugHerbalAntibioticsSchematic" operation="set" value="1"/>
+	</append>
+	
+	<append xpath="/items/item[@name='drugAntibioticsSchematic']/property[@name='Unlocks']//@value">,drugAntibioticsSchematic</append>	
+	<append xpath="/items/item[@name='drugAntibioticsSchematic']">
+		<property name="UnlockedBy" value="drugAntibioticsSchematic"/>
+		<property name="Group" value="Books,Mods,DeskFood"/>
+	</append>
+	<append xpath="/items/item[@name='drugAntibioticsSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="drugAntibioticsSchematic" operation="set" value="1"/>
+	</append>
+	
+	<append xpath="/items/item[@name='medicalPlasterCastSchematic']/property[@name='Unlocks']//@value">,medicalPlasterCastSchematic</append>	
+	<append xpath="/items/item[@name='medicalPlasterCastSchematic']">
+		<property name="UnlockedBy" value="medicalPlasterCastSchematic"/>
+		<property name="Group" value="Books,Mods,DeskFood"/>
+	</append>
+	<append xpath="/items/item[@name='medicalPlasterCastSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="medicalPlasterCastSchematic" operation="set" value="1"/>
+	</append>
+	
+	<append xpath="/items/item[@name='medicalFirstAidKitSchematic']/property[@name='Unlocks']//@value">,medicalFirstAidKitSchematic</append>	
+	<append xpath="/items/item[@name='medicalFirstAidKitSchematic']">
+		<property name="UnlockedBy" value="medicalFirstAidKitSchematic"/>
+		<property name="Group" value="Books,Mods,DeskFood"/>
+	</append>
+	<append xpath="/items/item[@name='medicalFirstAidKitSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="medicalFirstAidKitSchematic" operation="set" value="1"/>
+	</append>
+
+	<append xpath="/items/item[@name='medicalFirstAidBandageSchematic']/property[@name='Unlocks']//@value">,medicalFirstAidBandageSchematic</append>	
+	<append xpath="/items/item[@name='medicalFirstAidBandageSchematic']">
+		<property name="UnlockedBy" value="medicalFirstAidBandageSchematic"/>
+		<property name="Group" value="Books,Mods,DeskFood"/>
+	</append>
+	<append xpath="/items/item[@name='medicalFirstAidBandageSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="medicalFirstAidBandageSchematic" operation="set" value="1"/>
+	</append>
+	
+	
+	<!-- DeskWeapCloth -->
+	<append xpath="/items/item[@name='meleeWpnClubT1BaseballBatSchematic']/property[@name='Unlocks']//@value">,meleeWpnClubT1BaseballBatSchematic</append>	
+	<append xpath="/items/item[@name='meleeWpnClubT1BaseballBatSchematic']">
+		<property name="UnlockedBy" value="meleeWpnClubT1BaseballBatSchematic"/>
+		<property name="Group" value="Books,Mods,DeskWeapCloth"/>
+	</append>
+	<append xpath="/items/item[@name='meleeWpnClubT1BaseballBatSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeWpnClubT1BaseballBatSchematic" operation="set" value="1"/>
+	</append>
+
+	<append xpath="/items/item[@name='meleeWpnSledgeT1IronSledgehammerSchematic']/property[@name='Unlocks']//@value">,meleeWpnSledgeT1IronSledgehammerSchematic</append>	
+	<append xpath="/items/item[@name='meleeWpnSledgeT1IronSledgehammerSchematic']">
+		<property name="UnlockedBy" value="meleeWpnSledgeT1IronSledgehammerSchematic"/>
+		<property name="Group" value="Books,Mods,DeskWeapCloth"/>
+	</append>
+	<append xpath="/items/item[@name='meleeWpnSledgeT1IronSledgehammerSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeWpnSledgeT1IronSledgehammerSchematic" operation="set" value="1"/>
+	</append>
+	
+	<append xpath="/items/item[@name='meleeWpnSledgeT3SteelSledgehammerSchematic']/property[@name='Unlocks']//@value">,meleeWpnSledgeT3SteelSledgehammerSchematic</append>	
+	<append xpath="/items/item[@name='meleeWpnSledgeT3SteelSledgehammerSchematic']">
+		<property name="UnlockedBy" value="meleeWpnSledgeT3SteelSledgehammerSchematic"/>
+		<property name="Group" value="Books,Mods,DeskWeapCloth"/>
+	</append>	
+	<append xpath="/items/item[@name='meleeWpnSledgeT3SteelSledgehammerSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeWpnSledgeT3SteelSledgehammerSchematic" operation="set" value="1"/>
+	</append>
+	
+	<append xpath="/items/item[@name='meleeWpnBladeT1HuntingKnifeSchematic']/property[@name='Unlocks']//@value">,meleeWpnBladeT1HuntingKnifeSchematic</append>	
+	<append xpath="/items/item[@name='meleeWpnBladeT1HuntingKnifeSchematic']">
+		<property name="UnlockedBy" value="meleeWpnBladeT1HuntingKnifeSchematic"/>
+		<property name="Group" value="Books,Mods,DeskWeapCloth"/>
+	</append>
+	<append xpath="/items/item[@name='meleeWpnBladeT1HuntingKnifeSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeWpnBladeT1HuntingKnifeSchematic" operation="set" value="1"/>
+	</append>
+	
+	<append xpath="/items/item[@name='meleeWpnBladeT3MacheteSchematic']/property[@name='Unlocks']//@value">,meleeWpnBladeT3MacheteSchematic</append>	
+	<append xpath="/items/item[@name='meleeWpnBladeT3MacheteSchematic']">
+		<property name="UnlockedBy" value="meleeWpnBladeT3MacheteSchematic"/>
+		<property name="Group" value="Books,Mods,DeskWeapCloth"/>
+	</append>
+	<append xpath="/items/item[@name='meleeWpnBladeT3MacheteSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeWpnBladeT3MacheteSchematic" operation="set" value="1"/>
+	</append>
+	
+	<append xpath="/items/item[@name='meleeWpnBatonT2StunBatonSchematic']/property[@name='Unlocks']//@value">,meleeWpnBatonT2StunBatonSchematic</append>	
+	<append xpath="/items/item[@name='meleeWpnBatonT2StunBatonSchematic']">
+		<property name="UnlockedBy" value="meleeWpnBatonT2StunBatonSchematic"/>
+		<property name="Group" value="Books,Mods,DeskWeapCloth"/>
+	</append>
+	<append xpath="/items/item[@name='meleeWpnBatonT2StunBatonSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeWpnBatonT2StunBatonSchematic" operation="set" value="1"/>
+	</append>
+	
+	<append xpath="/items/item[@name='meleeToolIronSetSchematic']/property[@name='Unlocks']//@value">,meleeToolIronSetSchematic</append>	
+	<append xpath="/items/item[@name='meleeToolIronSetSchematic']">
+		<property name="UnlockedBy" value="meleeToolIronSetSchematic"/>
+		<property name="Group" value="Books,Mods,DeskWeapCloth"/>
+	</append>
+	<append xpath="/items/item[@name='meleeToolIronSetSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeToolIronSetSchematic" operation="set" value="1"/>
+	</append>
+
+	<append xpath="/items/item[@name='meleeToolSteelSetSchematic']/property[@name='Unlocks']//@value">,meleeToolSteelSetSchematic</append>	
+	<append xpath="/items/item[@name='meleeToolSteelSetSchematic']">
+		<property name="UnlockedBy" value="meleeToolSteelSetSchematic"/>
+		<property name="Group" value="Books,Mods,DeskWeapCloth"/>
+	</append>
+	<append xpath="/items/item[@name='meleeToolSteelSetSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeToolSteelSetSchematic" operation="set" value="1"/>
+	</append>
+
+	<append xpath="/items/item[@name='meleeToolSalvageT1WrenchSchematic']/property[@name='Unlocks']//@value">,meleeToolSalvageT1WrenchSchematic</append>	
+	<append xpath="/items/item[@name='meleeToolSalvageT1WrenchSchematic']">
+		<property name="UnlockedBy" value="meleeToolSalvageT1WrenchSchematic"/>
+		<property name="Group" value="Books,Mods,DeskWeapCloth"/>
+	</append>
+	<append xpath="/items/item[@name='meleeToolSalvageT1WrenchSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeToolSalvageT1WrenchSchematic" operation="set" value="1"/>
+	</append>	
+
+	<append xpath="/items/item[@name='meleeToolSalvageT2RatchetSchematic']/property[@name='Unlocks']//@value">,meleeToolSalvageT2RatchetSchematic</append>	
+	<append xpath="/items/item[@name='meleeToolSalvageT2RatchetSchematic']">
+		<property name="UnlockedBy" value="meleeToolSalvageT2RatchetSchematic"/>
+		<property name="Group" value="Books,Mods,DeskWeapCloth"/>
+	</append>
+	<append xpath="/items/item[@name='meleeToolSalvageT2RatchetSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeToolSalvageT2RatchetSchematic" operation="set" value="1"/>
+	</append>
+
+	<append xpath="/items/item[@name='meleeToolSalvageT3ImpactDriverSchematic']/property[@name='Unlocks']//@value">,meleeToolSalvageT3ImpactDriverSchematic</append>	
+	<append xpath="/items/item[@name='meleeToolSalvageT3ImpactDriverSchematic']">
+		<property name="UnlockedBy" value="meleeToolSalvageT3ImpactDriverSchematic"/>
+		<property name="Group" value="Books,Mods,DeskWeapCloth"/>
+	</append>
+	<append xpath="/items/item[@name='meleeToolSalvageT3ImpactDriverSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeToolSalvageT3ImpactDriverSchematic" operation="set" value="1"/>
+	</append>
+
+	<append xpath="/items/item[@name='meleeToolPickT3AugerSchematic']/property[@name='Unlocks']//@value">,meleeToolPickT3AugerSchematic</append>	
+	<append xpath="/items/item[@name='meleeToolPickT3AugerSchematic']">
+		<property name="UnlockedBy" value="meleeToolPickT3AugerSchematic"/>
+		<property name="Group" value="Books,Mods,DeskWeapCloth"/>
+	</append>
+	<append xpath="/items/item[@name='meleeToolPickT3AugerSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeToolPickT3AugerSchematic" operation="set" value="1"/>
+	</append>
+
+	<append xpath="/items/item[@name='meleeToolAxeT3ChainsawSchematic']/property[@name='Unlocks']//@value">,meleeToolAxeT3ChainsawSchematic</append>	
+	<append xpath="/items/item[@name='meleeToolAxeT3ChainsawSchematic']">
+		<property name="UnlockedBy" value="meleeToolAxeT3ChainsawSchematic"/>
+		<property name="Group" value="Books,Mods,DeskWeapCloth"/>
+	</append>
+	<append xpath="/items/item[@name='meleeToolAxeT3ChainsawSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeToolAxeT3ChainsawSchematic" operation="set" value="1"/>
+	</append>
+
+	<append xpath="/items/item[@name='meleeWpnSpearT1IronSpearSchematic']/property[@name='Unlocks']//@value">,meleeWpnSpearT1IronSpearSchematic</append>	
+	<append xpath="/items/item[@name='meleeWpnSpearT1IronSpearSchematic']">
+		<property name="UnlockedBy" value="meleeWpnSpearT1IronSpearSchematic"/>
+		<property name="Group" value="Books,Mods,DeskWeapCloth"/>
+	</append>
+	<append xpath="/items/item[@name='meleeWpnSpearT1IronSpearSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeWpnSpearT1IronSpearSchematic" operation="set" value="1"/>
+	</append>
+
+	<append xpath="/items/item[@name='meleeWpnKnucklesT1IronKnucklesSchematic']/property[@name='Unlocks']//@value">,meleeWpnKnucklesT1IronKnucklesSchematic</append>	
+	<append xpath="/items/item[@name='meleeWpnKnucklesT1IronKnucklesSchematic']">
+		<property name="UnlockedBy" value="meleeWpnKnucklesT1IronKnucklesSchematic"/>
+		<property name="Group" value="Books,Mods,DeskWeapCloth"/>
+	</append>
+	<append xpath="/items/item[@name='meleeWpnKnucklesT1IronKnucklesSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeWpnKnucklesT1IronKnucklesSchematic" operation="set" value="1"/>
+	</append>
+
+	<append xpath="/items/item[@name='meleeWpnKnucklesT3SteelKnucklesSchematic']/property[@name='Unlocks']//@value">,meleeWpnKnucklesT3SteelKnucklesSchematic</append>	
+	<append xpath="/items/item[@name='meleeWpnKnucklesT3SteelKnucklesSchematic']">
+		<property name="UnlockedBy" value="meleeWpnKnucklesT3SteelKnucklesSchematic"/>
+		<property name="Group" value="Books,Mods,DeskWeapCloth"/>
+	</append>
+	<append xpath="/items/item[@name='meleeWpnKnucklesT3SteelKnucklesSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeWpnKnucklesT3SteelKnucklesSchematic" operation="set" value="1"/>
+	</append>
+
+	<append xpath="/items/item[@name='gunBowT1WoodenBowSchematic']/property[@name='Unlocks']//@value">,gunBowT1WoodenBowSchematic</append>	
+	<append xpath="/items/item[@name='gunBowT1WoodenBowSchematic']">
+		<property name="UnlockedBy" value="gunBowT1WoodenBowSchematic"/>
+		<property name="Group" value="Books,Mods,DeskWeapCloth"/>
+	</append>
+	<append xpath="/items/item[@name='gunBowT1WoodenBowSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunBowT1WoodenBowSchematic" operation="set" value="1"/>
+	</append>
+
+	<append xpath="/items/item[@name='gunBowT3CompoundBowSchematic']/property[@name='Unlocks']//@value">,gunBowT3CompoundBowSchematic</append>	
+	<append xpath="/items/item[@name='gunBowT3CompoundBowSchematic']">
+		<property name="UnlockedBy" value="gunBowT3CompoundBowSchematic"/>
+		<property name="Group" value="Books,Mods,DeskWeapCloth"/>
+	</append>
+	<append xpath="/items/item[@name='gunBowT3CompoundBowSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunBowT3CompoundBowSchematic" operation="set" value="1"/>
+	</append>
+	
+	<append xpath="/items/item[@name='gunBowT1IronCrossbowSchematic']/property[@name='Unlocks']//@value">,gunBowT1IronCrossbowSchematic</append>	
+	<append xpath="/items/item[@name='gunBowT1IronCrossbowSchematic']">
+		<property name="UnlockedBy" value="gunBowT1IronCrossbowSchematic"/>
+		<property name="Group" value="Books,Mods,DeskWeapCloth"/>
+	</append>
+	<append xpath="/items/item[@name='gunBowT1IronCrossbowSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunBowT1IronCrossbowSchematic" operation="set" value="1"/>
+	</append>
+
+	<append xpath="/items/item[@name='gunBowT3CompoundCrossbowSchematic']/property[@name='Unlocks']//@value">,gunBowT3CompoundCrossbowSchematic</append>	
+	<append xpath="/items/item[@name='gunBowT3CompoundCrossbowSchematic']">
+		<property name="UnlockedBy" value="gunBowT3CompoundCrossbowSchematic"/>
+		<property name="Group" value="Books,Mods,DeskWeapCloth"/>
+	</append>
+	<append xpath="/items/item[@name='gunBowT3CompoundCrossbowSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunBowT3CompoundCrossbowSchematic" operation="set" value="1"/>
+	</append>
+	
+	<append xpath="/items/item[@name='gunHandgunT1PistolSchematic']/property[@name='Unlocks']//@value">,gunHandgunT1PistolSchematic</append>	
+	<append xpath="/items/item[@name='gunHandgunT1PistolSchematic']">
+		<property name="UnlockedBy" value="gunHandgunT1PistolSchematic"/>
+		<property name="Group" value="Books,Mods,DeskWeapCloth"/>
+	</append>
+	<append xpath="/items/item[@name='gunHandgunT1PistolSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunHandgunT1PistolSchematic" operation="set" value="1"/>
+	</append>
+
+	<append xpath="/items/item[@name='gunHandgunT2Magnum44Schematic']/property[@name='Unlocks']//@value">,gunHandgunT2Magnum44Schematic</append>	
+	<append xpath="/items/item[@name='gunHandgunT2Magnum44Schematic']">
+		<property name="UnlockedBy" value="gunHandgunT2Magnum44Schematic"/>
+		<property name="Group" value="Books,Mods,DeskWeapCloth"/>
+	</append>
+	<append xpath="/items/item[@name='gunHandgunT2Magnum44Schematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunHandgunT2Magnum44Schematic" operation="set" value="1"/>
+	</append>
+	
+	<append xpath="/items/item[@name='gunHandgunT3DesertVultureSchematic']/property[@name='Unlocks']//@value">,gunHandgunT3DesertVultureSchematic</append>	
+	<append xpath="/items/item[@name='gunHandgunT3DesertVultureSchematic']">
+		<property name="UnlockedBy" value="gunHandgunT3DesertVultureSchematic"/>
+		<property name="Group" value="Books,Mods,DeskWeapCloth"/>
+	</append>
+	<append xpath="/items/item[@name='gunHandgunT3DesertVultureSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunHandgunT3DesertVultureSchematic" operation="set" value="1"/>
+	</append>
+
+	<append xpath="/items/item[@name='gunShotgunT1DoubleBarrelSchematic']/property[@name='Unlocks']//@value">,gunShotgunT1DoubleBarrelSchematic</append>	
+	<append xpath="/items/item[@name='gunShotgunT1DoubleBarrelSchematic']">
+		<property name="UnlockedBy" value="gunShotgunT1DoubleBarrelSchematic"/>
+		<property name="Group" value="Books,Mods,DeskWeapCloth"/>
+	</append>
+	<append xpath="/items/item[@name='gunShotgunT1DoubleBarrelSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunShotgunT1DoubleBarrelSchematic" operation="set" value="1"/>
+	</append>
+
+	<append xpath="/items/item[@name='gunShotgunT2PumpShotgunSchematic']/property[@name='Unlocks']//@value">,gunShotgunT2PumpShotgunSchematic</append>	
+	<append xpath="/items/item[@name='gunShotgunT2PumpShotgunSchematic']">
+		<property name="UnlockedBy" value="gunShotgunT2PumpShotgunSchematic"/>
+		<property name="Group" value="Books,Mods,DeskWeapCloth"/>
+	</append>
+	<append xpath="/items/item[@name='gunShotgunT2PumpShotgunSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunShotgunT2PumpShotgunSchematic" operation="set" value="1"/>
+	</append>
+
+	<append xpath="/items/item[@name='gunShotgunT3AutoShotgunSchematic']/property[@name='Unlocks']//@value">,gunShotgunT3AutoShotgunSchematic</append>	
+	<append xpath="/items/item[@name='gunShotgunT3AutoShotgunSchematic']">
+		<property name="UnlockedBy" value="gunShotgunT3AutoShotgunSchematic"/>
+		<property name="Group" value="Books,Mods,DeskWeapCloth"/>
+	</append>
+	<append xpath="/items/item[@name='gunShotgunT3AutoShotgunSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunShotgunT3AutoShotgunSchematic" operation="set" value="1"/>
+	</append>
+	
+	<append xpath="/items/item[@name='gunHandgunT3SMG5Schematic']/property[@name='Unlocks']//@value">,gunHandgunT3SMG5Schematic</append>	
+	<append xpath="/items/item[@name='gunHandgunT3SMG5Schematic']">
+		<property name="UnlockedBy" value="gunHandgunT3SMG5Schematic"/>
+		<property name="Group" value="Books,Mods,DeskWeapCloth"/>
+	</append>
+	<append xpath="/items/item[@name='gunHandgunT3SMG5Schematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunHandgunT3SMG5Schematic" operation="set" value="1"/>
+	</append>
+
+	<append xpath="/items/item[@name='gunMGT1AK47Schematic']/property[@name='Unlocks']//@value">,gunMGT1AK47Schematic</append>	
+	<append xpath="/items/item[@name='gunMGT1AK47Schematic']">
+		<property name="UnlockedBy" value="gunMGT1AK47Schematic"/>
+		<property name="Group" value="Books,Mods,DeskWeapCloth"/>
+	</append>
+	<append xpath="/items/item[@name='gunMGT1AK47Schematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunMGT1AK47Schematic" operation="set" value="1"/>
+	</append>
+	
+	<append xpath="/items/item[@name='gunMGT2TacticalARSchematic']/property[@name='Unlocks']//@value">,gunMGT2TacticalARSchematic</append>	
+	<append xpath="/items/item[@name='gunMGT2TacticalARSchematic']">
+		<property name="UnlockedBy" value="gunMGT2TacticalARSchematic"/>
+		<property name="Group" value="Books,Mods,DeskWeapCloth"/>
+	</append>
+	<append xpath="/items/item[@name='gunMGT2TacticalARSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunMGT2TacticalARSchematic" operation="set" value="1"/>
+	</append>
+
+	<append xpath="/items/item[@name='gunMGT3M60Schematic']/property[@name='Unlocks']//@value">,gunMGT3M60Schematic</append>	
+	<append xpath="/items/item[@name='gunMGT3M60Schematic']">
+		<property name="UnlockedBy" value="gunMGT3M60Schematic"/>
+		<property name="Group" value="Books,Mods,DeskWeapCloth"/>
+	</append>
+	<append xpath="/items/item[@name='gunMGT3M60Schematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunMGT3M60Schematic" operation="set" value="1"/>
+	</append>
+	
+	<append xpath="/items/item[@name='gunRifleT1HuntingRifleSchematic']/property[@name='Unlocks']//@value">,gunRifleT1HuntingRifleSchematic</append>	
+	<append xpath="/items/item[@name='gunRifleT1HuntingRifleSchematic']">
+		<property name="UnlockedBy" value="gunRifleT1HuntingRifleSchematic"/>
+		<property name="Group" value="Books,Mods,DeskWeapCloth"/>
+	</append>
+	<append xpath="/items/item[@name='gunRifleT1HuntingRifleSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunRifleT1HuntingRifleSchematic" operation="set" value="1"/>
+	</append>
+
+	<append xpath="/items/item[@name='gunRifleT2LeverActionRifleSchematic']/property[@name='Unlocks']//@value">,gunRifleT2LeverActionRifleSchematic</append>	
+	<append xpath="/items/item[@name='gunRifleT2LeverActionRifleSchematic']">
+		<property name="UnlockedBy" value="gunRifleT2LeverActionRifleSchematic"/>
+		<property name="Group" value="Books,Mods,DeskWeapCloth"/>
+	</append>
+	<append xpath="/items/item[@name='gunRifleT2LeverActionRifleSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunRifleT2LeverActionRifleSchematic" operation="set" value="1"/>
+	</append>
+
+	<append xpath="/items/item[@name='gunRifleT3SniperRifleSchematic']/property[@name='Unlocks']//@value">,gunRifleT3SniperRifleSchematic</append>	
+	<append xpath="/items/item[@name='gunRifleT3SniperRifleSchematic']">
+		<property name="UnlockedBy" value="gunRifleT3SniperRifleSchematic"/>
+		<property name="Group" value="Books,Mods,DeskWeapCloth"/>
+	</append>
+	<append xpath="/items/item[@name='gunRifleT3SniperRifleSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunRifleT3SniperRifleSchematic" operation="set" value="1"/>
+	</append>
+
+	<append xpath="/items/item[@name='gunExplosivesT3RocketLauncherSchematic']/property[@name='Unlocks']//@value">,gunExplosivesT3RocketLauncherSchematic</append>	
+	<append xpath="/items/item[@name='gunExplosivesT3RocketLauncherSchematic']">
+		<property name="UnlockedBy" value="gunExplosivesT3RocketLauncherSchematic"/>
+		<property name="Group" value="Books,Mods,DeskWeapCloth"/>
+	</append>
+	<append xpath="/items/item[@name='gunExplosivesT3RocketLauncherSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunExplosivesT3RocketLauncherSchematic" operation="set" value="1"/>
+	</append>
+	
+	<append xpath="/items/item[@name='gunBotT1JunkSledgeSchematic']/property[@name='Unlocks']//@value">,gunBotT1JunkSledgeSchematic</append>	
+	<append xpath="/items/item[@name='gunBotT1JunkSledgeSchematic']">
+		<property name="UnlockedBy" value="gunBotT1JunkSledgeSchematic"/>
+		<property name="Group" value="Books,Mods,DeskWeapCloth"/>
+	</append>
+	<append xpath="/items/item[@name='gunBotT1JunkSledgeSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunBotT1JunkSledgeSchematic" operation="set" value="1"/>
+	</append>
+
+	<append xpath="/items/item[@name='gunBotT2JunkTurretSchematic']/property[@name='Unlocks']//@value">,gunBotT2JunkTurretSchematic</append>	
+	<append xpath="/items/item[@name='gunBotT2JunkTurretSchematic']">
+		<property name="UnlockedBy" value="gunBotT2JunkTurretSchematic"/>
+		<property name="Group" value="Books,Mods,DeskWeapCloth"/>
+	</append>
+	<append xpath="/items/item[@name='gunBotT2JunkTurretSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunBotT2JunkTurretSchematic" operation="set" value="1"/>
+	</append>
+	
+	<append xpath="/items/item[@name='armorLeatherSetSchematic']/property[@name='Unlocks']//@value">,armorLeatherSetSchematic</append>	
+	<append xpath="/items/item[@name='armorLeatherSetSchematic']">
+		<property name="UnlockedBy" value="armorLeatherSetSchematic"/>
+		<property name="Group" value="Books,Mods,DeskWeapCloth"/>
+	</append>
+	<append xpath="/items/item[@name='armorLeatherSetSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="armorLeatherSetSchematic" operation="set" value="1"/>
+	</append>
+
+	<append xpath="/items/item[@name='armorMilitarySetSchematic']/property[@name='Unlocks']//@value">,armorMilitarySetSchematic</append>	
+	<append xpath="/items/item[@name='armorMilitarySetSchematic']">
+		<property name="UnlockedBy" value="armorMilitarySetSchematic"/>
+		<property name="Group" value="Books,Mods,DeskWeapCloth"/>
+	</append>
+	<append xpath="/items/item[@name='armorMilitarySetSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="armorMilitarySetSchematic" operation="set" value="1"/>
+	</append>
+	
+	<append xpath="/items/item[@name='armorIronSetSchematic']/property[@name='Unlocks']//@value">,armorIronSetSchematic</append>	
+	<append xpath="/items/item[@name='armorIronSetSchematic']">
+		<property name="UnlockedBy" value="armorIronSetSchematic"/>
+		<property name="Group" value="Books,Mods,DeskWeapCloth"/>
+	</append>
+	<append xpath="/items/item[@name='armorIronSetSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="armorIronSetSchematic" operation="set" value="1"/>
+	</append>
+
+	<append xpath="/items/item[@name='armorSteelSetSchematic']/property[@name='Unlocks']//@value">,armorSteelSetSchematic</append>	
+	<append xpath="/items/item[@name='armorSteelSetSchematic']">
+		<property name="UnlockedBy" value="armorSteelSetSchematic"/>
+		<property name="Group" value="Books,Mods,DeskWeapCloth"/>
+	</append>
+	<append xpath="/items/item[@name='armorSteelSetSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="armorSteelSetSchematic" operation="set" value="1"/>
+	</append>
+
+	<append xpath="/items/item[@name='thrownAmmoPipeBombSchematic']/property[@name='Unlocks']//@value">,thrownAmmoPipeBombSchematic</append>	
+	<append xpath="/items/item[@name='thrownAmmoPipeBombSchematic']">
+		<property name="UnlockedBy" value="thrownAmmoPipeBombSchematic"/>
+		<property name="Group" value="Books,Mods,DeskWeapCloth"/>
+	</append>
+	<append xpath="/items/item[@name='thrownAmmoPipeBombSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="thrownAmmoPipeBombSchematic" operation="set" value="1"/>
+	</append>
+	
+	<append xpath="/items/item[@name='thrownGrenadeContactSchematic']/property[@name='Unlocks']//@value">,thrownGrenadeContactSchematic</append>	
+	<append xpath="/items/item[@name='thrownGrenadeContactSchematic']">
+		<property name="UnlockedBy" value="thrownGrenadeContactSchematic"/>
+		<property name="Group" value="Books,Mods,DeskWeapCloth"/>
+	</append>
+	<append xpath="/items/item[@name='thrownGrenadeContactSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="thrownGrenadeContactSchematic" operation="set" value="1"/>
+	</append>
+
+	<append xpath="/items/item[@name='thrownGrenadeSchematic']/property[@name='Unlocks']//@value">,thrownGrenadeSchematic</append>	
+	<append xpath="/items/item[@name='thrownGrenadeSchematic']">
+		<property name="UnlockedBy" value="thrownGrenadeSchematic"/>
+		<property name="Group" value="Books,Mods,DeskWeapCloth"/>
+	</append>
+	<append xpath="/items/item[@name='thrownGrenadeSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="thrownGrenadeSchematic" operation="set" value="1"/>
+	</append>
+	
+	<append xpath="/items/item[@name='thrownDynamiteSchematic']/property[@name='Unlocks']//@value">,thrownDynamiteSchematic</append>	
+	<append xpath="/items/item[@name='thrownDynamiteSchematic']">
+		<property name="UnlockedBy" value="thrownDynamiteSchematic"/>
+		<property name="Group" value="Books,Mods,DeskWeapCloth"/>
+	</append>
+	<append xpath="/items/item[@name='thrownDynamiteSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="thrownDynamiteSchematic" operation="set" value="1"/>
+	</append>
+
+	<append xpath="/items/item[@name='meleeToolRepairT3NailgunSchematic']/property[@name='Unlocks']//@value">,meleeToolRepairT3NailgunSchematic</append>	
+	<append xpath="/items/item[@name='meleeToolRepairT3NailgunSchematic']">
+		<property name="UnlockedBy" value="meleeToolRepairT3NailgunSchematic"/>
+		<property name="Group" value="Books,Mods,DeskWeapCloth"/>
+	</append>
+	<append xpath="/items/item[@name='meleeToolRepairT3NailgunSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeToolRepairT3NailgunSchematic" operation="set" value="1"/>
+	</append>
+
+
+	<!-- DeskOther -->
+	<append xpath="/items/item[@name='toolBellowsSchematic']/property[@name='Unlocks']//@value">,toolBellowsSchematic</append>	
+	<append xpath="/items/item[@name='toolBellowsSchematic']">
+		<property name="UnlockedBy" value="toolBellowsSchematic"/>
+		<property name="Group" value="Books,Mods,DeskOther"/>
+	</append>
+	<append xpath="/items/item[@name='toolBellowsSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="toolBellowsSchematic" operation="set" value="1"/>
+	</append>
+
+	<append xpath="/items/item[@name='toolForgeCrucibleSchematic']/property[@name='Unlocks']//@value">,toolForgeCrucibleSchematic</append>	
+	<append xpath="/items/item[@name='toolForgeCrucibleSchematic']">
+		<property name="UnlockedBy" value="toolForgeCrucibleSchematic"/>
+		<property name="Group" value="Books,Mods,DeskOther"/>
+	</append>
+	<append xpath="/items/item[@name='toolForgeCrucibleSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="toolForgeCrucibleSchematic" operation="set" value="1"/>
+	</append>
+	
+	<append xpath="/items/item[@name='toolAnvilSchematic']/property[@name='Unlocks']//@value">,toolAnvilSchematic</append>	
+	<append xpath="/items/item[@name='toolAnvilSchematic']">
+		<property name="UnlockedBy" value="toolAnvilSchematic"/>
+		<property name="Group" value="Books,Mods,DeskOther"/>
+	</append>
+	<append xpath="/items/item[@name='toolAnvilSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="toolAnvilSchematic" operation="set" value="1"/>
+	</append>
+
+	<append xpath="/items/item[@name='cementMixerSchematic']/property[@name='Unlocks']//@value">,cementMixerSchematic</append>	
+	<append xpath="/items/item[@name='cementMixerSchematic']">
+		<property name="UnlockedBy" value="cementMixerSchematic"/>
+		<property name="Group" value="Books,Mods,DeskOther"/>
+	</append>
+	<append xpath="/items/item[@name='cementMixerSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="cementMixerSchematic" operation="set" value="1"/>
+	</append>
+	
+	<append xpath="/items/item[@name='workbenchSchematic']/property[@name='Unlocks']//@value">,workbenchSchematic</append>	
+	<append xpath="/items/item[@name='workbenchSchematic']">
+		<property name="UnlockedBy" value="workbenchSchematic"/>
+		<property name="Group" value="Books,Mods,DeskOther"/>
+	</append>
+	<append xpath="/items/item[@name='workbenchSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="workbenchSchematic" operation="set" value="1"/>
+	</append>
+
+	<append xpath="/items/item[@name='forgeSchematic']/property[@name='Unlocks']//@value">,forgeSchematic</append>	
+	<append xpath="/items/item[@name='forgeSchematic']">
+		<property name="UnlockedBy" value="forgeSchematic"/>
+		<property name="Group" value="Books,Mods,DeskOther"/>
+	</append>
+	<append xpath="/items/item[@name='forgeSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="forgeSchematic" operation="set" value="1"/>
+	</append>
+	
+	<append xpath="/items/item[@name='chemistryStationSchematic']/property[@name='Unlocks']//@value">,chemistryStationSchematic</append>	
+	<append xpath="/items/item[@name='chemistryStationSchematic']">
+		<property name="UnlockedBy" value="chemistryStationSchematic"/>
+		<property name="Group" value="Books,Mods,DeskOther"/>
+	</append>
+	<append xpath="/items/item[@name='chemistryStationSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="chemistryStationSchematic" operation="set" value="1"/>
+	</append>
+
+	<append xpath="/items/item[@name='vehicleBicycleChassisSchematic']/property[@name='Unlocks']//@value">,vehicleBicycleChassisSchematic</append>	
+	<append xpath="/items/item[@name='vehicleBicycleChassisSchematic']">
+		<property name="UnlockedBy" value="vehicleBicycleChassisSchematic"/>
+		<property name="Group" value="Books,Mods,DeskOther"/>
+	</append>
+	<append xpath="/items/item[@name='vehicleBicycleChassisSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicleBicycleChassisSchematic" operation="set" value="1"/>
+	</append>
+
+	<append xpath="/items/item[@name='vehicleBicycleHandlebarsSchematic']/property[@name='Unlocks']//@value">,vehicleBicycleHandlebarsSchematic</append>	
+	<append xpath="/items/item[@name='vehicleBicycleHandlebarsSchematic']">
+		<property name="UnlockedBy" value="toolBevehicleBicycleHandlebarsSchematicllowsSchematic"/>
+		<property name="Group" value="Books,Mods,DeskOther"/>
+	</append>
+	<append xpath="/items/item[@name='vehicleBicycleHandlebarsSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicleBicycleHandlebarsSchematic" operation="set" value="1"/>
+	</append>
+
+	<append xpath="/items/item[@name='vehicleMinibikeChassisSchematic']/property[@name='Unlocks']//@value">,vehicleMinibikeChassisSchematic</append>	
+	<append xpath="/items/item[@name='vehicleMinibikeChassisSchematic']">
+		<property name="UnlockedBy" value="vehicleMinibikeChassisSchematic"/>
+		<property name="Group" value="Books,Mods,DeskOther"/>
+	</append>
+	<append xpath="/items/item[@name='vehicleMinibikeChassisSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicleMinibikeChassisSchematic" operation="set" value="1"/>
+	</append>
+	
+	<append xpath="/items/item[@name='vehicleMinibikeHandlebarsSchematic']/property[@name='Unlocks']//@value">,vehicleMinibikeHandlebarsSchematic</append>	
+	<append xpath="/items/item[@name='vehicleMinibikeHandlebarsSchematic']">
+		<property name="UnlockedBy" value="vehicleMinibikeHandlebarsSchematic"/>
+		<property name="Group" value="Books,Mods,DeskOther"/>
+	</append>
+	<append xpath="/items/item[@name='vehicleMinibikeHandlebarsSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicleMinibikeHandlebarsSchematic" operation="set" value="1"/>
+	</append>
+
+	<append xpath="/items/item[@name='vehicleMotorcycleChassisSchematic']/property[@name='Unlocks']//@value">,vehicleMotorcycleChassisSchematic</append>	
+	<append xpath="/items/item[@name='vehicleMotorcycleChassisSchematic']">
+		<property name="UnlockedBy" value="vehicleMotorcycleChassisSchematic"/>
+		<property name="Group" value="Books,Mods,DeskOther"/>
+	</append>
+	<append xpath="/items/item[@name='vehicleMotorcycleChassisSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicleMotorcycleChassisSchematic" operation="set" value="1"/>
+	</append>
+	
+	<append xpath="/items/item[@name='vehicleMotorcycleHandlebarsSchematic']/property[@name='Unlocks']//@value">,vehicleMotorcycleHandlebarsSchematic</append>	
+	<append xpath="/items/item[@name='vehicleMotorcycleHandlebarsSchematic']">
+		<property name="UnlockedBy" value="vehicleMotorcycleHandlebarsSchematic"/>
+		<property name="Group" value="Books,Mods,DeskOther"/>
+	</append>
+	<append xpath="/items/item[@name='vehicleMotorcycleHandlebarsSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicleMotorcycleHandlebarsSchematic" operation="set" value="1"/>
+	</append>
+
+	<append xpath="/items/item[@name='vehicle4x4TruckChassisSchematic']/property[@name='Unlocks']//@value">,vehicle4x4TruckChassisSchematic</append>	
+	<append xpath="/items/item[@name='vehicle4x4TruckChassisSchematic']">
+		<property name="UnlockedBy" value="vehicle4x4TruckChassisSchematic"/>
+		<property name="Group" value="Books,Mods,DeskOther"/>
+	</append>
+	<append xpath="/items/item[@name='vehicle4x4TruckChassisSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicle4x4TruckChassisSchematic" operation="set" value="1"/>
+	</append>
+	
+	<append xpath="/items/item[@name='vehicle4x4TruckAccessoriesSchematic']/property[@name='Unlocks']//@value">,vehicle4x4TruckAccessoriesSchematic</append>	
+	<append xpath="/items/item[@name='vehicle4x4TruckAccessoriesSchematic']">
+		<property name="UnlockedBy" value="vehicle4x4TruckAccessoriesSchematic"/>
+		<property name="Group" value="Books,Mods,DeskOther"/>
+	</append>
+	<append xpath="/items/item[@name='vehicle4x4TruckAccessoriesSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicle4x4TruckAccessoriesSchematic" operation="set" value="1"/>
+	</append>
+
+	<append xpath="/items/item[@name='vehicleGyroCopterChassisSchematic']/property[@name='Unlocks']//@value">,vehicleGyroCopterChassisSchematic</append>	
+	<append xpath="/items/item[@name='vehicleGyroCopterChassisSchematic']">
+		<property name="UnlockedBy" value="vehicleGyroCopterChassisSchematic"/>
+		<property name="Group" value="Books,Mods,DeskOther"/>
+	</append>
+	<append xpath="/items/item[@name='vehicleGyroCopterChassisSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicleGyroCopterChassisSchematic" operation="set" value="1"/>
+	</append>
+
+	<append xpath="/items/item[@name='vehicleGyroCopterAccessoriesSchematic']/property[@name='Unlocks']//@value">,vehicleGyroCopterAccessoriesSchematic</append>	
+	<append xpath="/items/item[@name='vehicleGyroCopterAccessoriesSchematic']">
+		<property name="UnlockedBy" value="toolBevehicleBicycleHandlebarsSchematicllowsSchematic"/>
+		<property name="Group" value="Books,Mods,DeskOther"/>
+	</append>
+	<append xpath="/items/item[@name='vehicleGyroCopterAccessoriesSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicleGyroCopterAccessoriesSchematic" operation="set" value="1"/>
+	</append>
+
+	<append xpath="/items/item[@name='generatorbankSchematic']/property[@name='Unlocks']//@value">,generatorbankSchematic</append>	
+	<append xpath="/items/item[@name='generatorbankSchematic']">
+		<property name="UnlockedBy" value="generatorbankSchematic"/>
+		<property name="Group" value="Books,Mods,DeskOther"/>
+	</append>
+	<append xpath="/items/item[@name='generatorbankSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="generatorbankSchematic" operation="set" value="1"/>
+	</append>
+	
+	<append xpath="/items/item[@name='pressureplateSchematic']/property[@name='Unlocks']//@value">,pressureplateSchematic</append>	
+	<append xpath="/items/item[@name='pressureplateSchematic']">
+		<property name="UnlockedBy" value="pressureplateSchematic"/>
+		<property name="Group" value="Books,Mods,DeskOther"/>
+	</append>
+	<append xpath="/items/item[@name='pressureplateSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="pressureplateSchematic" operation="set" value="1"/>
+	</append>
+
+	<append xpath="/items/item[@name='poweredDoorsSchematic']/property[@name='Unlocks']//@value">,poweredDoorsSchematic</append>	
+	<append xpath="/items/item[@name='poweredDoorsSchematic']">
+		<property name="UnlockedBy" value="poweredDoorsSchematic"/>
+		<property name="Group" value="Books,Mods,DeskOther"/>
+	</append>
+	<append xpath="/items/item[@name='poweredDoorsSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="poweredDoorsSchematic" operation="set" value="1"/>
+	</append>
+	
+	<append xpath="/items/item[@name='bladeTrapSchematic']/property[@name='Unlocks']//@value">,bladeTrapSchematic</append>	
+	<append xpath="/items/item[@name='bladeTrapSchematic']">
+		<property name="UnlockedBy" value="bladeTrapSchematic"/>
+		<property name="Group" value="Books,Mods,DeskOther"/>
+	</append>
+	<append xpath="/items/item[@name='bladeTrapSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="bladeTrapSchematic" operation="set" value="1"/>
+	</append>
+
+	<append xpath="/items/item[@name='dartTrapSchematic']/property[@name='Unlocks']//@value">,dartTrapSchematic</append>	
+	<append xpath="/items/item[@name='dartTrapSchematic']">
+		<property name="UnlockedBy" value="dartTrapSchematic"/>
+		<property name="Group" value="Books,Mods,DeskOther"/>
+	</append>
+	<append xpath="/items/item[@name='dartTrapSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="dartTrapSchematic" operation="set" value="1"/>
+	</append>
+	
+	<append xpath="/items/item[@name='shotgunTurretSchematic']/property[@name='Unlocks']//@value">,shotgunTurretSchematic</append>	
+	<append xpath="/items/item[@name='shotgunTurretSchematic']">
+		<property name="UnlockedBy" value="shotgunTurretSchematic"/>
+		<property name="Group" value="Books,Mods,DeskOther"/>
+	</append>
+	<append xpath="/items/item[@name='shotgunTurretSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="shotgunTurretSchematic" operation="set" value="1"/>
+	</append>
+
+	<append xpath="/items/item[@name='autoTurretSchematic']/property[@name='Unlocks']//@value">,autoTurretSchematic</append>	
+	<append xpath="/items/item[@name='autoTurretSchematic']">
+		<property name="UnlockedBy" value="autoTurretSchematic"/>
+		<property name="Group" value="Books,Mods,DeskOther"/>
+	</append>
+	<append xpath="/items/item[@name='autoTurretSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="autoTurretSchematic" operation="set" value="1"/>
+	</append>
+
+	<append xpath="/items/item[@name='electricfencepostSchematic']/property[@name='Unlocks']//@value">,electricfencepostSchematic</append>	
+	<append xpath="/items/item[@name='electricfencepostSchematic']">
+		<property name="UnlockedBy" value="electricfencepostSchematic"/>
+		<property name="Group" value="Books,Mods,DeskOther"/>
+	</append>
+	<append xpath="/items/item[@name='electricfencepostSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="electricfencepostSchematic" operation="set" value="1"/>
+	</append>
+
+	<append xpath="/items/item[@name='motionsensorSchematic']/property[@name='Unlocks']//@value">,motionsensorSchematic</append>	
+	<append xpath="/items/item[@name='motionsensorSchematic']">
+		<property name="UnlockedBy" value="motionsensorSchematic"/>
+		<property name="Group" value="Books,Mods,DeskOther"/>
+	</append>
+	<append xpath="/items/item[@name='motionsensorSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="motionsensorSchematic" operation="set" value="1"/>
+	</append>
+	
+	<append xpath="/items/item[@name='speakerSchematic']/property[@name='Unlocks']//@value">,speakerSchematic</append>	
+	<append xpath="/items/item[@name='speakerSchematic']">
+		<property name="UnlockedBy" value="speakerSchematic"/>
+		<property name="Group" value="Books,Mods,DeskOther"/>
+	</append>
+	<append xpath="/items/item[@name='speakerSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="speakerSchematic" operation="set" value="1"/>
+	</append>
+
+	<append xpath="/items/item[@name='spotlightPlayerSchematic']/property[@name='Unlocks']//@value">,spotlightPlayerSchematic</append>	
+	<append xpath="/items/item[@name='spotlightPlayerSchematic']">
+		<property name="UnlockedBy" value="spotlightPlayerSchematic"/>
+		<property name="Group" value="Books,Mods,DeskOther"/>
+	</append>
+	<append xpath="/items/item[@name='spotlightPlayerSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="spotlightPlayerSchematic" operation="set" value="1"/>
+	</append>
+	
+	<append xpath="/items/item[@name='switchSchematic']/property[@name='Unlocks']//@value">,switchSchematic</append>	
+	<append xpath="/items/item[@name='switchSchematic']">
+		<property name="UnlockedBy" value="switchSchematic"/>
+		<property name="Group" value="Books,Mods,DeskOther"/>
+	</append>
+	<append xpath="/items/item[@name='switchSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="switchSchematic" operation="set" value="1"/>
+	</append>
+
+	<append xpath="/items/item[@name='batterybankSchematic']/property[@name='Unlocks']//@value">,batterybankSchematic</append>	
+	<append xpath="/items/item[@name='batterybankSchematic']">
+		<property name="UnlockedBy" value="batterybankSchematic"/>
+		<property name="Group" value="Books,Mods,DeskOther"/>
+	</append>
+	<append xpath="/items/item[@name='batterybankSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="batterybankSchematic" operation="set" value="1"/>
+	</append>
+	
+	<append xpath="/items/item[@name='electrictimerrelaySchematic']/property[@name='Unlocks']//@value">,electrictimerrelaySchematic</append>	
+	<append xpath="/items/item[@name='electrictimerrelaySchematic']">
+		<property name="UnlockedBy" value="electrictimerrelaySchematic"/>
+		<property name="Group" value="Books,Mods,DeskOther"/>
+	</append>
+	<append xpath="/items/item[@name='electrictimerrelaySchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="electrictimerrelaySchematic" operation="set" value="1"/>
+	</append>
+	
+	<append xpath="/items/item[@name='ammoGasCanSchematic']/property[@name='Unlocks']//@value">,ammoGasCanSchematic</append>	
+	<append xpath="/items/item[@name='ammoGasCanSchematic']">
+		<property name="UnlockedBy" value="ammoGasCanSchematic"/>
+		<property name="Group" value="Books,Mods,DeskOther"/>
+	</append>
+	<append xpath="/items/item[@name='ammoGasCanSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="ammoGasCanSchematic" operation="set" value="1"/>
+	</append>
+
+	
+	<!-- DeskMods -->
+	<append xpath="/items/item[@name='modGunBarrelExtenderSchematic']/property[@name='Unlocks']//@value">,modGunBarrelExtenderSchematic</append>	
+	<append xpath="/items/item[@name='modGunBarrelExtenderSchematic']">
+		<property name="UnlockedBy" value="modGunBarrelExtenderSchematic"/>
+		<property name="Group" value="Books,Mods,DeskMods"/>
+	</append>
+	<append xpath="/items/item[@name='modGunBarrelExtenderSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunBarrelExtenderSchematic" operation="set" value="1"/>
+	</append>	
+	
+	<append xpath="/items/item[@name='modGunMuzzleBrakeSchematic']/property[@name='Unlocks']//@value">,modGunMuzzleBrakeSchematic</append>	
+	<append xpath="/items/item[@name='modGunMuzzleBrakeSchematic']">
+		<property name="UnlockedBy" value="modGunMuzzleBrakeSchematic"/>
+		<property name="Group" value="Books,Mods,DeskMods"/>
+	</append>
+	<append xpath="/items/item[@name='modGunMuzzleBrakeSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunMuzzleBrakeSchematic" operation="set" value="1"/>
+	</append>
+
+	<append xpath="/items/item[@name='modGunSoundSuppressorSilencerSchematic']/property[@name='Unlocks']//@value">,modGunSoundSuppressorSilencerSchematic</append>	
+	<append xpath="/items/item[@name='modGunSoundSuppressorSilencerSchematic']">
+		<property name="UnlockedBy" value="modGunSoundSuppressorSilencerSchematic"/>
+		<property name="Group" value="Books,Mods,DeskMods"/>
+	</append>
+	<append xpath="/items/item[@name='modGunSoundSuppressorSilencerSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunSoundSuppressorSilencerSchematic" operation="set" value="1"/>
+	</append>	
+
+	<append xpath="/items/item[@name='modGunLaserSightSchematic']/property[@name='Unlocks']//@value">,modGunLaserSightSchematic</append>	
+	<append xpath="/items/item[@name='modGunLaserSightSchematic']">
+		<property name="UnlockedBy" value="modGunLaserSightSchematic"/>
+		<property name="Group" value="Books,Mods,DeskMods"/>
+	</append>
+	<append xpath="/items/item[@name='modGunLaserSightSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunLaserSightSchematic" operation="set" value="1"/>
+	</append>	
+
+	<append xpath="/items/item[@name='modGunFlashlightSchematic']/property[@name='Unlocks']//@value">,modGunFlashlightSchematic</append>	
+	<append xpath="/items/item[@name='modGunFlashlightSchematic']">
+		<property name="UnlockedBy" value="modGunFlashlightSchematic"/>
+		<property name="Group" value="Books,Mods,DeskMods"/>
+	</append>
+	<append xpath="/items/item[@name='modGunFlashlightSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunFlashlightSchematic" operation="set" value="1"/>
+	</append>	
+
+	<append xpath="/items/item[@name='modGunScopeSmallSchematic']/property[@name='Unlocks']//@value">,modGunScopeSmallSchematic</append>	
+	<append xpath="/items/item[@name='modGunScopeSmallSchematic']">
+		<property name="UnlockedBy" value="modGunScopeSmallSchematic"/>
+		<property name="Group" value="Books,Mods,DeskMods"/>
+	</append>
+	<append xpath="/items/item[@name='modGunScopeSmallSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunScopeSmallSchematic" operation="set" value="1"/>
+	</append>	
+
+	<append xpath="/items/item[@name='modGunScopeMediumSchematic']/property[@name='Unlocks']//@value">,modGunScopeMediumSchematic</append>	
+	<append xpath="/items/item[@name='modGunScopeMediumSchematic']">
+		<property name="UnlockedBy" value="modGunScopeMediumSchematic"/>
+		<property name="Group" value="Books,Mods,DeskMods"/>
+	</append>
+	<append xpath="/items/item[@name='modGunScopeMediumSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunScopeMediumSchematic" operation="set" value="1"/>
+	</append>	
+
+	<append xpath="/items/item[@name='modGunScopeLargeSchematic']/property[@name='Unlocks']//@value">,modGunScopeLargeSchematic</append>	
+	<append xpath="/items/item[@name='modGunScopeLargeSchematic']">
+		<property name="UnlockedBy" value="modGunScopeLargeSchematic"/>
+		<property name="Group" value="Books,Mods,DeskMods"/>
+	</append>
+	<append xpath="/items/item[@name='modGunScopeLargeSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunScopeLargeSchematic" operation="set" value="1"/>
+	</append>	
+
+	<append xpath="/items/item[@name='modGunReflexSightSchematic']/property[@name='Unlocks']//@value">,modGunReflexSightSchematic</append>	
+	<append xpath="/items/item[@name='modGunReflexSightSchematic']">
+		<property name="UnlockedBy" value="modGunReflexSightSchematic"/>
+		<property name="Group" value="Books,Mods,DeskMods"/>
+	</append>
+	<append xpath="/items/item[@name='modGunReflexSightSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunReflexSightSchematic" operation="set" value="1"/>
+	</append>	
+
+	<append xpath="/items/item[@name='modGunTriggerGroupSemiSchematic']/property[@name='Unlocks']//@value">,modGunTriggerGroupSemiSchematic</append>	
+	<append xpath="/items/item[@name='modGunTriggerGroupSemiSchematic']">
+		<property name="UnlockedBy" value="modGunTriggerGroupSemiSchematic"/>
+		<property name="Group" value="Books,Mods,DeskMods"/>
+	</append>
+	<append xpath="/items/item[@name='modGunTriggerGroupSemiSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunTriggerGroupSemiSchematic" operation="set" value="1"/>
+	</append>	
+
+	<append xpath="/items/item[@name='modGunTriggerGroupBurst3Schematic']/property[@name='Unlocks']//@value">,modGunTriggerGroupBurst3Schematic</append>	
+	<append xpath="/items/item[@name='modGunTriggerGroupBurst3Schematic']">
+		<property name="UnlockedBy" value="modGunTriggerGroupBurst3Schematic"/>
+		<property name="Group" value="Books,Mods,DeskMods"/>
+	</append>
+	<append xpath="/items/item[@name='modGunTriggerGroupBurst3Schematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunTriggerGroupBurst3Schematic" operation="set" value="1"/>
+	</append>	
+
+	<append xpath="/items/item[@name='modGunTriggerGroupAutomaticSchematic']/property[@name='Unlocks']//@value">,modGunTriggerGroupAutomaticSchematic</append>	
+	<append xpath="/items/item[@name='modGunTriggerGroupAutomaticSchematic']">
+		<property name="UnlockedBy" value="modGunTriggerGroupAutomaticSchematic"/>
+		<property name="Group" value="Books,Mods,DeskMods"/>
+	</append>
+	<append xpath="/items/item[@name='modGunTriggerGroupAutomaticSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunTriggerGroupAutomaticSchematic" operation="set" value="1"/>
+	</append>	
+
+	<append xpath="/items/item[@name='modGunBipodSchematic']/property[@name='Unlocks']//@value">,modGunBipodSchematic</append>	
+	<append xpath="/items/item[@name='modGunBipodSchematic']">
+		<property name="UnlockedBy" value="modGunBipodSchematic"/>
+		<property name="Group" value="Books,Mods,DeskMods"/>
+	</append>
+	<append xpath="/items/item[@name='modGunBipodSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunBipodSchematic" operation="set" value="1"/>
+	</append>	
+
+	<append xpath="/items/item[@name='modGunForegripSchematic']/property[@name='Unlocks']//@value">,modGunForegripSchematic</append>	
+	<append xpath="/items/item[@name='modGunForegripSchematic']">
+		<property name="UnlockedBy" value="modGunForegripSchematic"/>
+		<property name="Group" value="Books,Mods,DeskMods"/>
+	</append>
+	<append xpath="/items/item[@name='modGunForegripSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunForegripSchematic" operation="set" value="1"/>
+	</append>	
+
+	<append xpath="/items/item[@name='modGunRetractingStockSchematic']/property[@name='Unlocks']//@value">,modGunRetractingStockSchematic</append>	
+	<append xpath="/items/item[@name='modGunRetractingStockSchematic']">
+		<property name="UnlockedBy" value="modGunRetractingStockSchematic"/>
+		<property name="Group" value="Books,Mods,DeskMods"/>
+	</append>
+	<append xpath="/items/item[@name='modGunRetractingStockSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunRetractingStockSchematic" operation="set" value="1"/>
+	</append>	
+
+	<append xpath="/items/item[@name='modGunDuckbillSchematic']/property[@name='Unlocks']//@value">,modGunDuckbillSchematic</append>	
+	<append xpath="/items/item[@name='modGunDuckbillSchematic']">
+		<property name="UnlockedBy" value="modGunDuckbillSchematic"/>
+		<property name="Group" value="Books,Mods,DeskMods"/>
+	</append>
+	<append xpath="/items/item[@name='modGunDuckbillSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunDuckbillSchematic" operation="set" value="1"/>
+	</append>		
+
+	<append xpath="/items/item[@name='modGunChokeSchematic']/property[@name='Unlocks']//@value">,modGunChokeSchematic</append>	
+	<append xpath="/items/item[@name='modGunChokeSchematic']">
+		<property name="UnlockedBy" value="modGunChokeSchematic"/>
+		<property name="Group" value="Books,Mods,DeskMods"/>
+	</append>
+	<append xpath="/items/item[@name='modGunChokeSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunChokeSchematic" operation="set" value="1"/>
+	</append>	
+	
+	<append xpath="/items/item[@name='modGunMagazineExtenderSchematic']/property[@name='Unlocks']//@value">,modGunMagazineExtenderSchematic</append>	
+	<append xpath="/items/item[@name='modGunMagazineExtenderSchematic']">
+		<property name="UnlockedBy" value="modGunMagazineExtenderSchematic"/>
+		<property name="Group" value="Books,Mods,DeskMods"/>
+	</append>
+	<append xpath="/items/item[@name='modGunMagazineExtenderSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunMagazineExtenderSchematic" operation="set" value="1"/>
+	</append>	
+
+	<append xpath="/items/item[@name='modShotgunSawedOffBarrelSchematic']/property[@name='Unlocks']//@value">,modShotgunSawedOffBarrelSchematic</append>	
+	<append xpath="/items/item[@name='modShotgunSawedOffBarrelSchematic']">
+		<property name="UnlockedBy" value="modShotgunSawedOffBarrelSchematic"/>
+		<property name="Group" value="Books,Mods,DeskMods"/>
+	</append>
+	<append xpath="/items/item[@name='modShotgunSawedOffBarrelSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modShotgunSawedOffBarrelSchematic" operation="set" value="1"/>
+	</append>	
+
+	<append xpath="/items/item[@name='modGunCrippleEmSchematic']/property[@name='Unlocks']//@value">,modGunCrippleEmSchematic</append>	
+	<append xpath="/items/item[@name='modGunCrippleEmSchematic']">
+		<property name="UnlockedBy" value="modGunCrippleEmSchematic"/>
+		<property name="Group" value="Books,Mods,DeskMods"/>
+	</append>
+	<append xpath="/items/item[@name='modGunCrippleEmSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunCrippleEmSchematic" operation="set" value="1"/>
+	</append>	
+
+	<append xpath="/items/item[@name='modGunBowPolymerStringSchematic']/property[@name='Unlocks']//@value">,modGunBowPolymerStringSchematic</append>	
+	<append xpath="/items/item[@name='modGunBowPolymerStringSchematic']">
+		<property name="UnlockedBy" value="modGunBowPolymerStringSchematic"/>
+		<property name="Group" value="Books,Mods,DeskMods"/>
+	</append>
+	<append xpath="/items/item[@name='modGunBowPolymerStringSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunBowPolymerStringSchematic" operation="set" value="1"/>
+	</append>	
+
+	<append xpath="/items/item[@name='modGunBowArrowRestSchematic']/property[@name='Unlocks']//@value">,modGunBowArrowRestSchematic</append>	
+	<append xpath="/items/item[@name='modGunBowArrowRestSchematic']">
+		<property name="UnlockedBy" value="modGunBowArrowRestSchematic"/>
+		<property name="Group" value="Books,Mods,DeskMods"/>
+	</append>
+	<append xpath="/items/item[@name='modGunBowArrowRestSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunBowArrowRestSchematic" operation="set" value="1"/>
+	</append>	
+
+	<append xpath="/items/item[@name='modGunMeleeTheHunterSchematic']/property[@name='Unlocks']//@value">,modGunMeleeTheHunterSchematic</append>	
+	<append xpath="/items/item[@name='modGunMeleeTheHunterSchematic']">
+		<property name="UnlockedBy" value="modGunMeleeTheHunterSchematic"/>
+		<property name="Group" value="Books,Mods,DeskMods"/>
+	</append>
+	<append xpath="/items/item[@name='modGunMeleeTheHunterSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunMeleeTheHunterSchematic" operation="set" value="1"/>
+	</append>	
+
+	<append xpath="/items/item[@name='modGunMeleeRadRemoverSchematic']/property[@name='Unlocks']//@value">,modGunMeleeRadRemoverSchematic</append>	
+	<append xpath="/items/item[@name='modGunMeleeRadRemoverSchematic']">
+		<property name="UnlockedBy" value="modGunMeleeRadRemoverSchematic"/>
+		<property name="Group" value="Books,Mods,DeskMods"/>
+	</append>
+	<append xpath="/items/item[@name='modGunMeleeRadRemoverSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunMeleeRadRemoverSchematic" operation="set" value="1"/>
+	</append>		
+
+	<append xpath="/items/item[@name='modGunChokeSchematic']/property[@name='Unlocks']//@value">,modGunChokeSchematic</append>	
+	<append xpath="/items/item[@name='modGunChokeSchematic']">
+		<property name="UnlockedBy" value="modGunChokeSchematic"/>
+		<property name="Group" value="Books,Mods,DeskMods"/>
+	</append>
+	<append xpath="/items/item[@name='modGunChokeSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunChokeSchematic" operation="set" value="1"/>
+	</append>
+		
+	<append xpath="/items/item[@name='modMeleeTemperedBladeSchematic']/property[@name='Unlocks']//@value">,modMeleeTemperedBladeSchematic</append>	
+	<append xpath="/items/item[@name='modMeleeTemperedBladeSchematic']">
+		<property name="UnlockedBy" value="modMeleeTemperedBladeSchematic"/>
+		<property name="Group" value="Books,Mods,DeskMods"/>
+	</append>
+	<append xpath="/items/item[@name='modMeleeTemperedBladeSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modMeleeTemperedBladeSchematic" operation="set" value="1"/>
+	</append>	
+
+	<append xpath="/items/item[@name='modMeleeSerratedBladeSchematic']/property[@name='Unlocks']//@value">,modMeleeSerratedBladeSchematic</append>	
+	<append xpath="/items/item[@name='modMeleeSerratedBladeSchematic']">
+		<property name="UnlockedBy" value="modMeleeSerratedBladeSchematic"/>
+		<property name="Group" value="Books,Mods,DeskMods"/>
+	</append>
+	<append xpath="/items/item[@name='modMeleeSerratedBladeSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modMeleeSerratedBladeSchematic" operation="set" value="1"/>
+	</append>	
+
+	<append xpath="/items/item[@name='modMeleeWeightedHeadSchematic']/property[@name='Unlocks']//@value">,modMeleeWeightedHeadSchematic</append>	
+	<append xpath="/items/item[@name='modMeleeWeightedHeadSchematic']">
+		<property name="UnlockedBy" value="modMeleeWeightedHeadSchematic"/>
+		<property name="Group" value="Books,Mods,DeskMods"/>
+	</append>
+	<append xpath="/items/item[@name='modMeleeWeightedHeadSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modMeleeWeightedHeadSchematic" operation="set" value="1"/>
+	</append>	
+
+	<append xpath="/items/item[@name='modMeleeStructuralBraceSchematic']/property[@name='Unlocks']//@value">,modMeleeStructuralBraceSchematic</append>	
+	<append xpath="/items/item[@name='modMeleeStructuralBraceSchematic']">
+		<property name="UnlockedBy" value="modMeleeStructuralBraceSchematic"/>
+		<property name="Group" value="Books,Mods,DeskMods"/>
+	</append>
+	<append xpath="/items/item[@name='modMeleeStructuralBraceSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modMeleeStructuralBraceSchematic" operation="set" value="1"/>
+	</append>	
+
+	<append xpath="/items/item[@name='modMeleeErgonomicGripSchematic']/property[@name='Unlocks']//@value">,modMeleeErgonomicGripSchematic</append>	
+	<append xpath="/items/item[@name='modMeleeErgonomicGripSchematic']">
+		<property name="UnlockedBy" value="modMeleeErgonomicGripSchematic"/>
+		<property name="Group" value="Books,Mods,DeskMods"/>
+	</append>
+	<append xpath="/items/item[@name='modMeleeErgonomicGripSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modMeleeErgonomicGripSchematic" operation="set" value="1"/>
+	</append>	
+
+	<append xpath="/items/item[@name='modMeleeFortifyingGripSchematic']/property[@name='Unlocks']//@value">,modMeleeFortifyingGripSchematic</append>	
+	<append xpath="/items/item[@name='modMeleeFortifyingGripSchematic']">
+		<property name="UnlockedBy" value="modMeleeFortifyingGripSchematic"/>
+		<property name="Group" value="Books,Mods,DeskMods"/>
+	</append>
+	<append xpath="/items/item[@name='modMeleeFortifyingGripSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modMeleeFortifyingGripSchematic" operation="set" value="1"/>
+	</append>	
+
+	<append xpath="/items/item[@name='modMeleeClubBarbedWireSchematic']/property[@name='Unlocks']//@value">,modMeleeClubBarbedWireSchematic</append>	
+	<append xpath="/items/item[@name='modMeleeClubBarbedWireSchematic']">
+		<property name="UnlockedBy" value="modMeleeClubBarbedWireSchematic"/>
+		<property name="Group" value="Books,Mods,DeskMods"/>
+	</append>
+	<append xpath="/items/item[@name='modMeleeClubBarbedWireSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modMeleeClubBarbedWireSchematic" operation="set" value="1"/>
+	</append>		
+
+	<append xpath="/items/item[@name='modMeleeClubMetalSpikesSchematic']/property[@name='Unlocks']//@value">,modMeleeClubMetalSpikesSchematic</append>	
+	<append xpath="/items/item[@name='modMeleeClubMetalSpikesSchematic']">
+		<property name="UnlockedBy" value="modMeleeClubMetalSpikesSchematic"/>
+		<property name="Group" value="Books,Mods,DeskMods"/>
+	</append>
+	<append xpath="/items/item[@name='modMeleeClubMetalSpikesSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modMeleeClubMetalSpikesSchematic" operation="set" value="1"/>
+	</append>	
+	
+	<append xpath="/items/item[@name='modMeleeGraveDiggerSchematic']/property[@name='Unlocks']//@value">,modMeleeGraveDiggerSchematic</append>	
+	<append xpath="/items/item[@name='modMeleeGraveDiggerSchematic']">
+		<property name="UnlockedBy" value="modMeleeGraveDiggerSchematic"/>
+		<property name="Group" value="Books,Mods,DeskMods"/>
+	</append>
+	<append xpath="/items/item[@name='modMeleeGraveDiggerSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modMeleeGraveDiggerSchematic" operation="set" value="1"/>
+	</append>	
+
+	<append xpath="/items/item[@name='modMeleeBunkerBusterSchematic']/property[@name='Unlocks']//@value">,modMeleeBunkerBusterSchematic</append>	
+	<append xpath="/items/item[@name='modMeleeBunkerBusterSchematic']">
+		<property name="UnlockedBy" value="modMeleeBunkerBusterSchematic"/>
+		<property name="Group" value="Books,Mods,DeskMods"/>
+	</append>
+	<append xpath="/items/item[@name='modMeleeBunkerBusterSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modMeleeBunkerBusterSchematic" operation="set" value="1"/>
+	</append>	
+
+	<append xpath="/items/item[@name='modMeleeIronBreakerSchematic']/property[@name='Unlocks']//@value">,modMeleeIronBreakerSchematic</append>	
+	<append xpath="/items/item[@name='modMeleeIronBreakerSchematic']">
+		<property name="UnlockedBy" value="modMeleeIronBreakerSchematic"/>
+		<property name="Group" value="Books,Mods,DeskMods"/>
+	</append>
+	<append xpath="/items/item[@name='modMeleeIronBreakerSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modMeleeIronBreakerSchematic" operation="set" value="1"/>
+	</append>	
+
+	<append xpath="/items/item[@name='modMeleeWoodSplitterSchematic']/property[@name='Unlocks']//@value">,modMeleeWoodSplitterSchematic</append>	
+	<append xpath="/items/item[@name='modMeleeWoodSplitterSchematic']">
+		<property name="UnlockedBy" value="modMeleeWoodSplitterSchematic"/>
+		<property name="Group" value="Books,Mods,DeskMods"/>
+	</append>
+	<append xpath="/items/item[@name='modMeleeWoodSplitterSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modMeleeWoodSplitterSchematic" operation="set" value="1"/>
+	</append>	
+
+	<append xpath="/items/item[@name='modMeleeClubBurningShaftSchematic']/property[@name='Unlocks']//@value">,modMeleeClubBurningShaftSchematic</append>	
+	<append xpath="/items/item[@name='modMeleeClubBurningShaftSchematic']">
+		<property name="UnlockedBy" value="modMeleeClubBurningShaftSchematic"/>
+		<property name="Group" value="Books,Mods,DeskMods"/>
+	</append>
+	<append xpath="/items/item[@name='modMeleeClubBurningShaftSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modMeleeClubBurningShaftSchematic" operation="set" value="1"/>
+	</append>	
+
+	<append xpath="/items/item[@name='modArmorInsulatedLinerSchematic']/property[@name='Unlocks']//@value">,modArmorInsulatedLinerSchematic</append>	
+	<append xpath="/items/item[@name='modArmorInsulatedLinerSchematic']">
+		<property name="UnlockedBy" value="modArmorInsulatedLinerSchematic"/>
+		<property name="Group" value="Books,Mods,DeskMods"/>
+	</append>
+	<append xpath="/items/item[@name='modArmorInsulatedLinerSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorInsulatedLinerSchematic" operation="set" value="1"/>
+	</append>	
+
+	<append xpath="/items/item[@name='modArmorCoolingMeshSchematic']/property[@name='Unlocks']//@value">,modArmorCoolingMeshSchematic</append>	
+	<append xpath="/items/item[@name='modArmorCoolingMeshSchematic']">
+		<property name="UnlockedBy" value="modArmorCoolingMeshSchematic"/>
+		<property name="Group" value="Books,Mods,DeskMods"/>
+	</append>
+	<append xpath="/items/item[@name='modArmorCoolingMeshSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorCoolingMeshSchematic" operation="set" value="1"/>
+	</append>		
+
+	<append xpath="/items/item[@name='modArmorImprovedFittingsSchematic']/property[@name='Unlocks']//@value">,modArmorImprovedFittingsSchematic</append>	
+	<append xpath="/items/item[@name='modArmorImprovedFittingsSchematic']">
+		<property name="UnlockedBy" value="modArmorImprovedFittingsSchematic"/>
+		<property name="Group" value="Books,Mods,DeskMods"/>
+	</append>
+	<append xpath="/items/item[@name='modArmorImprovedFittingsSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorImprovedFittingsSchematic" operation="set" value="1"/>
+	</append>	
+	
+	<append xpath="/items/item[@name='modArmorCustomizedFittingsSchematic']/property[@name='Unlocks']//@value">,modArmorCustomizedFittingsSchematic</append>	
+	<append xpath="/items/item[@name='modArmorCustomizedFittingsSchematic']">
+		<property name="UnlockedBy" value="modArmorCustomizedFittingsSchematic"/>
+		<property name="Group" value="Books,Mods,DeskMods"/>
+	</append>
+	<append xpath="/items/item[@name='modArmorCustomizedFittingsSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorCustomizedFittingsSchematic" operation="set" value="1"/>
+	</append>	
+
+	<append xpath="/items/item[@name='modArmorPlatingBasicSchematic']/property[@name='Unlocks']//@value">,modArmorPlatingBasicSchematic</append>	
+	<append xpath="/items/item[@name='modArmorPlatingBasicSchematic']">
+		<property name="UnlockedBy" value="modArmorPlatingBasicSchematic"/>
+		<property name="Group" value="Books,Mods,DeskMods"/>
+	</append>
+	<append xpath="/items/item[@name='modArmorPlatingBasicSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorPlatingBasicSchematic" operation="set" value="1"/>
+	</append>	
+
+	<append xpath="/items/item[@name='modArmorPlatingReinforcedSchematic']/property[@name='Unlocks']//@value">,modArmorPlatingReinforcedSchematic</append>	
+	<append xpath="/items/item[@name='modArmorPlatingReinforcedSchematic']">
+		<property name="UnlockedBy" value="modArmorPlatingReinforcedSchematic"/>
+		<property name="Group" value="Books,Mods,DeskMods"/>
+	</append>
+	<append xpath="/items/item[@name='modArmorPlatingReinforcedSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorPlatingReinforcedSchematic" operation="set" value="1"/>
+	</append>	
+
+	<append xpath="/items/item[@name='modArmorStoragePocketSchematic']/property[@name='Unlocks']//@value">,modArmorStoragePocketSchematic</append>	
+	<append xpath="/items/item[@name='modArmorStoragePocketSchematic']">
+		<property name="UnlockedBy" value="modArmorStoragePocketSchematic"/>
+		<property name="Group" value="Books,Mods,DeskMods"/>
+	</append>
+	<append xpath="/items/item[@name='modArmorStoragePocketSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorStoragePocketSchematic" operation="set" value="1"/>
+	</append>	
+
+	<append xpath="/items/item[@name='modArmorDoubleStoragePocketSchematic']/property[@name='Unlocks']//@value">,modArmorDoubleStoragePocketSchematic</append>	
+	<append xpath="/items/item[@name='modArmorDoubleStoragePocketSchematic']">
+		<property name="UnlockedBy" value="modArmorDoubleStoragePocketSchematic"/>
+		<property name="Group" value="Books,Mods,DeskMods"/>
+	</append>
+	<append xpath="/items/item[@name='modArmorDoubleStoragePocketSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorDoubleStoragePocketSchematic" operation="set" value="1"/>
+	</append>	
+
+	<append xpath="/items/item[@name='modArmorTripleStoragePocketSchematic']/property[@name='Unlocks']//@value">,modArmorTripleStoragePocketSchematic</append>	
+	<append xpath="/items/item[@name='modArmorTripleStoragePocketSchematic']">
+		<property name="UnlockedBy" value="modArmorTripleStoragePocketSchematic"/>
+		<property name="Group" value="Books,Mods,DeskMods"/>
+	</append>
+	<append xpath="/items/item[@name='modArmorTripleStoragePocketSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorTripleStoragePocketSchematic" operation="set" value="1"/>
+	</append>	
+
+	<append xpath="/items/item[@name='modArmorMuffledConnectorsSchematic']/property[@name='Unlocks']//@value">,modArmorMuffledConnectorsSchematic</append>	
+	<append xpath="/items/item[@name='modArmorMuffledConnectorsSchematic']">
+		<property name="UnlockedBy" value="modArmorMuffledConnectorsSchematic"/>
+		<property name="Group" value="Books,Mods,DeskMods"/>
+	</append>
+	<append xpath="/items/item[@name='modArmorMuffledConnectorsSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorMuffledConnectorsSchematic" operation="set" value="1"/>
+	</append>		
+
+	<append xpath="/items/item[@name='modArmorAdvancedMuffledConnectorsSchematic']/property[@name='Unlocks']//@value">,modArmorAdvancedMuffledConnectorsSchematic</append>	
+	<append xpath="/items/item[@name='modArmorAdvancedMuffledConnectorsSchematic']">
+		<property name="UnlockedBy" value="modArmorAdvancedMuffledConnectorsSchematic"/>
+		<property name="Group" value="Books,Mods,DeskMods"/>
+	</append>
+	<append xpath="/items/item[@name='modArmorAdvancedMuffledConnectorsSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorAdvancedMuffledConnectorsSchematic" operation="set" value="1"/>
+	</append>	
+
+	<append xpath="/items/item[@name='modArmorImpactBracingSchematic']/property[@name='Unlocks']//@value">,modArmorImpactBracingSchematic</append>	
+	<append xpath="/items/item[@name='modArmorImpactBracingSchematic']">
+		<property name="UnlockedBy" value="modArmorImpactBracingSchematic"/>
+		<property name="Group" value="Books,Mods,DeskMods"/>
+	</append>
+	<append xpath="/items/item[@name='modArmorImpactBracingSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorImpactBracingSchematic" operation="set" value="1"/>
+	</append>	
+
+	<append xpath="/items/item[@name='modArmorBandolierSchematic']/property[@name='Unlocks']//@value">,modArmorBandolierSchematic</append>	
+	<append xpath="/items/item[@name='modArmorBandolierSchematic']">
+		<property name="UnlockedBy" value="modArmorBandolierSchematic"/>
+		<property name="Group" value="Books,Mods,DeskMods"/>
+	</append>
+	<append xpath="/items/item[@name='modArmorBandolierSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorBandolierSchematic" operation="set" value="1"/>
+	</append>	
+
+	<append xpath="/items/item[@name='modArmorWaterPurifierSchematic']/property[@name='Unlocks']//@value">,modArmorWaterPurifierSchematic</append>	
+	<append xpath="/items/item[@name='modArmorWaterPurifierSchematic']">
+		<property name="UnlockedBy" value="modArmorWaterPurifierSchematic"/>
+		<property name="Group" value="Books,Mods,DeskMods"/>
+	</append>
+	<append xpath="/items/item[@name='modArmorWaterPurifierSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorWaterPurifierSchematic" operation="set" value="1"/>
+	</append>	
+
+	<append xpath="/items/item[@name='modArmorHelmetLightSchematic']/property[@name='Unlocks']//@value">,modArmorHelmetLightSchematic</append>	
+	<append xpath="/items/item[@name='modArmorHelmetLightSchematic']">
+		<property name="UnlockedBy" value="modArmorHelmetLightSchematic"/>
+		<property name="Group" value="Books,Mods,DeskMods"/>
+	</append>
+	<append xpath="/items/item[@name='modArmorHelmetLightSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorHelmetLightSchematic" operation="set" value="1"/>
+	</append>	
+
+	<append xpath="/items/item[@name='modFuelTankSmallSchematic']/property[@name='Unlocks']//@value">,modFuelTankSmallSchematic</append>	
+	<append xpath="/items/item[@name='modFuelTankSmallSchematic']">
+		<property name="UnlockedBy" value="modFuelTankSmallSchematic"/>
+		<property name="Group" value="Books,Mods,DeskMods"/>
+	</append>
+	<append xpath="/items/item[@name='modFuelTankSmallSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modFuelTankSmallSchematic" operation="set" value="1"/>
+	</append>		
+
+	<append xpath="/items/item[@name='modFuelTankLargeSchematic']/property[@name='Unlocks']//@value">,modFuelTankLargeSchematic</append>	
+	<append xpath="/items/item[@name='modFuelTankLargeSchematic']">
+		<property name="UnlockedBy" value="modFuelTankLargeSchematic"/>
+		<property name="Group" value="Books,Mods,DeskMods"/>
+	</append>
+	<append xpath="/items/item[@name='modFuelTankLargeSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modFuelTankLargeSchematic" operation="set" value="1"/>
+	</append>
+
+
+	<!-- DeskResources -->
+	<append xpath="/items/item[@name='resourceOilSchematic']/property[@name='Unlocks']//@value">,resourceOilSchematic</append>	
+	<append xpath="/items/item[@name='resourceOilSchematic']">
+		<property name="UnlockedBy" value="resourceOilSchematic"/>
+		<property name="Group" value="Resources"/>
+	</append>
+	<append xpath="/items/item[@name='resourceOilSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="resourceOilSchematic" operation="set" value="1"/>
+	</append>	
+
+	<append xpath="/items/item[@name='resourceMilitaryFiberSchematic']/property[@name='Unlocks']//@value">,resourceMilitaryFiberSchematic</append>	
+	<append xpath="/items/item[@name='resourceMilitaryFiberSchematic']">
+		<property name="UnlockedBy" value="resourceMilitaryFiberSchematic"/>
+		<property name="Group" value="Resources"/>
+	</append>
+	<append xpath="/items/item[@name='resourceMilitaryFiberSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="resourceMilitaryFiberSchematic" operation="set" value="1"/>
+	</append>
+	
+	
+	
+	
+	<append xpath="/items">
+
+		<item name="book_TRW">
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="book"/>
+			<property name="DescriptionKey" value="bookDesc"/>
+			<property name="HoldType" value="21"/>
+			<property name="Meshfile" value="#Other/Items?Misc/bookPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mpaper"/>
+			<property name="Weight" value="5"/>
+			<property name="FuelValue" value="5"/>
+			<property name="Stacknumber" value="5"/> <!-- STK book -->
+			<property name="EconomicValue" value="10"/>
+			<property name="Group" value="Books,Resources,DeskBook"/>
+		</item>
+
+	</append>	
+	
+</configs>

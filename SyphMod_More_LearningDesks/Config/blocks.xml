@@ -1,0 +1,46 @@
+<configs>
+	
+	<append xpath="/blocks">
+	
+		<block name="woodDesk_TRW">
+			<property name="Extends" value="cntWoodDesk01Open"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="woodDesk" />
+			<property name="Stacknumber" value="1" />
+			<property name="Class" value="Campfire" />	
+			<property class="Workstation">
+				<property name="Modules" value="output,input"/>
+				<property name="Collide" value="melee,bullet,arrow,rocket"/>
+				<property name="CraftingAreaRecipes" value="desk"/>
+			</property>
+			<property name="WorkstationWindow" value="workstation_desk" />
+			<property name="OpenSound" value="campfire_open" />
+			<property name="CloseSound" value="campfire_close" />
+			<property name="WorkstationIcon" value="ui_game_symbol_Desk"/>
+			<!--<property name="CraftActionName" value="lblContextActionCook"/>
+			<property name="CraftIcon" value="ui_game_symbol_spatula"/>-->
+			<property name="DescriptionKey" value="deskGroupDesc"/>
+			<property name="Model" value="Furniture/desk01" param1="main_mesh"/>
+		</block>
+
+		<block name="metalDesk_TRW">
+			<property name="Extends" value="woodDesk_TRW"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="metalDesk"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="StabilitySupport" value="true"/>
+			<property name="Texture" value="293"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="Entities/Furniture/cntMetalDesk02ClosedPrefab"/>
+			<property name="Path" value="solid"/>
+			<property name="Place" value="TowardsPlacerInverted"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="MultiBlockDim" value="2,1,1"/>
+			<property name="ImposterExchange" value="imposterBlock" param1="161"/>
+			<property name="FilterTags" value="floot,ffurniture"/>
+		</block>
+
+	</append>
+	
+</configs>

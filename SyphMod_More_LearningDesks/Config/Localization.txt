@@ -1,0 +1,17 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
+
+book_TRW,items,Item,,,Book,,,,Livre,,,,,,,,,,
+bookDesc,items,Item,,,An old book will get you paper.,,,,Un vieux livre qui vous fournira du papier.,,,,,,,,,,
+plumbingBook_TRW,items,Item,,,Plumbing for Dummies,,,,Plomberie pour les nuls,,,,,,,,,,
+plumbingBookDesc,items,Item,,,"An Plumbing magazine.",,,,"Un magazine de Plomberie.",,,,,,,,,,
+
+woodDesk_TRW,blocks,Workstation,,,Wood Desk,,,,Bureau en bois,,,,,,,,,,
+metalDesk_TRW,blocks,Workstation,,,Metal Desk,,,,Bureau en metal,,,,,,,,,,
+deskGroupDesc,blocks,Workstation,,,A Desk.,,,,Un bureau.,,,,,,,,,,
+
+lblCategorySeed,UI,Tooltip,,,Seed,,,,Graine,,,,,,,,,,,
+lblCategoryBook,UI,Tooltip,,,Book,,,,Livre,,,,,,,,,,,
+lblCategoryScroll,UI,Tooltip,,,Mods,,,,Mods,,,,,,,,,,,
+lblCategoryFoodMedic,UI,Tooltip,,,Foods/Medical,,,,Nourritures/Medical,,,,,,,,,,,
+lblCategoryWeapCloth,UI,Tooltip,,,Weapons/Clothes,,,,Armes/Vetements,,,,,,,,,,,
+lblCategoryOther,UI,Tooltip,,,Others,,,,Autres,,,,,,,,,,,

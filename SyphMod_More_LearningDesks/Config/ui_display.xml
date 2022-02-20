@@ -1,0 +1,27 @@
+<configs>
+	
+	<append xpath="/ui_display_info/crafting_category_display">
+
+		<crafting_category_list display_type="woodDesk_TRW">
+			<crafting_category name="Resources" icon="ui_game_symbol_resource" display_name="lblCategoryResources" />
+			<!--<crafting_category name="DeskMag" icon="ui_game_symbol_Mag" display_name="lblCategoryBook" />-->
+			<crafting_category name="DeskSeed" icon="ui_game_symbol_Seed" display_name="lblCategorySeed" />
+			<crafting_category name="DeskFood" icon="ui_game_symbol_FoodMed" display_name="lblCategoryFoodMedic" />
+			<crafting_category name="DeskOther" icon="ui_game_symbol_tool" display_name="lblCategoryOther" />
+			<crafting_category name="DeskWeapCloth" icon="ui_game_symbol_WeapCloth" display_name="lblCategoryWeapCloth" />
+			<crafting_category name="DeskMods" icon="ui_game_symbol_Scroll" display_name="lblCategoryScroll" />
+		</crafting_category_list>
+		
+		<crafting_category_list display_type="metalDesk_TRW">
+			<crafting_category name="Resources" icon="ui_game_symbol_resource" display_name="lblCategoryResources" />
+			<!--<crafting_category name="DeskMag" icon="ui_game_symbol_Mag" display_name="lblCategoryBook" />-->
+			<crafting_category name="DeskSeed" icon="ui_game_symbol_Seed" display_name="lblCategorySeed" />
+			<crafting_category name="DeskFood" icon="ui_game_symbol_FoodMed" display_name="lblCategoryFoodMedic" />
+			<crafting_category name="DeskOther" icon="ui_game_symbol_tool" display_name="lblCategoryOther" />
+			<crafting_category name="DeskWeapCloth" icon="ui_game_symbol_WeapCloth" display_name="lblCategoryWeapCloth" />
+			<crafting_category name="DeskMods" icon="ui_game_symbol_Scroll" display_name="lblCategoryScroll" />
+		</crafting_category_list>
+		
+	</append>
+	
+</configs>	
