@@ -1,0 +1,52 @@
+<configs>
+
+	<append xpath="/items">
+
+		<item name="drinkSparklingWater">
+			<property name="HoldType" value="3"/>
+			<property name="CustomIcon" value="drinkSparklingWater"/>
+			<property name="EconomicValue" value="120"/>
+			<property name="DescriptionKey" value="drinkSparklingWaterDesc"/>
+			<property name="DisplayType" value="waterGoldenrodRedTea"/>
+			<property name="Meshfile" value="#Other/Items?Food/bottled_waterPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mglass"/>
+			<property name="Stacknumber" value="10"/> <!-- STK drink -->
+			<property name="Weight" value="10"/>
+			<property name="EconomicValue" value="100"/>
+			<property name="CraftingIngredientTime" value="15"/>
+			<!--<property name="UnlockedBy" value="perkWasteTreasuresWater"/>-->
+			<property class="Action0">
+				<property name="Class" value="Eat"/>
+				<property name="Delay" value="1"/>
+				<property name="Use_time" value="..."/>
+				<property name="Sound_start" value="player_drinking"/>
+				<property name="Create_item" value="drinkJarEmpty"/>
+			</property>
+			<property name="Group" value="Food/Cooking,CFDrink/Cooking"/>
+
+			<effect_group tiered="false" name="Drink Tier Found">
+				<requirement name="NotHasBuff" buff="buffIsOnFire"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="60"/>
+					<display_value name="dStaminaRegen" value=".15"/>
+					<display_value name="dEfficientDigestion" value=".15"/>
+					<display_value name="dDuration" value="150"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffRedTeaDuration" operation="add" value="303"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffRedTeaDuration" operation="set" value="903">
+						<requirement name="CVarCompare" cvar="$buffRedTeaDuration" operation="GT" value="903"/></triggered_effect>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables,buffRedTea"/>
+
+					<display_value name="dCureDysentery" value=".15"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffDysenteryAddCurePerc" operation="add" value="20"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffDysenteryAddCure"/>
+			</effect_group>
+
+			<effect_group tiered="false">
+				<requirement name="HasBuff" buff="buffIsOnFire"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffExtinguishFire"/>
+			</effect_group>
+		</item>
+
+	</append>
+	
+</configs>

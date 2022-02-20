@@ -1,0 +1,9 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
+------------ New foods/drinks --------------
+drinkSparklingWater,items,Food,,,Sparkling Water,,,,Eau Pétillante,,,,,,,,,,,
+drinkSparklingWaterDesc,items,Food,,,"Sparkling water is good for digestion..",,,,"L'eau pétillante est bonne pour la digestion..",,,,,,,,,,,
+
+sodaFountain_TRW,blocks,Block,,,Soda Fountain,,Getränkespender,Fuente de refrescos,Fontaine à soda,Distributore di bevande,?????????,?? ??,Saturator,Fonte de Refrigerante,?????? ?????????,Gazli Içecek Çesmesi,???,???,Fuente de refrescos
+sodaFountainDesc,blocks,Workstation,,,A fonctionnal soda fountain.,,,,Une fontaine a soda fonctionnelle.,,,,,,,,,,
+
+lblCategorySoda,UI,Tooltip,,,Soda,,,,Soda,,,,,,,,,,,

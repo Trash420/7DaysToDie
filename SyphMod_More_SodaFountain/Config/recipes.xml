@@ -1,0 +1,22 @@
+<configs>
+	
+	<append xpath="/recipes">
+		
+		<recipe name="sodaFountain_TRW" count="1" craft_area="workbench" craft_time="15" tags="learnable">
+			<ingredient name="resourceForgedIron" count="2"/>
+			<ingredient name="resourceElectricParts" count="4"/>
+		</recipe>
+		
+		<recipe name="drinkCanMegaCrush" count="1" craft_area="sodaFountain">
+			<ingredient name="foodHoney" count="1"/>
+			<ingredient name="drinkJarCoffee" count="1"/>
+			<ingredient name="drinkJarPureMineralWater" count="1"/>
+		</recipe>
+		
+		<recipe name="drinkSparklingWater" count="1" craft_area="sodaFountain">
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+		</recipe>
+		
+	</append>
+	
+</configs>

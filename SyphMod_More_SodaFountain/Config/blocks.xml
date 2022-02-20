@@ -1,0 +1,32 @@
+<configs>
+	
+	<append xpath="/blocks">
+	
+		<block name="sodaFountain_TRW">
+			<property name="Extends" value="coffeeMaker_TRW"/>
+			<property name="Model" value="Entities/Electrical/sodaFountainPrefab"/>
+			<property name="CustomIcon" value="sodaFountain"/>
+			<property name="UnlockedBy" value="perkAdvancedEngineering"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="Group" value="Food/Cooking,Basics,Building"/>
+			<property class="Workstation">
+				<property name="Modules" value="output,fuel,input"/>
+				<property name="Collide" value="melee,bullet,arrow,rocket"/>
+				<property name="CraftingAreaRecipes" value="sodaFountain"/>
+			</property>
+			<property name="WorkstationWindow" value="workstation_sodaFountain" />
+			<property name="WorkstationIcon" value="ui_game_symbol_Soda" />
+			<property name="CraftActionName" value="lblContextActionCook" />
+			<property name="CraftIcon" value="ui_game_symbol_Soda" />
+			<property name="OpenSound" value="open_workbench" />
+			<property name="CloseSound" value="close_workbench" />
+			<property name="CraftSound" value="campfire_cook_click" />
+			<property name="CraftCompleteSound" value="campfire_complete_item" />
+			<property name="DescriptionKey" value="sodaFountainDesc"/>
+			<property name="FilterTags" value="fdecor,ffurniture"/>
+			<property name="WorkstationJournalTip" value="campfireTip" />
+		</block>
+		
+	</append>
+	
+</configs>

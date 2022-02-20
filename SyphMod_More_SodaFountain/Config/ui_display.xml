@@ -1,0 +1,11 @@
+<configs>
+	
+	<append xpath="/ui_display_info/crafting_category_display">
+
+		<crafting_category_list display_type="sodaFountain_TRW">
+			<crafting_category name="" icon="ui_game_symbol_Soda" display_name="lblCategorySoda" />
+		</crafting_category_list>
+		
+	</append>
+	
+</configs>	
