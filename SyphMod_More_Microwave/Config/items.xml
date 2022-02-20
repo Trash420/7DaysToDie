@@ -1,0 +1,19 @@
+<configs>
+	
+	<append xpath="/items">
+
+		<item name="foodMealTray_TRW">
+			<property name="Extends" value="foodCharredMeat"/>
+			<property name="CustomIcon" value="foodMealTray"/>
+			<property name="DisplayType" value="food"/>
+			<property name="DescriptionKey" value="foodMealTrayDesc"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="36"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="18"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+			</effect_group>
+		</item>
+
+	</append>
+	
+</configs>

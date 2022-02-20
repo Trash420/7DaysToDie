@@ -1,0 +1,7 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
+
+------------ New Microwave Mod --------------
+electricmicrowave_TRW,blocks,Workstation,,,Microwave (electric),,,,Micro-onde (Electrique),,,,,,,,,,,
+electricmicrowaveDesc,blocks,Workstation,,,Used to prepare some dishes.,,,,Utilise pour preparer certains plats.,,,,,,,,,,,
+foodMealTray_TRW,items,Food,,,Meal Tray,,,,Plateau repas,,,,,,,,,,,
+foodMealTrayDesc,items,Food,,,"An Meal Tray.",,,,"Un plateau repas.",,,,,,,,,,,

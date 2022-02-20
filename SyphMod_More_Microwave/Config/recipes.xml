@@ -1,0 +1,29 @@
+<configs>
+
+	<append xpath="/recipes">
+
+		<!-- Microwave mod -->
+		<recipe name="electricmicrowave_TRW" count="1" craft_area="workbench" tags="learnable">
+			<ingredient name="resourceForgedIron" count="8"/>
+			<ingredient name="resourceMechanicalParts" count="2"/>
+			<ingredient name="resourceElectricParts" count="7"/>
+		</recipe>
+		
+		<recipe name="foodMealTray_TRW" count="1" craft_area="microwave">
+			<ingredient name="foodCanLamb" count="1"/>
+			<ingredient name="foodCanPeas" count="1"/>
+		</recipe>
+
+		<recipe name="foodMealTray_TRW" count="1" craft_area="microwave">
+			<ingredient name="foodCanChicken" count="1"/>
+			<ingredient name="foodCanStock" count="1"/>
+		</recipe>
+	
+		<recipe name="foodMealTray_TRW" count="1" craft_area="microwave">
+			<ingredient name="foodCanBeef" count="1"/>
+			<ingredient name="foodCanPasta" count="1"/>
+		</recipe>
+		
+	</append>
+	
+</configs>
