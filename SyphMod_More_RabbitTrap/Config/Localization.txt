@@ -1,0 +1,13 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
+
+foodFishStick_TRW,items,Food,,,Fish on Stick,,,,Poisson sur un baton,,,,,,,,,,,
+foodFishStickDesc,items,Food,,,Charred fish is better than raw fish. It will dehydrate you but boost your wellness. Can attract zombies if carried.,,,,"Le poisson brûle est bien meilleure que le poisson crue. Elle vous deshydrate, mais ameliore votre bien-etre. Susceptible d'attirer des zombies si vous la portez.",,,,,,,,,,,
+resourceRabbitKit_TRW,items,Item,,,Rabbit Net,,,,Un filet a Lapins,,,,
+resourceRabbitKitDesc,items,Item,,,"A Rabbit Net. A good way to get some meat.",,,,"Un filet a lapins. Un bon moyen d'obtenir de la viande.",,,,
+rabbitTrapBroken_TRW,blocks,Block,,,[FF6748]Broken[-] Rabbit Trap,,,,Piege a Lapins [FF6748]Casse[-],,,,
+rabbitTrapBrokenDesc,blocks,Station,,,"An Broken Rabbit Trap. Use the wrench for repair the trap with a Rabbit Net.",,,,"Un Piege a Lapins Casse. Utiliser un outil pour le reparer avec un filet a Lapins.",,,,
+rabbitTrap_TRW,blocks,Block,,,Rabbit Trap,,,,Piege a Lapins,,,,
+rabbitTrapDesc,blocks,Station,,,"A Rabbit Trap. A good way to get some meat.",,,,"Un Piege a Lapins. Un bon moyen d'obtenir de la viande.",,,,
+rabbitTrapProcessing_TRW,blocks,Block,,,Rabbit Trap [DDBB99](Processing)[-],,,,Piege a Lapins [DDBB99](En cours)[-],,,,
+deadMouse2_TRW,items,Item,,,Dead Mouse,,,,Souris Morte,,,,,,,,,,,
+deadMouseDesc,items,Item,,,"An dead Mouse... It’s protein, isn’t it?",,,,"Une souris morte... C'est des proteines, non?",,,,,,,,,,,
