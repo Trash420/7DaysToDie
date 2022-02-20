@@ -1,0 +1,66 @@
+<configs>
+
+	<remove xpath="/recipes/recipe[@name='drinkJarBeer']" />
+	
+	
+	<append xpath="/recipes">
+
+		<recipe name="winebarrelstation_TRW" count="1" craft_area="tablesaw">
+			<ingredient name="resourceWood" count="6"/>
+			<ingredient name="resourceNail" count="5"/>
+		</recipe>
+
+		<recipe name="wineBarrelSetstation_TRW" count="1" craft_area="tablesaw">
+			<ingredient name="resourceWood" count="12"/>
+			<ingredient name="resourceNail" count="10"/>
+		</recipe>
+
+		<recipe name="cntwineBarrelPlain_TRW" count="1" craft_area="tablesaw">
+			<ingredient name="resourceWood" count="6"/>
+			<ingredient name="resourceNail" count="5"/>
+		</recipe>
+
+		<recipe name="drinkJarBeer" count="1" craft_area="winebarrelstation" tags="learnable">
+			<ingredient name="resourceCropHopsFlower" count="4"/>
+			<ingredient name="drinkJarRiverWater" count="1"/>
+		</recipe>
+
+		<recipe name="drinkJarBeerGoldenRod_TRW" count="1" craft_area="winebarrelstation" tags="learnable">
+			<ingredient name="resourceCropHopsFlower" count="4"/>
+			<ingredient name="resourceCropGoldenrodPlant" count="1"/>
+			<ingredient name="drinkJarRiverWater" count="1"/>
+		</recipe>
+
+		<recipe name="drinkJarBeerHoney_TRW" count="1" craft_area="winebarrelstation" tags="learnable">
+			<ingredient name="resourceCropHopsFlower" count="4"/>
+			<ingredient name="foodHoney" count="1"/>
+			<ingredient name="drinkJarRiverWater" count="1"/>
+		</recipe>
+
+		<recipe name="drinkJarBeerRed_TRW" count="1" craft_area="winebarrelstation" tags="learnable">
+			<ingredient name="resourceCropHopsFlower" count="4"/>
+			<ingredient name="resourceCropChrysanthemumPlant" count="1"/>
+			<ingredient name="drinkJarRiverWater" count="1"/>
+		</recipe>
+
+		<recipe name="drinkJarBeerBlue_TRW" count="1" craft_area="winebarrelstation" tags="learnable">
+			<ingredient name="resourceCropHopsFlower" count="4"/>
+			<ingredient name="foodCropBlueberries" count="1"/>
+			<ingredient name="drinkJarRiverWater" count="1"/>
+		</recipe>
+
+		<recipe name="drinkJarBeerYucca_TRW" count="1" craft_area="winebarrelstation" tags="learnable">
+			<ingredient name="resourceCropHopsFlower" count="4"/>
+			<ingredient name="foodCropYuccaFruit" count="1"/>
+			<ingredient name="drinkJarRiverWater" count="1"/>
+		</recipe>
+
+		<recipe name="drinkJarBeerBloodyMary_TRW" count="1" craft_area="winebarrelstation" tags="learnable">
+			<ingredient name="resourceCropHopsFlower" count="4"/>
+			<ingredient name="medicalBloodBag" count="1"/>
+			<ingredient name="drinkJarRiverWater" count="1"/>
+		</recipe>
+	
+	</append>
+	
+</configs>

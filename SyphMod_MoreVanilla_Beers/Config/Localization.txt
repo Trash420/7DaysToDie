@@ -1,0 +1,16 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
+
+winebarrelstation_TRW,blocks,Workstation,,,Wine Barrel,,,,Barril de vin,,,,,,,,,,,
+wineBarrelSetstation_TRW,blocks,Workstation,,,Wine Barrel (Set),,,,Barril de vin (Set),,,,,,,,,,,
+winebarrelstationDesc,blocks,Workstation,,,A crafting station who help you to make homemade beers.,,,,Une station de craft qui vous aidera a faire des bieres artisanales.,,,,,,,,,,,
+cntwineBarrelPlain_TRW,blocks,Container,,,Wine Barrel (Container),,,,Barril de vin (Conteneur),,,,,,,,,,,
+cntwineBarrelPlainDesc,blocks,Container,,,An beautiful container for your private cave. Can hold yours best beers or what you want.,,,,Un joli conteneur pour votre cave privee. Permet de stocker vos meilleurs bieres ou ce que vous voulez.,,,,,,,,,,,
+drinkJarBeerGoldenRod_TRW,items,Food,,,Goldenrod Beer,,,,Biere a la verge d'or,,,,,,,,,,,
+drinkJarBeerHoney_TRW,items,Food,,,Honey Beer,,,,Biere au miel,,,,,,,,,,,
+drinkJarBeerRed_TRW,items,Food,,,Red Beer,,,,Biere rouge,,,,,,,,,,,
+drinkJarBeerYucca_TRW,items,Food,,,Yucca Beer,,,,Biere aux yucca,,,,,,,,,,,
+drinkJarBeerBlue_TRW,items,Food,,,Blue Beer,,,,Biere Bleue,,,,,,,,,,,
+drinkJarBeerBloodyMary_TRW,items,Food,,,Bloody Mary Beer,,,,Biere Bloody Mary,,,,,,,,,,,
+drinkJarBeerFlavoredGroupDesc,items,Food,,,"300% Fist Melee Damage\n50% Stamina Gain\n\nGain stamina, bravado and stun immunity all in one bottle of this tasty home brewed Flavored Beer.Cool like a beer but with a little extra.",,,,"300% de degat a main nues/n50% d'endurance/n/nGain d'endurance et immunite a l'etourdissement, le tout dans une seule bouteille de Bieres aromatisees artisanal.\nCool comme une biere mais avec un petit extra.",,,,,,,,,,,
+
+lblCategoryBeer,UI,Tooltip,,,Beer,,,,Biere,,,,,,,,,,,

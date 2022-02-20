@@ -1,0 +1,201 @@
+<configs>
+
+	<append xpath="/items/item[@name='drinkJarBeer']/property[@name='Group']//@value">,Beer</append>
+
+
+	<append xpath="/items/item[@name='drinkJarBeerSchematic']/property[@name='Unlocks']//@value">,drinkJarBeerGoldenRod_TRW,drinkJarBeerHoney_TRW,drinkJarBeerRed_TRW,drinkJarBeerYucca_TRW,drinkJarBeerBlue_TRW,drinkJarBeerBloodyMary_TRW</append>
+	<append xpath="/items/item[@name='drinkJarBeerSchematic']/effect_group[@tiered='false']">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="drinkJarBeerGoldenRod_TRW" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="drinkJarBeerHoney_TRW" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="drinkJarBeerRed_TRW" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="drinkJarBeerYucca_TRW" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="drinkJarBeerBlue_TRW" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="drinkJarBeerBloodyMary_TRW" operation="set" value="1"/>
+	</append>	
+	
+	
+	<append xpath="/items">
+		
+		<item name="drinkJarBeerGoldenRod_TRW">
+			<property name="Extends" value="drinkJarBeer"/>
+			<property name="CustomIcon" value="drinkJarBeerGoldenRod"/>
+			<property name="EconomicValue" value="120"/>
+			<property name="UnlockedBy" value="drinkJarBeerSchematic"/>
+			<property name="DescriptionKey" value="drinkJarBeerFlavoredGroupDesc"/>
+			<property name="DisplayType" value="waterFlavoredGoldenBeer"/>
+			<effect_group tiered="false">
+				<requirement name="NotHasBuff" buff="buffIsOnFire"/>
+					<display_value name="dStaminaRegen" value=".5"/>
+					<display_value name="dEntityDamageBrawling" value="3"/>
+					<display_value name="dStunResist" value="1"/>
+					<display_value name="dDuration" value="45"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffBeerDuration" operation="add" value="48"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffBeerDuration" operation="set" value="138">
+						<requirement name="CVarCompare" cvar="$buffBeerDuration" operation="GT" value="138"/></triggered_effect>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffBeer"/>
+			</effect_group>
+
+			<effect_group tiered="false">
+				<requirement name="HasBuff" buff="buffIsOnFire"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffExtinguishFire"/>
+			</effect_group>
+			
+			<effect_group tiered="false">
+				<display_value name="dCureDysentery" value=".2"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffDysenteryAddCurePerc" operation="add" value="20"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffDysenteryAddCure"/>
+			</effect_group>
+		</item>
+		
+		<item name="drinkJarBeerRed_TRW">
+			<property name="Extends" value="drinkJarBeer"/>
+			<property name="CustomIcon" value="drinkJarBeerRed"/>
+			<property name="EconomicValue" value="120"/>
+			<property name="UnlockedBy" value="drinkJarBeerSchematic"/>
+			<property name="DescriptionKey" value="drinkJarBeerFlavoredGroupDesc"/>
+			<property name="DisplayType" value="waterFlavoredRedBeer"/>
+			<effect_group tiered="false">
+				<requirement name="NotHasBuff" buff="buffIsOnFire"/>
+					<display_value name="dStaminaRegen" value=".5"/>
+					<display_value name="dEntityDamageBrawling" value="3"/>
+					<display_value name="dStunResist" value="1"/>
+					<display_value name="dDuration" value="45"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffBeerDuration" operation="add" value="48"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffBeerDuration" operation="set" value="138">
+						<requirement name="CVarCompare" cvar="$buffBeerDuration" operation="GT" value="138"/></triggered_effect>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffBeer"/>
+					<display_value name="dEfficientDigestion" value=".15"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffRedTeaDuration" operation="add" value="243"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffRedTeaDuration" operation="set" value="723">
+						<requirement name="CVarCompare" cvar="$buffRedTeaDuration" operation="GT" value="723"/></triggered_effect>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables,buffRedTea"/>
+			</effect_group>
+
+			<effect_group tiered="false">
+				<requirement name="HasBuff" buff="buffIsOnFire"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffExtinguishFire"/>
+			</effect_group>
+		</item>
+
+		<item name="drinkJarBeerHoney_TRW">
+			<property name="Extends" value="drinkJarBeer"/>
+			<property name="CustomIcon" value="drinkJarBeerHoney"/>
+			<property name="EconomicValue" value="160"/>
+			<property name="UnlockedBy" value="drinkJarBeerSchematic"/>
+			<property name="DescriptionKey" value="drinkJarBeerFlavoredGroupDesc"/>
+			<property name="DisplayType" value="waterFlavoredHoneyBeer"/>
+			<effect_group tiered="false">
+				<requirement name="NotHasBuff" buff="buffIsOnFire"/>
+					<display_value name="dStaminaRegen" value=".5"/>
+					<display_value name="dEntityDamageBrawling" value="3"/>
+					<display_value name="dStunResist" value="1"/>
+					<display_value name="dDuration" value="45"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffBeerDuration" operation="add" value="48"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffBeerDuration" operation="set" value="138">
+						<requirement name="CVarCompare" cvar="$buffBeerDuration" operation="GT" value="138"/></triggered_effect>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffBeer"/>
+			</effect_group>
+
+			<effect_group tiered="false">
+				<requirement name="HasBuff" buff="buffIsOnFire"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffExtinguishFire"/>
+			</effect_group>
+			
+			<effect_group tiered="false">
+				<display_value name="dCureInfection" value=".05"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffInfectionAddCurePerc" operation="add" value="5"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffInfectionAddCure"/>
+			</effect_group>
+		</item>
+
+		<item name="drinkJarBeerYucca_TRW">
+			<property name="Extends" value="drinkJarBeer"/>
+			<property name="CustomIcon" value="drinkJarBeerYucca"/>
+			<property name="EconomicValue" value="120"/>
+			<property name="UnlockedBy" value="drinkJarBeerSchematic"/>
+			<property name="DescriptionKey" value="drinkJarBeerFlavoredGroupDesc"/>
+			<property name="DisplayType" value="waterFlavoredYuccaBeer"/>
+
+			<effect_group tiered="false">
+				<requirement name="NotHasBuff" buff="buffIsOnFire"/>
+					<display_value name="dStaminaRegen" value=".5"/>
+					<display_value name="dEntityDamageBrawling" value="3"/>
+					<display_value name="dStunResist" value="1"/>
+					<display_value name="dDuration" value="45"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffBeerDuration" operation="add" value="48"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffBeerDuration" operation="set" value="138">
+						<requirement name="CVarCompare" cvar="$buffBeerDuration" operation="GT" value="138"/></triggered_effect>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffBeer"/>
+					<display_value name="dHyperthermalResist" value="30"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffBeerYucca"/>
+			</effect_group>
+			
+			<effect_group tiered="false">
+				<requirement name="HasBuff" buff="buffIsOnFire"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffExtinguishFire"/>
+			</effect_group>
+		</item>
+
+		<item name="drinkJarBeerBlue_TRW">
+			<property name="Extends" value="drinkJarBeer"/>
+			<property name="CustomIcon" value="drinkJarBeerBlue"/>
+			<property name="EconomicValue" value="120"/>
+			<property name="UnlockedBy" value="drinkJarBeerSchematic"/>
+			<property name="DescriptionKey" value="drinkJarBeerFlavoredGroupDesc"/>
+			<property name="DisplayType" value="waterFlavoredBlueBeer"/>
+
+			<effect_group tiered="false">
+				<requirement name="NotHasBuff" buff="buffIsOnFire"/>
+					<display_value name="dStaminaRegen" value=".5"/>
+					<display_value name="dEntityDamageBrawling" value="3"/>
+					<display_value name="dStunResist" value="1"/>
+					<display_value name="dDuration" value="45"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffBeerDuration" operation="add" value="48"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffBeerDuration" operation="set" value="138">
+						<requirement name="CVarCompare" cvar="$buffBeerDuration" operation="GT" value="138"/></triggered_effect>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffBeer"/>
+					<display_value name="dHypothermalResist" value="30"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffBeerSnowberrie"/>
+			</effect_group>
+
+			<effect_group tiered="false">
+				<requirement name="HasBuff" buff="buffIsOnFire"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffExtinguishFire"/>
+			</effect_group>
+		</item>
+
+		<item name="drinkJarBeerBloodyMary_TRW">
+			<property name="Extends" value="drinkJarBeer"/>
+			<property name="CustomIcon" value="drinkJarBeerBloodyMary"/>
+			<property name="EconomicValue" value="120"/>
+			<property name="UnlockedBy" value="drinkJarBeerSchematic"/>
+			<property name="DescriptionKey" value="drinkJarBeerFlavoredGroupDesc"/>
+			<property name="DisplayType" value="waterFlavoredBloodyMaryBeer"/>
+
+			<effect_group tiered="false">
+				<requirement name="NotHasBuff" buff="buffIsOnFire"/>
+					<display_value name="dStaminaRegen" value=".5"/>
+					<display_value name="dEntityDamageBrawling" value="3"/>
+					<display_value name="dStunResist" value="1"/>
+					<display_value name="dDuration" value="45"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffBeerDuration" operation="add" value="48"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffBeerDuration" operation="set" value="138">
+						<requirement name="CVarCompare" cvar="$buffBeerDuration" operation="GT" value="138"/></triggered_effect>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffBeer"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" target="self" cvar="maxHealthAmount" operation="add" value="15"/> <!-- X -->
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" target="self" cvar="maxHealthIncrease" operation="set" value="@medicPerkIncrease"/>
+
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" target="self" cvar="medicalHealthAmount" operation="add" value="10"/> <!-- X -->
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" target="self" cvar="healthIncrease" operation="set" value="@healthPerkIncrease"/>
+					<display_value name="foodHealthAmount" value="10" />
+			</effect_group>
+
+			<effect_group tiered="false">
+				<requirement name="HasBuff" buff="buffIsOnFire"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffExtinguishFire"/>
+			</effect_group>
+		</item>
+
+	</append>
+	
+</configs>
