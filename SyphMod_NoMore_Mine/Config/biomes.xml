@@ -1,0 +1,6 @@
+<configs>
+
+	<remove xpath="worldgeneration/biomes/biome[@name='wasteland']/decorations/decoration[@blockname='mineCandyTin']" />
+	<remove xpath="worldgeneration/biomes/biome[@name='wasteland']/decorations/decoration[@blockname='mineHubcap']" />
+	
+</configs>
