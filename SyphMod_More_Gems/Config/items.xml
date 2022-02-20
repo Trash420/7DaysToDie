@@ -1,0 +1,48 @@
+<configs>
+	
+	<append xpath="/items">
+
+		<item name="resourceAmethyst_TRW">
+			<property name="Extends" value="resourceSilverNugget"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Tags" value="gems"/>
+			<property name="CustomIcon" value="amethyst"/>
+			<property name="EconomicValue" value="850"/>
+			<property name="CraftingIngredientTime" value="15"/>
+			<property name="DescriptionKey" value="rareOresGroupDesc"/>
+		</item>
+
+		<item name="resourceSapphire_TRW">
+			<property name="Extends" value="resourceSilverNugget"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Tags" value="gems"/>
+			<property name="CustomIcon" value="sapphire"/>
+			<property name="EconomicValue" value="950"/>
+			<property name="CraftingIngredientTime" value="15"/>
+			<property name="DescriptionKey" value="rareOresGroupDesc"/>
+		</item>
+		
+		<item name="resourceEmerald_TRW">
+			<property name="Extends" value="resourceSilverNugget"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Tags" value="gems"/>
+			<property name="CustomIcon" value="emerald"/>
+			<property name="EconomicValue" value="1150"/>
+			<property name="CraftingIngredientTime" value="15"/>
+			<property name="DescriptionKey" value="rareOresGroupDesc"/>
+		</item>
+		
+		<item name="resourceRuby_TRW">
+			<property name="Extends" value="resourceSilverNugget"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Tags" value="gems"/>
+			<property name="CustomIcon" value="ruby"/>
+			<property name="EconomicValue" value="1300"/>
+			<property name="CraftingIngredientTime" value="15"/>
+			<property name="DescriptionKey" value="rareOresGroupDesc"/>
+		</item>
+
+
+	</append>
+	
+</configs>

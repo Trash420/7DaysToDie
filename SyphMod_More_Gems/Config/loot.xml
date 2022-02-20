@@ -1,0 +1,48 @@
+<configs>
+
+	<append xpath="/lootcontainers/lootgroup[@name='rareOres']">
+		<item name="resourceSilverNugget" count="1,5"/>
+		<item name="resourceGoldNugget" count="1,4" loot_prob_template="medLow"/>
+		<item name="resourceRawDiamond" count="1,3" loot_prob_template="veryLow"/>
+		<item name="resourceAmethyst_TRW" count="1,5" loot_prob_template="med"/>
+		<item name="resourceEmerald_TRW" count="1,4" loot_prob_template="medLow"/>
+		<item name="resourceSapphire_TRW" count="1,4" loot_prob_template="low"/>
+		<item name="resourceRuby_TRW" count="2,3" loot_prob_template="veryLow"/>
+	</append>
+
+<!--
+	<append xpath="/lootcontainers/lootgroup[@name='groupMorticianDrawer02']">
+		<item name="resourceAmethyst_TRW" loot_prob_template="veryLow"/>
+		<item name="resourceEmerald_TRW" loot_prob_template="veryLow"/>
+	</append>
+-->
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupReinforcedChestT3_05']">
+		<item name="resourceAmethyst_TRW" count="6,14" loot_prob_template="med"/>
+		<item name="resourceEmerald_TRW" count="3,6" loot_prob_template="medLow"/>
+		<item name="resourceSapphire_TRW" count="2,3" loot_prob_template="low"/>
+		<item name="resourceRuby_TRW" count="1,2" loot_prob_template="veryLow"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupHardenedChestT4_07']">
+		<item name="resourceAmethyst_TRW" count="6,14" loot_prob_template="med"/>
+		<item name="resourceEmerald_TRW" count="3,6" loot_prob_template="medLow"/>
+		<item name="resourceSapphire_TRW" count="2,3" loot_prob_template="low"/>
+		<item name="resourceRuby_TRW" count="1,2" loot_prob_template="veryLow"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupHardenedChestT5_08']">
+		<item name="resourceAmethyst_TRW" count="6,14" loot_prob_template="med"/>
+		<item name="resourceEmerald_TRW" count="3,6" loot_prob_template="medLow"/>
+		<item name="resourceSapphire_TRW" count="2,3" loot_prob_template="low"/>
+		<item name="resourceRuby_TRW" count="1,2" loot_prob_template="veryLow"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='twitch_T4_Rewards']">
+		<item name="resourceAmethyst_TRW" count="3,5"/>
+		<item name="resourceEmerald_TRW" count="3,5"/>
+		<item name="resourceSapphire_TRW" count="3,5"/>
+		<item name="resourceRuby_TRW" count="3,5"/>
+	</append>
+
+</configs>

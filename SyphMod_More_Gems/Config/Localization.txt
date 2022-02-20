@@ -1,0 +1,6 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
+
+resourceAmethyst_TRW,items,Item,,,Amethyst,,,,Amethyste,,,,,,,,,,
+resourceEmerald_TRW,items,Item,,,Emerald,,,,Emeraude,,,,,,,,,,
+resourceSapphire_TRW,items,Item,,,Sapphire,,,,Saphire,,,,,,,,,,
+resourceRuby_TRW,items,Item,,,Ruby,,,,Rubis,,,,,,,,,,
