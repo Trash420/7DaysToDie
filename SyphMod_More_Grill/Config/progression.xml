@@ -1,0 +1,5 @@
+<configs>
+
+	<append xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='4,5']/@tags">,electricgrill_TRW</append>
+
+</configs>

@@ -1,0 +1,9 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
+
+charcoalgrill_TRW,blocks,Workstation,,,Charcoal Grill,,,,Barbecue,,,,
+electricgrill_TRW,blocks,Workstation,,,Electric Grill (electric),,,,Grill electrique (Electrique),,,,
+grillDesc,blocks,Workstation,,,Make some grilled meats with that.,,,,Faites quelques viandes grillees avec ca.,,,,
+foodSausage_TRW,items,Food,,,Grilled Sausage,,,,Saucisse Grillee,,,,
+foodSausageDesc,items,Food,,,"An delicious grilled sausage.",,,,"Une delicieuse saucisse grillee.",,,,
+foodKebab_TRW,items,Food,,,Grilled Kebab,,,,Kebab Grillee,,,,
+foodKebabDesc,items,Food,,,"An delicious grilled kebab.",,,,"Une delicieuse brochette de kebab grillee.",,,,

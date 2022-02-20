@@ -1,0 +1,41 @@
+<configs>
+	
+	<append xpath="/recipes">
+
+		<recipe name="charcoalgrill_TRW" count="1" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="15"/>
+			<ingredient name="resourceMechanicalParts" count="5"/>
+			<ingredient name="resourceMetalPipe" count="4"/>
+		</recipe>
+		
+		<recipe name="electricgrill_TRW" count="1" craft_area="workbench" tags="learnable">
+			<ingredient name="resourceForgedIron" count="15"/>
+			<ingredient name="resourceMechanicalParts" count="3"/>
+			<ingredient name="resourceElectricParts" count="5"/>
+			<ingredient name="resourceMetalPipe" count="4"/>
+		</recipe>
+		
+		<recipe name="foodCharredMeat" count="1" craft_area="charcoalgrill" craft_tool="toolCookingGrill">
+			<ingredient name="foodRawMeat" count="5"/>
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" level="2,5" operation="base_add" value="-1" tags="foodRawMeat"/>
+			</effect_group>
+		</recipe>
+		
+		<recipe name="foodSausage_TRW" count="1" craft_area="charcoalgrill" craft_tool="toolCookingGrill" tags="learnable">
+			<ingredient name="foodRawMeat" count="5"/>
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" level="2,5" operation="base_add" value="-1" tags="foodRawMeat"/>
+			</effect_group>
+		</recipe>
+		
+		<recipe name="foodKebab_TRW" count="1" craft_area="charcoalgrill" craft_tool="toolCookingGrill">
+			<ingredient name="foodRawMeat" count="8"/>
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" level="2,5" operation="base_add" value="-1" tags="foodRawMeat"/>
+			</effect_group>
+		</recipe>
+		
+	</append>
+	
+</configs>
