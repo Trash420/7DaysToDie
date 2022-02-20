@@ -1,0 +1,6 @@
+<configs>
+	
+	<!--<set xpath="/blocks/block[@name='cntDumpster']/property[@name='LootList']/@value">dumpster1</set>
+	<set xpath="/blocks/block[@name='cntDumpsterFlies']/property[@name='LootList']/@value">dumpster1</set>-->
+
+</configs>

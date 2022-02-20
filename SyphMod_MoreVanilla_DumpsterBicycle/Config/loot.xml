@@ -1,0 +1,26 @@
+<configs>
+	
+	<append xpath="/lootcontainers/lootcontainer[@name='dumpster']">
+		<item name="vehicleBicyclePlaceable" loot_prob_template="veryLow"/>
+	</append>
+	
+	<!--<append xpath="/lootcontainers">
+	
+		<lootgroup name="groupJunk02Dumpster" count="1">
+			<item group="groupScrapUncommon" loot_prob_template="med"/>
+			<item name="vehicleBicyclePlaceable" loot_prob_template="med"/>
+			<item group="groupCraftingUncommon" loot_prob_template="med"/>
+			<item group="groupBuildingUncommon" loot_prob_template="med"/>
+			<item group="groupAmmoResourcesSmall" loot_prob_template="low"/>
+			<item name="resourceFeather" count="1,5" loot_prob_template="low"/>
+		</lootgroup>
+
+		<lootcontainer id="910" name="dumpster1" count="1,2" size="8,4" sound_open="UseActions/open_dumpster" sound_close="UseActions/close_dumpster" loot_quality_template="qualBaseTemplate">
+			<item group="groupJunk01" count="1"/>
+			<item group="groupJunk02Dumpster" loot_prob_template="low" force_prob="true"/>
+			<item group="groupJunk03" loot_prob_template="veryLow" force_prob="true"/>
+		</lootcontainer>
+		
+	</append>-->
+			
+</configs>
