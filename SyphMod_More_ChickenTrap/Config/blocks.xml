@@ -1,0 +1,82 @@
+<configs>
+	
+	<append xpath="/blocks">
+	
+		<block name="chickenTrapRegen_TRW">
+			<property name="CustomIcon" value="chickenTrapBroken" />
+			<property name="StabilitySupport" value="false"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Material" value="Mair"/>
+			<property name="Shape" value="Invisible"/>
+			<property name="Texture" value="250"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="Class" value="UpgradeRated" />
+			<property name="UpgradeRated.ToBlock" value="chickenTrapBroken_TRW" />
+			<property name="UpgradeRated.Rate" value="60" /> <!-- 60 -->
+			<property name="DescriptionKey" value="chickenTrapDesc"/>
+		</block>
+		
+		<block name="chickenTrapBroken_TRW">
+			<property name="Extends" value="woodMaster"/>
+			<property name="CustomIcon" value="chickenTrapBroken" />
+			<property name="StabilitySupport" value="false"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Shape" value="New"/>
+			<property name="Path" value="solid"/>
+			<property name="Model" value="siding_burnt05"/><!-- wood_debris01 -->
+			<property name="Texture" value="544"/>
+			<property name="ImposterExchange" value="imposterBlock" param1="86"/>
+			<property name="Collide" value="movement,melee,rocket"/> <!-- -rocket -->
+			<property name="DisplayInfo" value="Name"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="chickenTrapProcessing_TRW"/>
+				<property name="Item" value="resourceChickenKit_TRW"/>
+				<property name="ItemCount" value="1"/>
+				<property name="UpgradeHitCount" value="1"/>
+			</property>
+			<property name="DowngradeBlock" value="chickenTrapRegen_TRW"/>
+			<property name="DescriptionKey" value="chickenTrapBrokenDesc"/>
+			<property name="FilterTags" value="fconstruction,fdestruction"/>
+		</block>
+
+		<block name="chickenTrapProcessing_TRW">
+			<property name="CustomIcon" value="chickenTrapBroken" />
+			<property name="StabilitySupport" value="false"/>
+			<property name="DisplayInfo" value="Name"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Material" value="MclothStable" />
+			<property name="Shape" value="New"/>
+			<property name="Model" value="wedge60_incline"/>
+			<property name="Texture" value="549" />
+			<property name="Stacknumber" value="1"/>
+			<property class="RepairItems">
+				<property name="resourceCloth" value="10"/>
+				<property name="resourceMechanicalParts" value="5"/>
+			</property>
+			<property name="Class" value="UpgradeRated" />
+			<property name="UpgradeRated.ToBlock" value="chickenTrap_TRW" />
+			<property name="UpgradeRated.Rate" value="15" /> <!-- 15 -->
+			<property name="DowngradeBlock" value="chickenTrapBroken_TRW"/>
+			<property name="DescriptionKey" value="chickenTrapDesc"/>
+		</block>
+		
+		<block name="chickenTrap_TRW">
+			<property name="CustomIcon" value="chickenTrapBroken" />
+			<property name="StabilitySupport" value="false"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Class" value="Loot" />
+			<property name="LootList" value="groupChickentrap" />
+			<property name="Material" value="MclothStable" />
+			<property name="Texture" value="549" />
+			<property name="Stacknumber" value="1"/>
+			<property class="RepairItems">
+				<property name="resourceCloth" value="10"/>
+				<property name="resourceMechanicalParts" value="5"/>
+			</property>
+			<property name="DowngradeBlock" value="chickenTrapRegen_TRW"/>
+			<property name="DescriptionKey" value="chickenTrapDesc"/>
+		</block>
+
+	</append>
+	
+</configs>

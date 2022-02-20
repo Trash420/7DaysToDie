@@ -1,0 +1,43 @@
+<configs>
+	
+	<append xpath="/items/item[@name='meleeToolRepairT0StoneAxe']/property[@class='Action1']/property[@name='Allowed_upgrade_items']/@value">,resourceChickenKit_TRW</append>
+
+	<append xpath="/items/item[@name='meleeToolRepairT1ClawHammer']/property[@class='Action1']/property[@name='Allowed_upgrade_items']/@value">,resourceChickenKit_TRW</append>
+
+	<append xpath="/items/item[@name='meleeToolRepairT3Nailgun']/property[@class='Action1']/property[@name='Allowed_upgrade_items']/@value">,resourceChickenKit_TRW</append>
+
+
+	<append xpath="/items">
+
+		<item name="resourceChickenKit_TRW">
+			<property name="Extends" value="resourceCloth"/>
+			<property name="CustomIcon" value="resourceChickenKit"/>
+			<property name="UnlockedBy" value="perkTheHuntsman"/>
+			<property name="DescriptionKey" value="resourceChickenKitDesc"/>
+			<property name="Stacknumber" value="10" />
+			<property name="EconomicValue" value="30"/>
+			<property name="Group" value="Resources" />
+		</item>
+
+		<item name="deadMouse_TRW">
+			<property name="Extends" value="foodRawMeat"/>
+			<property name="CustomIcon" value="deadMouse"/>
+			<property name="EconomicValue" value="2"/>
+			<property name="DescriptionKey" value="deadMouseDesc"/>
+			<effect_group tiered="false" name="Food Tier 0">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="2"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyStats" stat="Health" operation="add" value="-1"/><display_value name="foodHealthAmount" value="-1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="-1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="set" value="12"/><display_value name="dDysenteryRisk" value=".12"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="add" value="@$MetabolismResist"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffDysenteryCatchFood">
+					<requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="LTE" value="@.DiseaseRoll"/>
+				</triggered_effect>
+			</effect_group>
+			<property name="CraftingIngredientTime" value="3"/>
+		</item>
+	
+	</append>
+	
+</configs>

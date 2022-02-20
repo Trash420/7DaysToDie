@@ -1,0 +1,14 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
+
+------------ New ChickenExpansion Mod --------------
+resourceChickenKit_TRW,items,Item,,,Chicken Net,,,,Un filet a poulets,,,,
+resourceChickenKitDesc,items,Item,,,"A Chicken Net. A good way to get some meat.",,,,"Un filet a poulets. Un bon moyen d'obtenir de la viande.",,,,
+chickenTrapBroken_TRW,blocks,Block,,,[FF6748]Broken[-] Chicken Trap,,,,Piege a Poulets [FF6748]Casse[-],,,,
+chickenTrapBrokenDesc,blocks,Station,,,"An Broken Chicken Trap. Use the wrench for repair the trap with a Chicken Net.",,,,"Un piege a poulets casse. Utiliser un outil pour le reparer avec un filet a poulets.",,,,
+chickenTrapProcessing_TRW,blocks,Block,,,Chicken Trap [DDBB99](Processing)[-],,,,Piege a Poulets [DDBB99](En cours)[-],,,,
+chickenTrap_TRW,blocks,Block,,,Chicken Trap,,,,Piege a poulets,,,,
+chickenTrapDesc,blocks,Station,,,"A Chicken Trap.",,,,"Un piege a poulets.",,,,
+deadMouse_TRW,items,Item,,,Dead Mouse,,,,Souris Morte,,,,,,,,,,,
+deadMouseDesc,items,Item,,,"An dead Mouse... It’s protein, isn’t it?",,,,"Une souris morte... Ce sont des proteines, non?",,,,,,,,,,,
+
+perkTheHuntsmanRank2LongDesc,progression,Perk,,,You are becoming adept at skinning and harvesting meat. Harvest 40% more resources from animals using any bladed tool or weapon. You can craft net kit,,,,Vous devenez un habitué du dépeçage et de la chasse. Utiliser des outils tranchants ou des armes sur des animaux vous octroie 40 % de ressources supplémentaires. Vous pouvez fabriquer des kits pour filets.,,,,,,,,,,,

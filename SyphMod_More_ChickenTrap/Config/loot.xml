@@ -1,0 +1,20 @@
+<configs>
+	
+	<append xpath="/lootcontainers">
+			
+		<!-- ChickenTrap -->
+		<lootgroup name="chickenTrap" count="all">
+			<item name="foodRawMeat" count="8,12"/>
+			<item name="resourceFeather" count="18,28"/>
+			<item name="foodEgg" count="0,2"/>
+		</lootgroup>
+		
+		<!-- Chicken Trap -->
+		<lootcontainer id="900" name="groupChickentrap" count="1" size="4,3" destroy_on_close="true" sound_open="UseActions/open_dumpster" sound_close="UseActions/close_dumpster" loot_quality_template="qualBaseTemplate">
+			<item group="chickenTrap" count="1" prob="0.7"/>
+			<item name="deadMouse_TRW" count="1" prob="0.3"/>
+		</lootcontainer>
+		
+	</append>
+	
+</configs>

@@ -1,0 +1,13 @@
+<configs>
+
+
+	<append xpath="/worldgeneration/biomes/biome[@name='pine_forest']/decorations">
+		<decoration prob=".0005" blockname="chickenTrapBroken_TRW" type="block"/>
+	</append>
+
+	<append xpath="/worldgeneration/biomes/biome[@name='burnt_forest']/decorations">
+		<decoration prob=".0005" blockname="chickenTrapBroken_TRW" type="block"/>
+	</append>
+
+		
+</configs>
