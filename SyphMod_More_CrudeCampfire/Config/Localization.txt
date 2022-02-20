@@ -1,0 +1,23 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
+
+drinkCanRiverWater_TRW,items,Food,,,Can of Murky Water,,,,Conserve d'Eau trouble,,,,,,,,,,,
+drinkCanRiverWater_TRWDesc,items,Food,,,"A can of murky water.",,,,"Une conserve avec de l'eau trouble.",,,,,,,,,,,
+drinkCanBoiledWater_TRW,items,Food,,,Can of boiled water,,,,Conserve d'eau bouillie,,,,,,,,,,,
+drinkCanBoiledWater_TRWDesc,items,Food,,,"A can of boiled water. Can hydrate you safely.",,,,"Une conserve d'eau boullie. Peut vous hydrater en toute sécurité.",,,,,,,,,,,
+foodCornStick_TRW,items,Food,,,Corn on Stick,,,,Épi de maïs sur un baton,,,,,,,,,,,
+foodCornStickDesc,items,Food,,,A grilled ear of corn isn't the most filling or nutritious meal but it sure is satisfying.,,,,"Un épi de maïs grillé n'est pas le repas le plus nutritionnel qui soit, mais cela reste copieux.",,,,,,,,,,,
+foodGraceCornStick_TRW,items,Food,,,Super Corn on Stick,,,,Super Épi de maïs sur un baton,,,,,,,,,,,
+foodGraceCornStickDesc,items,Food,,,A grilled super ear of corn isn't the most filling or nutritious meal but it sure is satisfying.,,,,"Un super épi de maïs grillé n'est pas le repas le plus nutritionnel qui soit, mais cela reste copieux.",,,,,,,,,,,
+foodPotatoStick_TRW,items,Food,,,Potato on Stick,,,,Patate sur un baton,,,,,,,,,,,
+foodPotatoStickDesc,items,Food,,,A nutritious baked potato full of carbohydrates. Great for couch potatoes too.,,,,Une pomme de terre qui regorge de féculents. C'est l'idéal pour les flemmards.,,,,,,,,,,,
+foodFishStick_TRW,items,Food,,,Fish on Stick,,,,Poisson sur un baton,,,,,,,,,,,
+foodFishStickDesc,items,Food,,,Charred fish is better than raw fish. It will dehydrate you but boost your wellness. Can attract zombies if carried.,,,,"Le poisson brûle est bien meilleure que le poisson crue. Elle vous deshydrate, mais ameliore votre bien-etre. Susceptible d'attirer des zombies si vous la portez.",,,,,,,,,,,
+foodMeatStick_TRW,items,Food,,,Meat on Stick,,,,Viande sur un baton,,,,,,,,,,,
+foodMeatStickDesc,items,Food,,,"A meat on a stick.",,,,"Une viande sur un baton..",,,,,,,,,,,
+foodMushroomStick_TRW,items,Food,,,Mushroom on Stick,,,,Champignon sur un baton,,,,,,,,,,,
+foodMushroomStickDesc,items,item,,,This baked mushroom can help you during difficult times.,,,,Ce champignons cuit peut vous aider durant les temps difficiles.,,,,,,,,,,,
+
+crudeCampfire_TRW,blocks,Workstation,,,Crude Campfire,,,,Feu de camp de fortune,,,,,,,,,,
+crudeCampfireDesc,blocks,Workstation,,,A crude campfire.,,,,Un feu de camp de fortune.,,,,,,,,,,
+woodenStick_TRW,items,Item,,,Wooden Stick,,,,Baton de bois,,,,,,,,,,
+woodenStickDesc,items,Item,,,Simple and easy to make.It is as the fork of the traveler,,,,Simple et facil à faire. C'est la fourchette du voyageur.,,,,,,,,,,

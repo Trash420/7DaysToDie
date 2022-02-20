@@ -1,0 +1,51 @@
+<configs>
+	
+	<append xpath="/recipes">
+		
+		<recipe name="crudeCampfire_TRW" count="1">
+			<ingredient name="resourceWood" count="2"/>
+		</recipe>
+		
+		<recipe name="woodenStick_TRW" count="1">
+			<ingredient name="resourceWood" count="1"/>
+		</recipe>
+		
+		<recipe name="foodCornStick_TRW" count="1" craft_area="crudeCampfire">
+			<ingredient name="foodCropCorn" count="1"/>
+			<ingredient name="woodenStick_TRW" count="1"/>
+		</recipe>
+		
+		<recipe name="foodGraceCornStick_TRW" count="1" craft_area="crudeCampfire">
+			<ingredient name="foodCropGraceCorn" count="1"/>
+			<ingredient name="woodenStick_TRW" count="1"/>
+		</recipe>
+		
+		<recipe name="foodMeatStick_TRW" count="1" craft_area="crudeCampfire">
+			<ingredient name="foodRawMeat" count="5"/>
+			<ingredient name="woodenStick_TRW" count="1"/>
+		</recipe>
+
+		<recipe name="foodPotatoStick_TRW" count="1" craft_area="crudeCampfire">
+			<ingredient name="foodCropPotato" count="1"/>
+			<ingredient name="woodenStick_TRW" count="1"/>
+		</recipe>
+		
+		<recipe name="foodMushroomStick_TRW" count="1" craft_area="crudeCampfire">
+			<ingredient name="foodCropMushrooms" count="1"/>
+			<ingredient name="woodenStick_TRW" count="1"/>
+		</recipe>
+		
+		<recipe name="foodPotatoStick_TRW" count="1" craft_area="crudeCampfire">
+			<ingredient name="foodCropPotato" count="1"/>
+			<ingredient name="woodenStick_TRW" count="1"/>
+		</recipe>
+		
+		<!--<recipe name="foodFishStick_TRW" count="1" craft_area="crudeCampfire">
+			<ingredient name="foodRawFish_TRW" count="1"/>
+			<ingredient name="woodenStick_TRW" count="1"/>
+		</recipe>-->
+
+
+	</append>
+	
+</configs>

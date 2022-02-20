@@ -1,0 +1,86 @@
+<configs>
+		
+	<append xpath="/blocks/block[@name='emberPileDeco1']">
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="crudeCampfire_TRW"/>
+			<property name="Item" value="resourceWood"/>
+			<property name="ItemCount" value="1"/>
+			<property name="UpgradeHitCount" value="1"/>
+		</property>
+		<property name="CustomUpgradeSound" value="place_block_wood"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='emberPileDeco3']">
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="crudeCampfire_TRW"/>
+			<property name="Item" value="resourceWood"/>
+			<property name="ItemCount" value="1"/>
+			<property name="UpgradeHitCount" value="1"/>
+		</property>
+		<property name="CustomUpgradeSound" value="place_block_wood"/>
+	</append>
+	
+	<append xpath="/blocks/block[@name='emberPileLightPOI1']">
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="crudeCampfire_TRW"/>
+			<property name="Item" value="resourceWood"/>
+			<property name="ItemCount" value="1"/>
+			<property name="UpgradeHitCount" value="1"/>
+		</property>
+		<property name="CustomUpgradeSound" value="place_block_wood"/>
+	</append>
+	
+	
+	
+	<append xpath="/blocks">
+	
+		<block name="crudeCampfire_TRW">
+			<property name="Material" value="Mwood_weak"/>
+			<property name="Tags" value="coalBurnedDmg"/>
+			<property name="StabilitySupport" value="false"/> <!-- build restriction -->
+			<property name="Shape" value="Ext3dModel"/> <property name="Texture" value="293"/>
+			<property name="Mesh" value="models"/>
+			<property name="Model" value="OutdoorDecor/ember_pile_2" param1="main_mesh"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="ParticleName" value="ember_pile"/>
+			<property name="ParticleOffset" value="0,0,0"/>
+			<property name="CustomIcon" value="crudeCampfire"/>
+			<property name="UnlockedBy" value="perkAdvancedEngineering"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="Class" value="Campfire"/>
+			<property class="Workstation">
+				<property name="Modules" value="tools,output,fuel,input"/>
+				<property name="Collide" value="melee,bullet,arrow,rocket"/>
+				<property name="CraftingAreaRecipes" value="crudeCampfire"/>
+			</property>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="campfire"/>
+				<property name="Item" value="resourceRockSmall"/>
+				<property name="ItemCount" value="3"/>
+				<property name="UpgradeHitCount" value="1"/>
+			</property>
+			<property name="CustomUpgradeSound" value="place_block_concrete"/>
+			<property name="WorkstationWindow" value="workstation_crudeCampfire" />
+			<property name="CraftIcon" value="ui_game_symbol_spatula" />
+			<property name="WorkstationIcon" value="ui_game_symbol_CrudeCampfire" />
+			<property name="CraftActionName" value="lblContextActionCook" />
+			<property name="CraftIcon" value="ui_game_symbol_spatula" />
+			<property name="OpenSound" value="campfire_open" />
+			<property name="CloseSound" value="campfire_close" />
+			<property name="CraftSound" value="campfire_cook_click" />
+			<property name="CraftCompleteSound" value="campfire_complete_item" />
+			<property name="Group" value="Basics,Food/Cooking,Building,advBuilding"/>
+			<property name="WorkstationJournalTip" value="campfireTip" />
+			<!-- <property name="ActiveRadiusEffects" value="buffCampfireAOE(3)"/> -->
+			<property name="Collide" value="melee,bullet,arrow,rocket"/>
+			<property name="VehicleHitScale" value="999"/>
+			<drop event="Harvest" name="resourceCoal" count="1,2" tag="oreWoodHarvest"/>
+			<drop event="Harvest" name="resourceCoal" count="1,2" tag="coalHarvest"/>
+			<drop event="Destroy" name="resourceCoal" count="0"/>
+			<property name="FilterTags" value="fdecor,fother,foutdoor"/>
+			<property name="DescriptionKey" value="crudeCampfireDesc"/>
+		</block>
+		
+	</append>
+	
+</configs>
