@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="SyphMod_More_LootBag" />
+		<Description value="Better LootBag probability to drop. (15% for regular zombies, 25% for feral and 45% for ZOMBIE Demolition)" />
+		<Author value="Syphilis" />
+		<Version value="1.0" />
+		<Website value="" />
+	</ModInfo>
+</xml>

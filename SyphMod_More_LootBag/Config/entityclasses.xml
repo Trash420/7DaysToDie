@@ -1,0 +1,45 @@
+<configs>
+
+	<!-- Change loot prob on regular zombies -->
+	<set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='LootDropProb']/@value">0.15</set>
+	
+	<!-- Change loot prob on strong zombies -->
+	<set xpath="/entity_classes/entity_class[@name='zombieArleneFeral']/property[@name='LootDropProb']/@value">0.25</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieMarleneFeral']/property[@name='LootDropProb']/@value">0.25</set>
+	<set xpath="/entity_classes/entity_class[@name='zombiePartyGirlFeral']/property[@name='LootDropProb']/@value">0.25</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieNurseFeral']/property[@name='LootDropProb']/@value">0.25</set>	
+	<set xpath="/entity_classes/entity_class[@name='zombieJoeFeral']/property[@name='LootDropProb']/@value">0.25</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieSteveFeral']/property[@name='LootDropProb']/@value">0.25</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieTomClarkFeral']/property[@name='LootDropProb']/@value">0.25</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieBusinessManFeral']/property[@name='LootDropProb']/@value">0.25</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieBurntFeral']/property[@name='LootDropProb']/@value">0.25</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieSpiderFeral']/property[@name='LootDropProb']/@value">0.25</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieBoeFeral']/property[@name='LootDropProb']/@value">0.25</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieJanitorFeral']/property[@name='LootDropProb']/@value">0.25</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieMoeFeral']/property[@name='LootDropProb']/@value">0.25</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieLabFeral']/property[@name='LootDropProb']/@value">0.25</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieDarleneFeral']/property[@name='LootDropProb']/@value">0.25</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieYoFeral']/property[@name='LootDropProb']/@value">0.25</set>	
+	<set xpath="/entity_classes/entity_class[@name='zombieUtilityWorkerFeral']/property[@name='LootDropProb']/@value">0.25</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieBikerFeral']/property[@name='LootDropProb']/@value">0.25</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieLumberjackFeral']/property[@name='LootDropProb']/@value">0.25</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieFemaleFatFeral']/property[@name='LootDropProb']/@value">0.25</set>	
+	<set xpath="/entity_classes/entity_class[@name='zombieFatHawaiianFeral']/property[@name='LootDropProb']/@value">0.25</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieFatCopFeral']/property[@name='LootDropProb']/@value">0.25</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieSkateboarderFeral']/property[@name='LootDropProb']/@value">0.25</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieSoldierFeral']/property[@name='LootDropProb']/@value">0.25</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieWightFeral']/property[@name='LootDropProb']/@value">0.25</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieScreamerFeral']/property[@name='LootDropProb']/@value">0.25</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieMutatedFeral']/property[@name='LootDropProb']/@value">0.25</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieSteveCrawlerFeral']/property[@name='LootDropProb']/@value">0.25</set>
+
+	
+	<!-- Change loot prob on boss zombies -->
+	<set xpath="/entity_classes/entity_class[@name='zombieDemolition']/property[@name='LootDropProb']/@value">0.45</set>
+	
+	<!-- Change waiting time for lootContainer disapeared (time*2) -->
+	<set xpath="/entity_classes/entity_class[@name='EntityLootContainerRegular']/property[@name='TimeStayAfterDeath']/@value">2400</set>
+	<set xpath="/entity_classes/entity_class[@name='EntityLootContainerStrong']/property[@name='TimeStayAfterDeath']/@value">2400</set>
+	<set xpath="/entity_classes/entity_class[@name='EntityLootContainerBoss']/property[@name='TimeStayAfterDeath']/@value">2400</set>
+	
+</configs>

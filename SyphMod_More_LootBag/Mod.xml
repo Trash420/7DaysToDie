@@ -1,0 +1,10 @@
+<mod>
+	<info>
+		<author>Syphilis</author>
+		<name>SyphMod_More_LootBag</name>
+		<description>Better LootBag probability to drop. (15% for regular zombies, 25% for feral and 45% for ZOMBIE Demolition)</description>
+		<mod_version>1.0</mod_version>
+		<game_version>A20.1</game_version>
+		<launcher_version>0.1.0</launcher_version>
+	</info>
+</mod>
