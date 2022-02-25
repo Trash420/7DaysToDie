@@ -1,0 +1,249 @@
+<configs>
+
+	<append xpath="/blocks">
+	
+		<block name="wreckedCars0_TRW">
+			<property name="DisplayType" value="blockHardenedMulti"/>
+			<property name="Material" value="Mmetal_hard"/>
+			<property name="DisplayInfo" value="Name"/>
+			<property name="CustomIcon" value="wreckedCars"/>
+			<property name="CustomIconTint" value="FF4848"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DescriptionKey" value="wreckedCarsDesc"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Path" value="solid"/>
+			<property name="Model" value="#Entities/Vehicles?Crushed_Vehicles/crushed_vehiclePrefab.prefab"/>
+			<property name="Place" value="TowardsPlacer"/>
+			<property name="ModelOffset" value="0,.5,.5"/>
+			<property name="MultiBlockDim" value="5,1,2"/>
+			<property name="RandomTintColor1" value="25,15,10" param1="crushed_vehicles"/>
+			<property name="RandomTintColor2" value="15,30,55" param1="crushed_vehicles"/>
+			<property name="RandomTintColor3" value="90,90,90" param1="crushed_vehicles"/>
+			<property name="RandomTintColor4" value="80,80,15" param1="crushed_vehicles"/>
+			<property name="RandomTintColor5" value="60,15,20" param1="crushed_vehicles"/>
+			<property name="RandomTintColor6" value="10,15,25" param1="crushed_vehicles"/>
+			<property name="Collide" value="sight,movement,melee,bullet,arrow,rocket"/>
+			<property class="RepairItems">
+				<property name="resourceScrapIron" value="200"/>
+			</property>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="wreckedCars1_TRW"/>
+				<property name="Item" value="vehicleWheels"/>
+				<property name="ItemCount" value="4"/>
+				<property name="UpgradeHitCount" value="1"/>
+			</property>
+			<!--<drop event="Harvest" name="resourceScrapIron" count="40,70" tag="allHarvest"/>-->
+			<drop event="Destroy" count="0"/>
+			<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+			<property name="FilterTags" value="MC_building,SC_destruction,SC_automotive"/>
+		</block>
+
+		<block name="wreckedCars1_TRW">
+			<property name="DisplayType" value="blockHardenedMulti"/>
+			<property name="Material" value="Mmetal_hard"/>
+			<property name="DisplayInfo" value="Name"/>
+			<property name="CustomIcon" value="wreckedCars"/>
+			<property name="CustomIconTint" value="FF8648"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DescriptionKey" value="wreckedCarsDesc"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Path" value="solid"/>
+			<property name="Model" value="#Entities/Vehicles?Crushed_Vehicles/crushed_vehiclePrefab.prefab"/>
+			<property name="Place" value="TowardsPlacer"/>
+			<property name="ModelOffset" value="0,.5,.5"/>
+			<property name="MultiBlockDim" value="5,1,2"/>
+			<property name="RandomTintColor1" value="25,15,10" param1="crushed_vehicles"/>
+			<property name="RandomTintColor2" value="15,30,55" param1="crushed_vehicles"/>
+			<property name="RandomTintColor3" value="90,90,90" param1="crushed_vehicles"/>
+			<property name="RandomTintColor4" value="80,80,15" param1="crushed_vehicles"/>
+			<property name="RandomTintColor5" value="60,15,20" param1="crushed_vehicles"/>
+			<property name="RandomTintColor6" value="10,15,25" param1="crushed_vehicles"/>
+			<property name="Collide" value="sight,movement,melee,bullet,arrow,rocket"/>
+			<property class="RepairItems">
+				<property name="resourceScrapIron" value="200"/>
+			</property>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="wreckedCars2_TRW"/>
+				<property name="Item" value="smallEngine"/>
+				<property name="ItemCount" value="1"/>
+				<property name="UpgradeHitCount" value="1"/>
+			</property>
+			<!--<drop event="Harvest" name="resourceScrapIron" count="40,70" tag="allHarvest"/>-->
+			<drop event="Destroy" count="0"/>
+			<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+			<property name="FilterTags" value="MC_building,SC_destruction,SC_automotive"/>
+		</block>
+		
+		<block name="wreckedCars2_TRW">
+			<property name="DisplayType" value="blockHardenedMulti"/>
+			<property name="Material" value="Mmetal_hard"/>
+			<property name="DisplayInfo" value="Name"/>
+			<property name="CustomIcon" value="wreckedCars"/>
+			<property name="CustomIconTint" value="FFC848"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DescriptionKey" value="wreckedCarsDesc"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Path" value="solid"/>
+			<property name="Model" value="#Entities/Vehicles?Crushed_Vehicles/crushed_vehiclePrefab.prefab"/>
+			<property name="Place" value="TowardsPlacer"/>
+			<property name="ModelOffset" value="0,.5,.5"/>
+			<property name="MultiBlockDim" value="5,1,2"/>
+			<property name="RandomTintColor1" value="25,15,10" param1="crushed_vehicles"/>
+			<property name="RandomTintColor2" value="15,30,55" param1="crushed_vehicles"/>
+			<property name="RandomTintColor3" value="90,90,90" param1="crushed_vehicles"/>
+			<property name="RandomTintColor4" value="80,80,15" param1="crushed_vehicles"/>
+			<property name="RandomTintColor5" value="60,15,20" param1="crushed_vehicles"/>
+			<property name="RandomTintColor6" value="10,15,25" param1="crushed_vehicles"/>
+			<property name="Collide" value="sight,movement,melee,bullet,arrow,rocket"/>
+			<property class="RepairItems">
+				<property name="resourceScrapIron" value="200"/>
+			</property>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="wreckedCars3_TRW"/>
+				<property name="Item" value="resourceMechanicalParts"/>
+				<property name="ItemCount" value="25"/>
+				<property name="UpgradeHitCount" value="1"/>
+			</property>
+			<!--<drop event="Harvest" name="resourceScrapIron" count="40,70" tag="allHarvest"/>-->
+			<drop event="Destroy" count="0"/>
+			<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+			<property name="FilterTags" value="MC_building,SC_destruction,SC_automotive"/>
+		</block>
+		
+		<block name="wreckedCars3_TRW">
+			<property name="DisplayType" value="blockHardenedMulti"/>
+			<property name="Material" value="Mmetal_hard"/>
+			<property name="DisplayInfo" value="Name"/>
+			<property name="CustomIcon" value="wreckedCars"/>
+			<property name="CustomIconTint" value="EFFF48"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DescriptionKey" value="wreckedCarsDesc"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Path" value="solid"/>
+			<property name="Model" value="#Entities/Vehicles?Crushed_Vehicles/crushed_vehiclePrefab.prefab"/>
+			<property name="Place" value="TowardsPlacer"/>
+			<property name="ModelOffset" value="0,.5,.5"/>
+			<property name="MultiBlockDim" value="5,1,2"/>
+			<property name="RandomTintColor1" value="25,15,10" param1="crushed_vehicles"/>
+			<property name="RandomTintColor2" value="15,30,55" param1="crushed_vehicles"/>
+			<property name="RandomTintColor3" value="90,90,90" param1="crushed_vehicles"/>
+			<property name="RandomTintColor4" value="80,80,15" param1="crushed_vehicles"/>
+			<property name="RandomTintColor5" value="60,15,20" param1="crushed_vehicles"/>
+			<property name="RandomTintColor6" value="10,15,25" param1="crushed_vehicles"/>
+			<property name="Collide" value="sight,movement,melee,bullet,arrow,rocket"/>
+			<property class="RepairItems">
+				<property name="resourceScrapIron" value="200"/>
+			</property>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="wreckedCars4_TRW"/>
+				<property name="Item" value="carBattery"/>
+				<property name="ItemCount" value="1"/>
+				<property name="UpgradeHitCount" value="1"/>
+			</property>
+			<!--<drop event="Harvest" name="resourceScrapIron" count="40,70" tag="allHarvest"/>-->
+			<drop event="Destroy" count="0"/>
+			<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+			<property name="FilterTags" value="MC_building,SC_destruction,SC_automotive"/>
+		</block>
+		
+		<block name="wreckedCars4_TRW">
+			<property name="DisplayType" value="blockHardenedMulti"/>
+			<property name="Material" value="Mmetal_hard"/>
+			<property name="DisplayInfo" value="Name"/>
+			<property name="CustomIcon" value="wreckedCars"/>
+			<property name="CustomIconTint" value="B9FF48"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DescriptionKey" value="wreckedCarsDesc"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Path" value="solid"/>
+			<property name="Model" value="#Entities/Vehicles?Crushed_Vehicles/crushed_vehiclePrefab.prefab"/>
+			<property name="Place" value="TowardsPlacer"/>
+			<property name="ModelOffset" value="0,.5,.5"/>
+			<property name="MultiBlockDim" value="5,1,2"/>
+			<property name="RandomTintColor1" value="25,15,10" param1="crushed_vehicles"/>
+			<property name="RandomTintColor2" value="15,30,55" param1="crushed_vehicles"/>
+			<property name="RandomTintColor3" value="90,90,90" param1="crushed_vehicles"/>
+			<property name="RandomTintColor4" value="80,80,15" param1="crushed_vehicles"/>
+			<property name="RandomTintColor5" value="60,15,20" param1="crushed_vehicles"/>
+			<property name="RandomTintColor6" value="10,15,25" param1="crushed_vehicles"/>
+			<property name="Collide" value="sight,movement,melee,bullet,arrow,rocket"/>
+			<property class="RepairItems">
+				<property name="resourceScrapIron" value="200"/>
+			</property>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="wreckedCars5_TRW"/>
+				<property name="Item" value="resourceHeadlight"/>
+				<property name="ItemCount" value="2"/>
+				<property name="UpgradeHitCount" value="1"/>
+			</property>
+			<!--<drop event="Harvest" name="resourceScrapIron" count="40,70" tag="allHarvest"/>-->
+			<drop event="Destroy" count="0"/>
+			<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+			<property name="FilterTags" value="MC_building,SC_destruction,SC_automotive"/>
+		</block>
+		
+		<block name="wreckedCars5_TRW">
+			<property name="DisplayType" value="blockHardenedMulti"/>
+			<property name="Material" value="Mmetal_hard"/>
+			<property name="DisplayInfo" value="Name"/>
+			<property name="CustomIcon" value="wreckedCars"/>
+			<property name="CustomIconTint" value="48FF48"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DescriptionKey" value="wreckedCarsDesc"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Path" value="solid"/>
+			<property name="Model" value="#Entities/Vehicles?Crushed_Vehicles/crushed_vehiclePrefab.prefab"/>
+			<property name="Place" value="TowardsPlacer"/>
+			<property name="ModelOffset" value="0,.5,.5"/>
+			<property name="MultiBlockDim" value="5,1,2"/>
+			<property name="RandomTintColor1" value="25,15,10" param1="crushed_vehicles"/>
+			<property name="RandomTintColor2" value="15,30,55" param1="crushed_vehicles"/>
+			<property name="RandomTintColor3" value="90,90,90" param1="crushed_vehicles"/>
+			<property name="RandomTintColor4" value="80,80,15" param1="crushed_vehicles"/>
+			<property name="RandomTintColor5" value="60,15,20" param1="crushed_vehicles"/>
+			<property name="RandomTintColor6" value="10,15,25" param1="crushed_vehicles"/>
+			<property name="Collide" value="sight,movement,melee,bullet,arrow,rocket"/>
+			<property class="RepairItems">
+				<property name="resourceScrapIron" value="200"/>
+			</property>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="wreckedCars6_TRW"/>
+				<property name="Item" value="resourceElectricParts"/>
+				<property name="ItemCount" value="25"/>
+				<property name="UpgradeHitCount" value="1"/>
+			</property>
+			<!--<drop event="Harvest" name="resourceScrapIron" count="40,70" tag="allHarvest"/>-->
+			<drop event="Destroy" count="0"/>
+			<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+			<property name="FilterTags" value="MC_building,SC_destruction,SC_automotive"/>
+		</block>
+		
+		<block name="wreckedCars6_TRW">
+			<property name="DisplayType" value="blockHardenedMulti"/>
+			<property name="Material" value="Mmetal_hard"/>
+			<property name="DisplayInfo" value="Name"/>
+			<property name="CustomIcon" value="wreckedCars"/>
+			<property name="CustomIconTint" value="00A70E"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DescriptionKey" value="wreckedCarsDesc"/>
+			<property name="Shape" value="New"/>
+			<property name="Model" value="cube"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="repairedcar"/>
+			<property name="Material" value="MwoodReinforced"/> <property name="MaxDamage" value="400"/>
+			<property name="Texture" value="572"/>
+			<property name="UseGlobalUV" value="L,L,L,L,L,L"/>
+			<property name="FuelValue" value="300"/>
+			<property class="RepairItems">
+				<property name="resourceWood" value="10"/>
+			</property>
+			<drop event="Destroy" count="0"/>
+			<property name="Group" value="Building,advBuilding"/>
+			<property name="EconomicValue" value="6"/>
+			<property name="FilterTags" value="MC_playerBlocks,SC_decor"/>
+		</block>
+		
+
+	</append>
+	
+</configs>

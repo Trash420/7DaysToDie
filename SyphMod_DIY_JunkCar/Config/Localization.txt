@@ -1,0 +1,15 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
+
+wreckedCars0_TRW,blocks,Block,,,Wrecked Junk Cars [FF4848](Stage 0)[-],,,,Voiture épave accidentée [FF4848](Stage 0)[-],,,,,,,,,,,
+wreckedCars1_TRW,blocks,Block,,,Wrecked Junk Cars [FF8648](Stage 1)[-],,,,Voiture épave accidentée [FF8648](Stage 1)[-],,,,,,,,,,,
+wreckedCars2_TRW,blocks,Block,,,Wrecked Junk Cars [FFC848](Stage 2)[-],,,,Voiture épave accidentée [FFC848](Stage 2)[-],,,,,,,,,,,
+wreckedCars3_TRW,blocks,Block,,,Wrecked Junk Cars [EFFF48](Stage 3)[-],,,,Voiture épave accidentée [EFFF48](Stage 3)[-],,,,,,,,,,,
+wreckedCars4_TRW,blocks,Block,,,Wrecked Junk Cars [B9FF48](Stage 4)[-],,,,Voiture épave accidentée [B9FF48](Stage 4)[-],,,,,,,,,,,
+wreckedCars5_TRW,blocks,Block,,,Wrecked Junk Cars [48FF48](Stage 5)[-],,,,Voiture épave accidentée [48FF48](Stage 5)[-],,,,,,,,,,,
+wreckedCars6_TRW,blocks,Block,,,[00A70E]Repaired Junk Cars[-],,,,[00A70E]Voiture épave réparée[-],,,,,,,,,,,
+wreckedCarsDesc,blocks,Block,,,This car have seen better days.Need Wheeles, engine, gasoil, lights and some material to get it going again.,,,,Cette voiture a connu de meilleurs jours. Besoin de roues, moeur, essence, lumières et un peu de materiel pour la remettre en route.,,,,,,,,,,,
+
+
+vehicleJunk4x4Truck,vehicles,vehicle,,,Junk Car,,,,Voiture Epave,,,,,,,,,,,
+vehicleJunk4x4TruckPlaceable,vehicles,vehicle,,,Junk Car,,,,Voiture Epave,,,,,,,,,,,
+vehiclePlaceableGroupDesc,vehicles,item,,,This vehicle can be placed into the world like a block using the secondary action.,,,,"Ce véhicule peut être placé dans le monde comme un bloc, à l'aide de l'action secondaire.\n\nUn établi est nécessaire pour le fabriquer.",,,,,,,,,,,

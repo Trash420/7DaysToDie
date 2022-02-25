@@ -1,0 +1,17 @@
+<configs>
+
+	<append xpath="nav_object_classes">
+
+		<nav_object_class name="Junk4x4" extends="bicycle">
+			<property name="requirement_type" value="IsVehicleOwner" />
+			<compass_settings>
+				<property name="sprite_name" value="ui_game_symbol_Junk4x4"/>
+			</compass_settings>
+			<onscreen_settings>
+				<property name="sprite_name" value="ui_game_symbol_Junk4x4"/>
+			</onscreen_settings>
+		</nav_object_class>
+		
+	</append>	
+	
+</configs>

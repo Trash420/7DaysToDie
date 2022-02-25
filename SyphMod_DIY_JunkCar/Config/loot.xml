@@ -1,0 +1,17 @@
+<configs>
+	
+	<append xpath="/lootcontainers">
+			
+		<!-- Repaired junk car -->
+		<lootcontainer id="900" name="repairedcar" count="1" size="4,3" destroy_on_close="true" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" loot_quality_template="qualBaseTemplate">
+			<item name="vehicleJunk4x4TruckPlaceable" count="1"/>
+		</lootcontainer>
+		
+		<!-- vehicleJunk4x4Truck storage -->
+		<lootcontainer id="901" name="vehicleJunk4x4Truck" count="0" size="8,3" sound_open="UseActions/open_shopping_basket" open_time="0" sound_close="UseActions/close_shopping_basket" loot_quality_template="qualBaseTemplate">
+		</lootcontainer>
+		
+		
+	</append>
+	
+</configs>
