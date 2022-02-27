@@ -1,0 +1,11 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
+
+partsSlotMachine_TRW,items,Item,,,Parts of slot machine,,,,Pieces de machine a sous,,,,,,,,,,,
+partsSlotMachineDesc,items,Item,,,The parts of slot machine are necessary to make the Slot machine.,,,,Les pieces de la machine a sous sont necessaire pour faire la machine a sous.,,,,,,,,,,,
+slotMachine_TRW,blocks,Container,,,Slot Machine,,,,Machine a sous,,,,,,,,,,,
+slotMachineDesc,items,Station,,,An slot machine who can make you rich or poor. Good luck Gambler. Use Duke's Casino Token to play.,,,,Une machine a sous qui peut vous rendre riche ou pauvre. Bonne chance flambeur. Utiliser les Jetons de Casino pour jouer.,,,,,,,,,,,
+slotMachineProcessing_TRW,blocks,Block,,,SlotMachine [DDBB99](Processing)[-],,,,Machine a Sous [DDBB99](En cours)[-],,,,,,,,,,,
+Playboy_TRW,items,Item,,,Playboy magazine,,,,Magazine Playboy,,,,,,,,,,
+PlayboyDesc,items,Item,,,"An playboy magazine...  If i keep it, it's not for me,it's for a friend...",,,,"Un magazine Playboy... si je le garde, c'est pas pour moi, c'est pour un amis...",,,,,,,,,,
+survivorSchemaSlotMachine_TRW,items,Book,,,Survivor note (Slot Machine),,,,Note d'un survivant (Machine a sous),,,,,,,,,,,
+survivorSchemaGroupDesc,items,Book,,,A note of a survivor. That looks like a craft plan.,,,,Une note d'un survivant. Ca ressemble a un plan artisanal.,,,,,,,,,,,

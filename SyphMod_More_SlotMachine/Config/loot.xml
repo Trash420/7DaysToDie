@@ -1,0 +1,21 @@
+<configs>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupHiddenStash01']">
+		<item name="partsSlotMachine_TRW"/>
+	</append>
+	
+	
+	<append xpath="/lootcontainers">
+
+		<!-- Slot Machine -->
+		<lootcontainer id="903" name="groupSlotmachine" count="1" size="1,1" sound_open="UseActions/open_dumpster" sound_close="UseActions/close_dumpster" loot_quality_template="qualBaseTemplate">
+			<item name="casinoCoin" count="15,50" prob="0.7"/>
+			<item name="resourceSilverNugget" count="1" prob="0.05"/>
+			<item name="resourceGoldNugget" count="1" prob="0.005"/>
+			<item name="resourceRawDiamond" count="1" prob="0.0005"/>		
+			<item name="Playboy_TRW" count="1" prob="0.001"/>
+		</lootcontainer>
+		
+	</append>
+	
+</configs>

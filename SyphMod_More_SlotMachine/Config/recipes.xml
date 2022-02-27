@@ -1,0 +1,14 @@
+<configs>
+
+	<append xpath="/recipes">
+
+		<recipe name="slotMachine_TRW" count="1" craft_area="workbench" tags="learnable">
+			<ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourceMechanicalParts" count="10"/>
+			<ingredient name="resourceElectricParts" count="10"/>
+			<ingredient name="partsSlotMachine_TRW" count="1"/>
+		</recipe>
+
+	</append>
+	
+</configs>

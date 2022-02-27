@@ -1,0 +1,46 @@
+<configs>
+
+	<append xpath="/items/item[@name='meleeToolRepairT0StoneAxe']/property[@class='Action1']/property[@name='Allowed_upgrade_items']/@value">,casinoCoin</append>
+
+	<append xpath="/items/item[@name='meleeToolRepairT1ClawHammer']/property[@class='Action1']/property[@name='Allowed_upgrade_items']/@value">,casinoCoin</append>
+
+	<append xpath="/items/item[@name='meleeToolRepairT3Nailgun']/property[@class='Action1']/property[@name='Allowed_upgrade_items']/@value">,casinoCoin</append>
+	
+	
+	<append xpath="/items">
+
+		<item name="partsSlotMachine_TRW">
+			<property name="Extends" value="partsAutoMiner_TRW"/>
+			<property name="CustomIcon" value="partsSlotMachine"/>
+			<property name="DescriptionKey" value="partsSlotMachineDesc"/>
+		</item>
+				
+		<item name="survivorSchemaSlotMachine_TRW">
+			<property name="Extends" value="schematicNoQualityMaster"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="survivorSchemaSlotMachine"/>
+			<property name="DescriptionKey" value="survivorSchemaGroupDesc"/>
+			<property name="UnlockedBy" value="survivorSchemaSlotMachine_TRW"/>
+			<property name="Unlocks" value="slotMachine_TRW"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="slotMachine_TRW" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+			</effect_group>
+			<property name="Group" value="Books"/>
+		</item>
+		
+		<item name="Playboy_TRW">
+			<property name="Extends" value="schematicNoQualityMaster"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="Playboy"/>
+			<property name="DescriptionKey" value="PlayboyDesc"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="Playboy_TRW" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="15000"/>
+			</effect_group>
+			<property name="Group" value="Books"/>
+		</item>
+		
+	</append>
+	
+</configs>
