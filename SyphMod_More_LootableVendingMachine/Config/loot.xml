@@ -1,0 +1,37 @@
+<configs>
+		
+	<append xpath="/lootcontainers">
+
+		<lootgroup name="groupbrokenvendingmachine" count="0,4">
+			<item name="foodCanBeef"/>
+			<item name="foodCanCatfood"/>
+			<item name="foodCanChicken"/>
+			<item name="foodCanChili"/>
+			<item name="foodCanDogfood"/>
+			<item name="foodCanSham"/>
+			<item name="foodCanLamb"/>
+			<item name="foodCanMiso"/>
+			<item name="foodCanPasta"/>
+			<item name="foodCanPeas"/>
+			<item name="foodCanSalmon"/>
+			<item name="foodCanSoup"/>
+			<item name="foodCanStock"/>
+			<item name="foodCanTuna"/>
+			<item name="foodCanPears"/>
+			<item name="drinkJarYuccaJuice"/>
+			<item name="drinkJarBoiledWater"/>
+			<item name="drinkJarGoldenRodTea"/>
+			<item name="drinkJarRedTea"/>
+			<item name="drinkJarCoffee"/>
+			<item name="drinkJarBeer"/>
+			<item name="drinkYuccaJuiceSmoothie"/>
+		</lootgroup>
+		
+		
+		<lootcontainer id="900" name="brokenvendingmachine" count="1" size="8,4" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualBaseTemplate">
+			<item group="groupbrokenvendingmachine" count="1"/>
+		</lootcontainer>
+		
+	</append>
+	
+</configs>
