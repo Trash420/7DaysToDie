@@ -1,0 +1,3 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
+masonryBook_TRW,items,Item,,,Concrete and masonry for Dummies,,,,Ciment et maconnerie pour les nuls,,,,,,,,,,
+masonryBookDesc,items,Item,,,"It's the base of the base for any beginner mason.",,,,"C'est la base de la base pour tout debutant en maconnerie.",,,,,,,,,,

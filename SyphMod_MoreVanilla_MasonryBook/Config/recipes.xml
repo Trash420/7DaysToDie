@@ -1,0 +1,19 @@
+<configs>
+
+	<append xpath="/recipes">
+
+		<recipe name="concreteBarrier1" count="1"  craft_area="cementMixer" craft_time="5" tags="learnable">
+			<ingredient name="resourceConcreteMix" count="25"/>						
+		</recipe>
+
+		<recipe name="cntBathTubEmpty" count="1" craft_area="cementMixer" craft_time="3" tags="learnable">
+			<ingredient name="resourceConcreteMix" count="100"/>	
+		</recipe>
+
+		<recipe name="birdBathPlanter" count="1" craft_area="cementMixer" craft_time="2" tags="learnable">
+			<ingredient name="resourceConcreteMix" count="50"/>	
+		</recipe>
+		
+	</append>
+	
+</configs>
