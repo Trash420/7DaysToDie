@@ -1,0 +1,3 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
+metallurgyBook_TRW,items,Item,,,Metallurgy Of Iron magazine,,,,Magazine de Metallurgie du fer,,,,,,,,,,
+metallurgyBookDesc,items,Item,,,"An old limited edition with bonus of Metallurgy of Iron magazine. An rarety !!",,,,"Une vieille édition limite avec bonus du magazine Metallurgie du fer. Une rarete!!!",,,,,,,,,,

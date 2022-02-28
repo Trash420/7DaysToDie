@@ -1,0 +1,142 @@
+<configs>
+
+	<append xpath="/recipes">
+
+		<recipe name="toolBeaker" count="1" craft_area="forge" craft_tool="toolForgeCrucible" material_based="true" tags="learnable">
+			<ingredient name="unit_glass" count="100"/>
+			<ingredient name="unit_clay" count="20"/>
+		</recipe>
+		
+		<recipe name="securityGatePlate" count="1" craft_area="forge" craft_tool="toolAnvil" material_based="true" craft_time="3" tags="learnable">
+			<ingredient name="unit_iron" count="50"/>
+			<ingredient name="unit_clay" count="20"/>
+		</recipe>
+		
+		<recipe name="resourceDoorKnob" count="1" craft_area="forge" craft_tool="toolAnvil" material_based="true" craft_time="3" tags="learnable">
+			<ingredient name="unit_brass" count="100"/>
+			<ingredient name="unit_clay" count="30"/>
+		</recipe>
+
+		<recipe name="radiatorHouse01" count="1" craft_area="forge" craft_tool="toolAnvil" material_based="true" craft_time="3" tags="learnable">
+			<ingredient name="unit_iron" count="130"/>
+			<ingredient name="unit_clay" count="30"/>
+		</recipe>
+
+		<recipe name="decoMetalSlide" count="1" craft_area="forge" craft_tool="toolAnvil" material_based="true" craft_time="3" tags="learnable">
+			<ingredient name="unit_iron" count="100"/>
+			<ingredient name="unit_clay" count="20"/>
+		</recipe>
+
+		<recipe name="decoSwingSet" count="1" craft_area="forge" craft_tool="toolAnvil" material_based="true" craft_time="3" tags="learnable">
+			<ingredient name="unit_iron" count="100"/>
+			<ingredient name="unit_clay" count="20"/>
+		</recipe>	
+
+		<recipe name="metalPipeStraight" count="1" craft_area="forge" craft_tool="toolAnvil" material_based="true" craft_time="3" tags="learnable">
+			<ingredient name="unit_iron" count="100"/>
+			<ingredient name="unit_clay" count="20"/>
+		</recipe>
+
+		<recipe name="metalPipeValve" count="1" craft_area="forge" craft_tool="toolAnvil" material_based="true" craft_time="3" tags="learnable">
+			<ingredient name="unit_iron" count="100"/>
+			<ingredient name="unit_clay" count="20"/>
+		</recipe>
+
+		<recipe name="metalPipeCorner" count="1" craft_area="forge" craft_tool="toolAnvil" material_based="true" craft_time="3" tags="learnable">
+			<ingredient name="unit_iron" count="100"/>
+			<ingredient name="unit_clay" count="20"/>
+		</recipe>
+
+		<recipe name="metalPipeJoint" count="1" craft_area="forge" craft_tool="toolAnvil" material_based="true" craft_time="3" tags="learnable">
+			<ingredient name="unit_iron" count="100"/>
+			<ingredient name="unit_clay" count="20"/>
+		</recipe>
+
+		<recipe name="metalPipeCap" count="1" craft_area="forge" craft_tool="toolAnvil" material_based="true" craft_time="3" tags="learnable">
+			<ingredient name="unit_iron" count="100"/>
+			<ingredient name="unit_clay" count="20"/>
+		</recipe>
+
+		<recipe name="metalPipeFlange" count="1" craft_area="forge" craft_tool="toolAnvil" material_based="true" craft_time="3" tags="learnable">
+			<ingredient name="unit_iron" count="100"/>
+			<ingredient name="unit_clay" count="20"/>
+		</recipe>
+
+		<recipe name="pipeSmall1x1" count="1" craft_area="forge" craft_tool="toolAnvil" material_based="true" craft_time="3" tags="learnable">
+			<ingredient name="unit_iron" count="50"/>
+			<ingredient name="unit_clay" count="20"/>
+		</recipe>
+
+		<recipe name="pipeSmall1x3" count="1" craft_area="forge" craft_tool="toolAnvil" material_based="true" craft_time="3" tags="learnable">
+			<ingredient name="unit_iron" count="50"/>
+			<ingredient name="unit_clay" count="20"/>
+		</recipe>
+
+		<recipe name="pipeSmallBroke" count="1" craft_area="forge" craft_tool="toolAnvil" material_based="true" craft_time="3" tags="learnable">
+			<ingredient name="unit_iron" count="50"/>
+			<ingredient name="unit_clay" count="20"/>
+		</recipe>
+
+		<recipe name="pipeSmallCap" count="1" craft_area="forge" craft_tool="toolAnvil" material_based="true" craft_time="3" tags="learnable">
+			<ingredient name="unit_iron" count="50"/>
+			<ingredient name="unit_clay" count="20"/>
+		</recipe>
+
+		<recipe name="pipeSmallJoint" count="1" craft_area="forge" craft_tool="toolAnvil" material_based="true" craft_time="3" tags="learnable">
+			<ingredient name="unit_iron" count="50"/>
+			<ingredient name="unit_clay" count="20"/>
+		</recipe>
+
+		<recipe name="pipeSmallValve" count="1" craft_area="forge" craft_tool="toolAnvil" material_based="true" craft_time="3" tags="learnable">
+			<ingredient name="unit_iron" count="50"/>
+			<ingredient name="unit_clay" count="20"/>
+		</recipe>
+
+		<recipe name="pipeSmallCorner" count="1" craft_area="forge" craft_tool="toolAnvil" material_based="true" craft_time="3" tags="learnable">
+			<ingredient name="unit_iron" count="50"/>
+			<ingredient name="unit_clay" count="20"/>
+		</recipe>
+
+		<recipe name="pipeSmallWall1x1" count="1" craft_area="forge" craft_tool="toolAnvil" material_based="true" craft_time="3" tags="learnable">
+			<ingredient name="unit_iron" count="50"/>
+			<ingredient name="unit_clay" count="20"/>
+		</recipe>
+
+		<recipe name="pipeSmallWall1x3" count="1" craft_area="forge" craft_tool="toolAnvil" material_based="true" craft_time="3" tags="learnable">
+			<ingredient name="unit_iron" count="50"/>
+			<ingredient name="unit_clay" count="20"/>
+		</recipe>
+
+		<recipe name="pipeSmallWallBroke" count="1" craft_area="forge" craft_tool="toolAnvil" material_based="true" craft_time="3" tags="learnable">
+			<ingredient name="unit_iron" count="50"/>
+			<ingredient name="unit_clay" count="20"/>
+		</recipe>
+
+		<recipe name="pipeSmallWallCap" count="1" craft_area="forge" craft_tool="toolAnvil" material_based="true" craft_time="3" tags="learnable">
+			<ingredient name="unit_iron" count="50"/>
+			<ingredient name="unit_clay" count="20"/>
+		</recipe>
+
+		<recipe name="pipeSmallWallJoint" count="1" craft_area="forge" craft_tool="toolAnvil" material_based="true" craft_time="3" tags="learnable">
+			<ingredient name="unit_iron" count="50"/>
+			<ingredient name="unit_clay" count="20"/>
+		</recipe>
+
+		<recipe name="pipeSmallWallValve" count="1" craft_area="forge" craft_tool="toolAnvil" material_based="true" craft_time="3" tags="learnable">
+			<ingredient name="unit_iron" count="50"/>
+			<ingredient name="unit_clay" count="20"/>
+		</recipe>
+		
+		<recipe name="pipeSmallWallCorner" count="1" craft_area="forge" craft_tool="toolAnvil" material_based="true" craft_time="3" tags="learnable">
+			<ingredient name="unit_iron" count="50"/>
+			<ingredient name="unit_clay" count="20"/>
+		</recipe>
+
+		<recipe name="pipeSmallWallCenterBridge" count="1" craft_area="forge" craft_tool="toolAnvil" material_based="true" craft_time="3" tags="learnable">
+			<ingredient name="unit_iron" count="50"/>
+			<ingredient name="unit_clay" count="20"/>
+		</recipe>
+
+	</append>
+	
+</configs>

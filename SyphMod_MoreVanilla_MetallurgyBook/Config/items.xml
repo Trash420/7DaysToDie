@@ -1,0 +1,46 @@
+<configs>
+
+	<append xpath="/items">
+		
+		<item name="metallurgyBook_TRW">
+			<property name="Extends" value="schematicMaster"/>
+			<property name="CustomIcon" value="metallurgyBook"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DescriptionKey" value="metallurgyBookDesc"/>
+			<!--<property name="UnlockedBy" value="metallurgyBook_TRW"/>-->
+			<property name="Unlocks" value="toolBeaker,securityGatePlate,resourceDoorKnob,radiatorHouse01,decoSwingSet,metalPipeStraight,metalPipeValve,metalPipeCorner,metalPipeJoint,metalPipeCap,metalPipeFlange,pipeSmall1x1,pipeSmall1x3,pipeSmallBroke,pipeSmallCap,pipeSmallJoint,pipeSmallValve,pipeSmallCorner,pipeSmallWall1x1,pipeSmallWall1x3,pipeSmallWallBroke,pipeSmallWallCap,pipeSmallWallJoint,pipeSmallWallValve,pipeSmallWallCorner,pipeSmallWallCenterBridge"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="toolBeaker" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="securityGatePlate" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="resourceDoorKnob" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="radiatorHouse01" operation="set" value="1"/>				
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="decoSwingSet" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="metalPipeStraight" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="metalPipeValve" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="metalPipeCorner" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="metalPipeJoint" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="metalPipeCap" operation="set" value="1"/>				
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="metalPipeFlange" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="pipeSmall1x1" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="pipeSmall1x3" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="pipeSmallBroke" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="pipeSmallCap" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="pipeSmallJoint" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="pipeSmallValve" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="pipeSmallCorner" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="pipeSmallWall1x1" operation="set" value="1"/>				
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="pipeSmallWall1x3" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="pipeSmallWallBroke" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="pipeSmallWallCap" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="pipeSmallWallJoint" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="pipeSmallWallValve" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="pipeSmallWallCorner" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="pipeSmallWallCenterBridge" operation="set" value="1"/>				
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="1500"/>
+			</effect_group>	
+			<property name="Group" value="Books" />
+		</item>
+		
+	</append>
+	
+</configs>
