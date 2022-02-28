@@ -1,0 +1,38 @@
+<configs>
+	
+	<append xpath="/items/item[@name='foodRottingFlesh']/property[@name='Group']//@value">,ComposterFood</append>
+	
+	<append xpath="/items">
+			
+		<item name="survivorSchemaComposter_TRW">
+			<property name="Extends" value="schematicNoQualityMaster"/>
+			<property name="CustomIcon" value="survivorSchemaComposter"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DescriptionKey" value="survivorSchemaGroupDesc"/>
+			<property name="UnlockedBy" value="survivorSchemaComposter_TRW"/>
+			<property name="Unlocks" value="composter_TRW"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="composter_TRW" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+			</effect_group>
+			<property name="Group" value="Books"/>
+		</item>
+		
+		<item name="resourceFertilizer_TRW">
+			<property name="HoldType" value="45"/>
+			<property name="CustomIcon" value="resourceFertilizer_TRW"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DescriptionKey" value="resourceFertilizerDesc"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MresourceFertilizer"/>
+			<property name="Stacknumber" value="250"/>
+			<property name="Weight" value="0"/>
+			<property name="Group" value="Resources"/>
+			<property name="EconomicValue" value="30"/>
+		</item>
+
+	</append>
+	
+</configs>

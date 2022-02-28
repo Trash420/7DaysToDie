@@ -1,0 +1,102 @@
+<configs>
+
+	<append xpath="/blocks/block[@name='terrDirt']">
+		<property name="Group" value="Resources"/>
+	</append>
+	
+	<append xpath="/blocks/block[@name='plantedYucca3Harvest']">
+		<property name="Group" value=",Seed"/>
+	</append>		
+	<append xpath="/blocks/block[@name='plantedtreeGrassSeed1']">
+		<property name="Group" value=",Seed"/>
+	</append>
+	<append xpath="/blocks/block[@name='plantedMushroom1']">
+		<property name="Group" value=",Seed"/>
+	</append>
+	<append xpath="/blocks/block[@name='plantedYucca1']">
+		<property name="Group" value=",Seed"/>
+	</append>
+	<append xpath="/blocks/block[@name='plantedCotton1']">
+		<property name="Group" value=",Seed"/>
+	</append>
+	<append xpath="/blocks/block[@name='plantedCoffee1']">
+		<property name="Group" value=",Seed"/>
+	</append>
+	<append xpath="/blocks/block[@name='plantedGoldenrod1']">
+		<property name="Group" value=",Seed"/>
+	</append>
+	<append xpath="/blocks/block[@name='plantedAloe1']">
+		<property name="Group" value=",Seed"/>
+	</append>
+	<append xpath="/blocks/block[@name='plantedBlueberry1']">
+		<property name="Group" value=",Seed"/>
+	</append>
+	<append xpath="/blocks/block[@name='plantedPotato1']">
+		<property name="Group" value=",Seed"/>
+	</append>
+	<append xpath="/blocks/block[@name='plantedChrysanthemum1']">
+		<property name="Group" value=",Seed"/>
+	</append>
+	<append xpath="/blocks/block[@name='plantedCorn1']">
+		<property name="Group" value=",Seed"/>
+	</append>
+	<append xpath="/blocks/block[@name='plantedGraceCorn1']">
+		<property name="Group" value=",Seed"/>
+	</append>
+	<append xpath="/blocks/block[@name='plantedHop1']">
+		<property name="Group" value=",Seed"/>
+	</append>
+	<!--<append xpath="/blocks/block[@name='plantedSnowberry1']">
+		<property name="Group" value=",Seed"/>
+	</append>-->
+	<append xpath="/blocks/block[@name='plantedPumpkin1']">
+		<property name="Group" value=",Seed"/>
+	</append>
+		
+	
+	<append xpath="/blocks">
+
+		<block name="composter_TRW">
+			<property name="Class" value="Campfire"/>
+			<property name="DisplayType" value="defaultBlock"/>
+			<property name="StabilitySupport" value="false"/> <!-- build restriction -->
+			<property name="Material" value="MmetalNoGlue"/>
+			<property name="CustomIcon" value="composter"/>
+			<property name="MaxDamage" value="500"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#Entities/LootContainers?dumpster_fliesPrefab.prefab"/> <property name="Place" value="TowardsPlacer"/>
+			<property name="ModelOffset" value="0,.5,.5"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="MultiBlockDim" value="3,2,2"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="UnlockedBy" value="survivorSchemaComposter_TRW"/>
+			<property class="Workstation">
+				<property name="Modules" value="output,input"/>
+				<property name="Collide" value="melee,bullet,arrow,rocket"/>
+				<property name="CraftingAreaRecipes" value="composter"/>
+			</property>
+			<property name="WorkstationWindow" value="workstation_composter" />
+			<property name="WorkstationIcon" value="ui_game_symbol_Compost" />
+			<property name="CraftActionName" value="lblContextActionCook" />
+			<property name="CraftIcon" value="ui_game_symbol_chemistry" />
+			<property name="OpenSound" value="open_door_metal" />
+			<property name="CloseSound" value="campfire_close" />
+			<property name="CraftSound" value="close_door_metal" />
+			<property name="CraftCompleteSound" value="campfire_complete_item" />
+			<property name="WorkstationJournalTip" value="campfireTip" />
+			<property name="Group" value="Food/Cooking,Basics,Building"/>
+			<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+			<drop event="Harvest" name="resourceMechanicalParts" count="1,2" prob="0.1" tag="salvageHarvest"/>
+			<drop event="Harvest" name="resourceElectricParts" count="0" tag="salvageHarvest"/>
+			<drop event="Harvest" name="resourceElectricParts" count="0" tag="salvageHarvest"/>
+			<drop event="Harvest" name="resourceScrapPolymers" count="1,2" tag="salvageHarvest"/>
+			<drop event="Destroy" name="resourceScrapIron" count="5" prob="1"/>
+			<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+			<property name="EconomicValue" value="300"/>
+			<property name="FilterTags" value="fdecor,fother,ffurniture,felectrical"/>
+			<property name="DescriptionKey" value="composterDesc"/>
+		</block>
+
+	</append>
+	
+</configs>

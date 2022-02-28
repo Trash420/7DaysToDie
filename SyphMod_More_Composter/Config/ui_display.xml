@@ -1,0 +1,13 @@
+<configs>
+	
+	<append xpath="/ui_display_info/crafting_category_display">
+
+		<crafting_category_list display_type="composter_TRW">
+			<crafting_category name="ComposterFood" icon="ui_game_symbol_Compost" display_name="lblCategoryCompost" />
+			<crafting_category name="Resources" icon="ui_game_symbol_resource" display_name="lblCategoryResources" />
+			<crafting_category name="Seed" icon="ui_game_symbol_Seed" display_name="lblCategorySeed" />
+		</crafting_category_list>
+		
+	</append>
+	
+</configs>	

@@ -1,0 +1,11 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
+
+survivorSchemaComposter_TRW,items,Book,,,Survivor note (Composter),,,,Note d'un survivant (Composteur),,,,,,,,,,,
+survivorSchemaGroupDesc,items,Book,,,A note of a survivor. That looks like a craft plan.,,,,Une note d'un survivant. Ca ressemble a un plan artisanal.,,,,,,,,,,,
+resourceFertilizer_TRW,items,Item,,,Fertilizer,,,,Fertlisant,,,,,,,,,,,
+resourceFertilizerDesc,items,Item,,,"This homemade fertilizer is a good amendment.",,,,"Ce fertilisant artisanal est un bon amendement.",,,,,,,,,,,
+composter_TRW,items,Item,,,Composter,,,,Composteur,,,,,,,,,,
+composterDesc,blocks,Workstation,,,"An composter. Get seeds or soil with ingredients and some patience.",,,,"Un composteur. Obtenez des graines ou du sol avec quelques ingredients et un peu de patience.",,,,
+
+lblCategorySeed,UI,Tooltip,,,Seeds,,,,Graines,,,,,,,,,,,
+lblCategoryCompost,UI,Tooltip,,,Compost,,,,Composte,,,,,,,,,,,

@@ -1,0 +1,7 @@
+<configs>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupBathtub']">
+		<item name="survivorSchemaComposter_TRW" loot_prob_template="veryLow"/>
+	</append>
+	
+</configs>
