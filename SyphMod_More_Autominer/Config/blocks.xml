@@ -1,0 +1,54 @@
+<configs>
+
+	<append xpath="/blocks">
+
+		<block name="autoMiner_TRW">
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="autoMiner" />
+			<property name="Class" value="Loot" />
+			<property name="LootList" value="groupAutominer" />
+			<property name="Material" value="Mmetal" />
+			<property name="Shape" value="Ext3dModel" />
+			<property name="Mesh" value="models" />
+			<property name="Model" value="Industrial/control_panel_base_05" param1="main_mesh" />
+			<property name="Place" value="TowardsPlacerInverted"/>
+			<property name="UnlockedBy" value="survivorSchemaAutoMiner_TRW"/>
+			<property name="Stacknumber" value="1"/>
+			<drop event="Destroy" count="0" />
+			<property class="RepairItems">
+				<property name="resourceForgedIron" value="10"/>
+				<property name="resourceMechanicalParts" value="5"/>
+				<property name="resourceElectricParts" value="5"/>
+			</property>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="autoMinerProcessing_TRW"/>
+				<property name="Item" value="ammoGasCan"/>
+				<property name="ItemCount" value="500"/>
+				<property name="UpgradeHitCount" value="1"/>
+			</property>
+			<property name="DescriptionKey" value="autoMinerDesc"/>
+		</block>
+
+		<block name="autoMinerProcessing_TRW">
+			<property name="CustomIcon" value="autoMiner" />
+			<property name="DisplayInfo" value="Name"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Material" value="Mmetal" />
+			<property name="Shape" value="Ext3dModel" />
+			<property name="Mesh" value="models" />
+			<property name="Model" value="Industrial/control_panel_base_05" param1="main_mesh" />
+			<property name="Place" value="TowardsPlacerInverted"/>
+			<property name="Stacknumber" value="1"/>
+			<drop event="Harvest" name="" count="0" tool_category="Disassemble" />
+			<drop event="Destroy" count="0" />
+			<property name="Class" value="PlantGrowing"/>
+				<property name="PlantGrowing.Next" value="autoMiner_TRW"/>
+				<property name="PlantGrowing.GrowthRate" value="60"/> <!-- For testing, this rate (in minutes) should be set no lower than 2 -->
+				<property name="PlantGrowing.FertileLevel" value="0"/>
+				<property name="PlantGrowing.IsRandom" value="false"/>
+			<property name="DescriptionKey" value="autoMinerDesc"/>
+		</block>
+
+	</append>
+	
+</configs>

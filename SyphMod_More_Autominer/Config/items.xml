@@ -1,0 +1,37 @@
+<configs>
+
+	<append xpath="/items/item[@name='meleeToolRepairT0StoneAxe']/property[@class='Action1']/property[@name='Allowed_upgrade_items']/@value">,ammoGasCan</append>
+
+	<append xpath="/items/item[@name='meleeToolRepairT1ClawHammer']/property[@class='Action1']/property[@name='Allowed_upgrade_items']/@value">,ammoGasCan</append>
+
+	<append xpath="/items/item[@name='meleeToolRepairT3Nailgun']/property[@class='Action1']/property[@name='Allowed_upgrade_items']/@value">,ammoGasCan</append>
+	
+	
+	<append xpath="/items">
+
+		<item name="partsAutoMiner_TRW">
+			<property name="Extends" value="resourceMechanicalParts"/>
+			<property name="CustomIcon" value="partsAutoMiner"/>
+			<property name="Stacknumber" value="10" />
+			<property name="Weight" value="30" />
+			<property name="EconomicValue" value="1000"/>
+			<property name="DescriptionKey" value="partsAutoMinerDesc"/>
+		</item>
+		
+		<item name="survivorSchemaAutoMiner_TRW">
+			<property name="Extends" value="schematicNoQualityMaster"/>
+			<property name="CustomIcon" value="survivorSchemaAutoMiner"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DescriptionKey" value="survivorSchemaGroupDesc"/>
+			<property name="UnlockedBy" value="survivorSchemaAutoMiner_TRW"/>
+			<property name="Unlocks" value="autoMiner_TRW"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="autoMiner_TRW" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+			</effect_group>
+			<property name="Group" value="Books"/>
+		</item>
+		
+	</append>
+	
+</configs>

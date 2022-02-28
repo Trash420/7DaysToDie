@@ -1,0 +1,15 @@
+<configs>
+	
+	<append xpath="/recipes">
+		
+		<recipe name="autoMiner_TRW" count="1" craft_area="workbench" tags="learnable">
+			<ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourceMechanicalParts" count="5"/>
+			<ingredient name="resourceElectricParts" count="5"/>
+			<ingredient name="smallEngine" count="1"/>
+			<ingredient name="partsAutoMiner_TRW" count="1"/>
+		</recipe>
+		
+	</append>
+	
+</configs>

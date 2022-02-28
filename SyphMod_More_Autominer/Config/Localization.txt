@@ -1,0 +1,9 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
+
+partsAutoMiner_TRW,items,Item,,,Parts of Automatic drill,,,,Pieces de Foreuse Automatique,,,,,,,,,,,
+partsAutoMinerDesc,items,Item,,,The parts of automatic drill are necessary to make the automatic drill.,,,,Les pieces de foreuse sont necessaire pour faire la foreuse automatique.,,,,,,,,,,,
+autoMiner_TRW,blocks,Container,,,Automatic drill,,,,Foreuse Automatique,,,,,,,,,,,
+autoMinerDesc,items,Station,,,A rare machine which allows the harvest of materials from the drilling automatically. Use a repair tool to start the machine with gascan.,,,,Une machine rare qui permet la recolte de materiaux issu du forage automatiquement. Utiliser un outil de réparation pour demarrer la machine avec des bidons d'essence.,,,,,,,,,,,
+autoMinerProcessing_TRW,blocks,Block,,,AutoMiner [DDBB99](Processing)[-],,,,Auto foreuse [DDBB99](En cours)[-],,,,,,,,,,,
+survivorSchemaAutoMiner_TRW,items,Book,,,Survivor note (AutoDrill),,,,Note d'un survivant (Auto Foreuse),,,,,,,,,,,
+survivorSchemaGroupDesc,items,Book,,,A note of a survivor. That looks like a craft plan.,,,,Une note d'un survivant. Ca ressemble a un plan artisanal.,,,,,,,,,,,

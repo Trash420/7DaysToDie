@@ -1,0 +1,28 @@
+<configs>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupHiddenStash01']">
+		<item name="partsAutoMiner_TRW"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupBathtub']">
+		<item name="survivorSchemaAutoMiner_TRW" loot_prob_template="veryLow"/>
+	</append>
+	
+	<append xpath="/lootcontainers">
+
+		<lootcontainer id="902" name="groupAutominer" count="60,100" size="5,4" destroy_on_close="false" sound_open="UseActions/open_dumpster" sound_close="UseActions/close_dumpster" loot_quality_template="qualBaseTemplate">
+			<item name="resourceRockSmall" count="25,35" prob="0.3"/>
+			<item name="resourceClayLump" count="15,35" prob="0.2"/>
+			<item name="resourceCrushedSand" count="15,35" prob="0.2"/>
+			<item name="resourceScrapLead" count="15,25" prob="0.07"/>
+			<item name="resourceIronFragment" count="15,25" prob="0.03"/>
+			<item name="resourceCoal" count="15,25" prob="0.01"/>
+			<item name="resourcePotassiumNitratePowder" count="15,25" prob="0.01"/>
+			<item name="resourceSilverNugget" count="1" prob="0.004"/>
+			<item name="resourceGoldNugget" count="1" prob=".003"/>
+			<item name="resourceRawDiamond" count="1" prob=".002"/>
+		</lootcontainer>
+		
+	</append>
+	
+</configs>
