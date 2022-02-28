@@ -1,0 +1,27 @@
+<configs>
+
+	<append xpath="/items">
+
+		<item name="electricalBook_TRW">
+			<property name="Extends" value="schematicNoQualityMaster"/>
+			<property name="CustomIcon" value="electricalBook"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DescriptionKey" value="electricalBookDesc"/>
+			<!--<property name="UnlockedBy" value="electricalBook_TRW"/>-->
+			<property name="Unlocks" value="ceilingLight01_player,spotlightPlayer,sconce1Light_player_TRW,switch,electricwirerelay,tripwirepost,generatorbank,speaker"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="ceilingLight01_player" operation="set" value="1"/>		
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="spotlightPlayer" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="switch" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="electricwirerelay" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="tripwirepost" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="generatorbank" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="speaker" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+			</effect_group>
+			<property name="Group" value="Books"/>
+		</item>
+
+	</append>
+	
+</configs>

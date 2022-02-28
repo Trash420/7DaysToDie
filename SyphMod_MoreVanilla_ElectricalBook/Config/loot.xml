@@ -1,0 +1,7 @@
+<configs>
+
+	<append xpath="/lootcontainers/lootgroup[@name='perkBooksT0']">
+		<item name="electricalBook_TRW"/>
+	</append>
+	
+</configs>
