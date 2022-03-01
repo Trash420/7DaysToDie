@@ -1,0 +1,36 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
+
+missingGoodBoy,items,Quest - Missing,,,"Missing Quest : The Good Boy",,,,"Recherche : The Good Boy",,,,,,,,,,,
+missingGoodBoyDesc,items,Quest - Missing,,,Find The Good Boy,,,,Trouver Le Bon Garçon,,,,,,,,,,,
+missingJess,items,Quest - Missing,,,"Missing Quest : Jess",,,,"Recherche : Jess",,,,,,,,,,,
+missingJessDesc,items,Quest - Missing,,,Find Jess,,,,Trouver Jess,,,,,,,,,,,
+missingTheChamp,items,Quest - Missing,,,"Missing Quest : The Champ",,,,"Recherche : The Champ",,,,,,,,,,,
+missingTheChampDesc,items,Quest - Missing,,,Find The Champ,,,,Trouver The Champ,,,,,,,,,,,
+missingTooFresh,items,Quest - Missing,,,"Missing Quest : Too Fresh",,,,"Recherche : Too Fresh",,,,,,,,,,,
+missingTooFreshDesc,items,Quest - Missing,,,Find Too Fresh,,,,Trouver Too Fresh,,,,,,,,,,,
+missingStabby,items,Quest - Missing,,,"Missing Quest : Stabby",,,,"Recherche : Stabby",,,,,,,,,,,
+missingStabbyDesc,items,Quest - Missing,,,Kill Stabby,,,,Tuer Stabby,,,,,,,,,,,
+
+signPosterWantedMissing01,blocks,Sign,,,Poster Wanted Missing,,,,Avis de disparition,,,,,,,,,,,
+signPosterWantedMissing02,blocks,Sign,,,Poster Wanted Missing,,,,Avis de disparition,,,,,,,,,,,
+signPosterWantedMissing03,blocks,Sign,,,Poster Wanted Missing,,,,Avis de disparition,,,,,,,,,,,
+
+challenge_missingTheGoodBoy,Quest,Challenge Info,,,The Good Boy,,,,Le Bon Garçon,,,,,,,,,
+challenge_missingTheGoodBoy_offer,Quest,Challenge Info,,,"Missing,\nThe Good Boy is missing. Help us to find our dog\n\nChallenge: Find the Good Boy",,,,"Perdu,\nLe Bon Garcon est perdu. Aidez nous à torouver notre chien\n\nChallenge: Trouver le Bon Garçon",,,,,,,,,
+challenge_missingTheGoodBoy_subtitle,Quest,Challenge Info,,,Find the Good Boy,,,,Trouver le Bon Garçon,,,,,,,,,
+
+challenge_missingStabby,Quest,Challenge Info,,,Stabby,,,,Stabby,,,,,,,,,
+challenge_missingStabby_offer,Quest,Challenge Info,,,"Missing,\nPlease end our sister’s ordeal\n\nChallenge: Kill Stabby",,,,"Perdu,\nS'il vous plait, mettez fin au calvaire de notre soeur\n\nChallenge: Tuer Stabby",,,,,,,,,
+challenge_missingStabby_subtitle,Quest,Challenge Info,,,Kill Stabby,,,,Tuer Stabby,,,,,,,,,
+
+challenge_missingJess,Quest,Challenge Info,,,Jess,,,,Jess,,,,,,,,,
+challenge_missingJess_offer,Quest,Challenge Info,,,"Missing,\nPlease end my wife’s ordeal\n\nChallenge: Kill Jess",,,,"Perdu,\nS'il vous plait, mettez fin au calvaire de ma femme\n\nChallenge: Tuer Jess",,,,,,,,,
+challenge_missingJess_subtitle,Quest,Challenge Info,,,Kill Jess,,,,Tuer Jess,,,,,,,,,
+
+challenge_missingTheChamp,Quest,Challenge Info,,,The Champ,,,,The Champ,,,,,,,,,
+challenge_missingTheChamp_offer,Quest,Challenge Info,,,"Missing,\nPlease end our sister’s ordeal\n\nChallenge: Kill The Champ",,,,"Perdu,\nS'il vous plait, mettez fin au calvaire de notre soeur\n\nChallenge: Tuer The Champ",,,,,,,,,
+challenge_missingTheChamp_subtitle,Quest,Challenge Info,,,Kill The Champ,,,,Tuer The Champ,,,,,,,,,
+
+challenge_missingTooFresh,Quest,Challenge Info,,,Too Fresh,,,,Too Fresh,,,,,,,,,
+challenge_missingTooFresh_offer,Quest,Challenge Info,,,"Missing,\nPlease end our sister’s ordeal\n\nChallenge: Kill Too fresh",,,,"Perdu,\nS'il vous plait, mettez fin au calvaire de notre soeur\n\nChallenge: Tuer Too Fresh",,,,,,,,,
+challenge_missingTooFresh_subtitle,Quest,Challenge Info,,,Kill Too Fresh,,,,Tuer Too Fresh,,,,,,,,,
