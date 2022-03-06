@@ -1,0 +1,136 @@
+<configs>
+	
+	<append xpath="/recipes">
+
+		<recipe name="drinkCrudeYuccaJuice_TRW" count="1">
+			<ingredient name="drinkJarEmpty" count="1"/>
+			<ingredient name="foodCropYuccaFruit" count="3"/>
+		</recipe>
+		
+		<recipe name="drinkCrudeSnowberrieJuice_TRW" count="1">
+			<ingredient name="drinkJarEmpty" count="1"/>
+			<ingredient name="foodCropBlueberries" count="3"/>
+		</recipe>
+		
+		<recipe name="foodBakedMushrooms_TRW" count="1" craft_area="campfire">
+			<ingredient name="foodCropMushrooms" count="1"/>
+		</recipe>
+
+		<recipe name="foodBreadedMeat" count="1" craft_area="campfire" tags="learnable,perkMasterChef" craft_tool="toolCookingGrill" >
+			<ingredient name="foodRawMeat" count="5"/>
+			<ingredient name="foodCornMeal" count="1"/>
+			<ingredient name="resourceAnimalFat" count="1"/>
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" level="2,5" operation="base_add" value="-1" tags="foodRawMeat"/>
+			</effect_group>
+		</recipe>
+		
+		<recipe name="foodBuritos_TRW" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="learnable,perkMasterChef">
+			<ingredient name="foodCanChili" count="1"/>
+			<ingredient name="foodCornMeal" count="2"/>
+		</recipe>
+
+		<recipe name="foodCassavaChips" count="1" craft_area="campfire" tags="learnable,perkMasterChef" craft_tool="toolCookingPot" >
+			<ingredient name="foodCropYuccaFruit" count="1"/>
+			<ingredient name="resourceAnimalFat" count="1"/>
+		</recipe>
+	
+		<recipe name="foodCerealBar_TRW" count="1">
+			<ingredient name="foodCropBlueberries" count="2"/>	
+			<ingredient name="foodHoney" count="1"/>
+		</recipe>
+
+		<recipe name="foodChiliConCarne_TRW" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="learnable,perkMasterChef">
+			<ingredient name="foodRawMeat" count="5"/>
+			<ingredient name="foodCanChili" count="1"/>
+			<ingredient name="foodCropCorn" count="2"/>
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" level="2,5" operation="base_add" value="-1" tags="foodRawMeat"/>
+			</effect_group>
+		</recipe>
+
+		<recipe name="foodCornChips" count="1" craft_area="campfire" tags="learnable,perkMasterChef" craft_tool="toolCookingPot" >
+			<ingredient name="foodCornMeal" count="1"/>
+			<ingredient name="resourceAnimalFat" count="1"/>
+		</recipe>
+
+		<recipe name="foodFriedEgg" count="1" craft_area="campfire" tags="learnable,perkMasterChef" craft_tool="toolCookingPot">
+			<ingredient name="resourceAnimalFat" count="1"/>
+			<ingredient name="foodEgg" count="1"/>
+		</recipe>
+		
+		<recipe name="foodHoneyMeat" count="1" craft_area="campfire" tags="learnable,perkMasterChef" craft_tool="toolCookingPot">
+			<ingredient name="resourceAnimalFat" count="1"/>
+			<ingredient name="foodRawMeat" count="5"/>
+			<ingredient name="foodHoney" count="1"/>
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" level="2,5" operation="base_add" value="-1" tags="foodRawMeat"/>
+			</effect_group>
+		</recipe>
+		
+		<recipe name="foodHotpotMeat_TRW" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="learnable,perkMasterChef">
+			<ingredient name="foodRawMeat" count="5"/>
+			<ingredient name="foodCropPotato" count="2"/>
+			<ingredient name="foodCropCorn" count="2"/>
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+			<ingredient name="resourceAnimalFat" count="1"/>
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" level="2,5" operation="base_add" value="-1" tags="foodRawMeat"/>
+			</effect_group>
+		</recipe>
+		
+		<recipe name="foodMeatBeer" count="1" craft_time="90" craft_area="campfire" tags="learnable,perkMasterChef" craft_tool="toolCookingGrill">
+			<ingredient name="foodRawMeat" count="5"/>
+			<ingredient name="drinkJarBeer" count="1"/>
+			<ingredient name="resourceAnimalFat" count="1"/>
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" level="2,5" operation="base_add" value="-1" tags="foodRawMeat"/>
+			</effect_group>
+		</recipe>
+		
+		<recipe name="foodMushroomSoup_TRW" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="learnable,perkMasterChef">
+			<ingredient name="foodCropMushrooms" count="3"/>
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+		</recipe>
+		
+		<recipe name="foodOmelette_TRW" count="1" craft_area="campfire" craft_tool="toolCookingPot">
+			<ingredient name="foodEgg" count="2"/>
+		</recipe>
+
+		<recipe name="foodOmeletteMushroooms_TRW" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="learnable,perkMasterChef">
+			<ingredient name="foodEgg" count="1"/>
+			<ingredient name="foodCropMushrooms" count="3"/>
+		</recipe>
+
+		<recipe name="foodSmashedPotatoes" count="1" craft_area="campfire" tags="learnable,perkMasterChef" craft_tool="toolCookingPot" >
+			<ingredient name="foodCropPotato" count="3"/>
+			<ingredient name="resourceAnimalFat" count="1"/>
+		</recipe>	
+
+		<recipe name="foodSoupMeat_TRW" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="learnable,perkMasterChef">
+			<ingredient name="foodCropPotato" count="1"/>
+			<ingredient name="foodCropCorn" count="1"/>
+			<ingredient name="foodCropMushrooms" count="1"/>
+			<ingredient name="foodRawMeat" count="5"/>
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" level="2,5" operation="base_add" value="-1" tags="foodRawMeat"/>
+			</effect_group>
+		</recipe>
+
+		<recipe name="foodStuffedOmelette_TRW" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="learnable,perkMasterChef">
+			<ingredient name="foodEgg" count="1"/>
+			<ingredient name="foodCropPotato" count="1"/>
+			<ingredient name="foodCropCorn" count="1"/>
+			<ingredient name="foodCropMushrooms" count="1"/>
+		</recipe>
+
+		<recipe name="foodEggSalad" count="1" craft_area="campfire" tags="learnable,perkMasterChef">
+			<ingredient name="foodEggBoiled" count="2"/>
+			<ingredient name="foodCropPotato" count="1"/>
+			<ingredient name="resourceAnimalFat" count="1"/>
+		</recipe>
+
+	</append>
+	
+</configs>

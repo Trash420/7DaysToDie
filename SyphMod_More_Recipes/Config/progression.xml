@@ -1,0 +1,11 @@
+<configs>
+	
+	<append xpath="/progression/perks/perk[@name='perkMasterChef']/effect_group/passive_effect[@level='1,5']/@tags">,foodCassavaChips,foodSmashedPotatoes,foodCornChips,foodFriedEgg</append>
+
+	<append xpath="/progression/perks/perk[@name='perkMasterChef']/effect_group/passive_effect[@level='2,5']/@tags">,foodOmeletteMushroooms_TRW,foodBreadedMeat,foodEggSalad</append>
+
+	<append xpath="/progression/perks/perk[@name='perkMasterChef']/effect_group/passive_effect[@level='3,5']/@tags">,foodStuffedOmelette_TRW,foodBuritos_TRW,foodMeatBeer,foodHoneyMeat</append>
+
+	<append xpath="/progression/perks/perk[@name='perkMasterChef']/effect_group/passive_effect[@level='4,5']/@tags">,foodHotpotMeat_TRW,foodSoupMeat_TWR,foodChiliConCarne_TRW,foodMushroomsoup_TWR</append>
+
+</configs>

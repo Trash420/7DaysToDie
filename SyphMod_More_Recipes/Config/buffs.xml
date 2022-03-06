@@ -1,0 +1,23 @@
+<configs>
+
+	<append xpath="/buffs">
+	
+		<buff name="buffCrudeYuccaJuice" name_key="drinkCrudeYuccaJuice" description_key="drinkCrudeYuccaJuiceDesc" icon="ui_game_symbol_cold" icon_color="0,255,255" tags="drug">
+			<stack_type value="replace"/>
+			<duration value="30"/>
+			<effect_group>
+				<passive_effect name="HyperthermalResist" operation="base_add" value="30"/>
+			</effect_group>
+		</buff>
+		
+		<buff name="buffCrudeSnowberrieJuice" name_key="drinkCrudeSnowberrieJuice" description_key="drinkCrudeSnoberrieJuiceDesc" icon="ui_game_symbol_hot" icon_color="255,213,0" tags="drug">
+			<stack_type value="replace"/>
+			<duration value="30"/>
+			<effect_group>
+				<passive_effect name="HypothermalResist" operation="base_add" value="30"/>
+			</effect_group>
+		</buff>
+		
+	</append>
+	
+</configs>
