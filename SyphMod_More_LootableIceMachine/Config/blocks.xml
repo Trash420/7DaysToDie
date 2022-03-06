@@ -1,9 +1,0 @@
-<configs>
-	
-	<append xpath="/blocks/block[@name='cntIceMachine']">
-		<property name="Class" value="Loot"/>
-		<property name="LootList" value="icemachine"/>
-	</append>
-
-	
-</configs>
