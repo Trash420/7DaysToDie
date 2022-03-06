@@ -1,0 +1,19 @@
+<configs>
+		
+	<append xpath="/lootcontainers">
+
+		<lootgroup name="grouplootQuest" count="0,1">
+			<item name="missingGoodBoy" count="1"/>
+			<item name="missingJess" count="1"/>
+			<item name="missingTheChamp" count="1"/>
+			<item name="missingStabby" count="1"/>
+			<item name="missingTooFresh" count="1"/>
+		</lootgroup>
+		
+		<lootcontainer id="900" name="lootQuest" count="1" size="8,4" destroy_on_close="false" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualBaseTemplate">
+			<item group="grouplootQuest" count="1"/>
+		</lootcontainer>
+		
+	</append>
+	
+</configs>

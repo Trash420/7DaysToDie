@@ -1,0 +1,53 @@
+<configs>
+	
+	<append xpath="/items">
+
+		
+		<item name="missingGoodBoy">
+			<property name="Extends" value="questMaster"/>
+			<property name="CustomIcon" value="missingGoodBoy"/>
+			<property name="DescriptionKey" value="missingGoodBoyDesc"/>
+			<property class="Action0">
+				<property name="QuestGiven" value="challenge_missingTheGoodBoy"/>
+			</property>
+		</item>
+		
+		<item name="missingStabby">
+			<property name="Extends" value="questMaster"/>
+			<property name="CustomIcon" value="missingStabby"/>
+			<property name="DescriptionKey" value="missingStabbyDesc"/>
+			<property class="Action0">
+				<property name="QuestGiven" value="challenge_missingStabby"/>
+			</property>
+		</item>
+		
+		<item name="missingJess">
+			<property name="Extends" value="questMaster"/>
+			<property name="CustomIcon" value="missingJess"/>
+			<property name="DescriptionKey" value="missingJessDesc"/>
+			<property class="Action0">
+				<property name="QuestGiven" value="challenge_missingJess"/>
+			</property>
+		</item>
+
+		<item name="missingTheChamp">
+			<property name="Extends" value="questMaster"/>
+			<property name="CustomIcon" value="missingTheChamp"/>
+			<property name="DescriptionKey" value="missingTheChampDesc"/>
+			<property class="Action0">
+				<property name="QuestGiven" value="challenge_missingTheChamp"/>
+			</property>
+		</item>
+
+		<item name="missingTooFresh">
+			<property name="Extends" value="questMaster"/>
+			<property name="CustomIcon" value="missingTooFresh"/>
+			<property name="DescriptionKey" value="missingTooFreshDesc"/>
+			<property class="Action0">
+				<property name="QuestGiven" value="challenge_missingTooFresh"/>
+			</property>
+		</item>
+		
+	</append>
+	
+</configs>
